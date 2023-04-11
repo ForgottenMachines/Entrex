@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "logic IC")(type "KiCad")(uri "${KIPRJMOD}/Libraries/logic IC.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LS51N")(type "KiCad")(uri "${KIPRJMOD}/Libraries/SN74LS51N.kicad_sym")(options "")(descr ""))
+)
