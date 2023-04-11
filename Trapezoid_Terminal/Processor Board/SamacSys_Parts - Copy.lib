@@ -1,0 +1,107 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SN75115N
+#/607079/1070114/2.49/16/3/Integrated Circuit
+DEF SN75115N IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "SN75115N" 1050 200 50 H V L CNN
+F2 "DIP794W53P254L1930H508Q16N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/sn75115" 1050 0 50 H I L CNN
+F4 "Dual Differential Line Receiver" 1050 -100 50 H I L CNN "Description"
+F5 "5.08" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SN75115N" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-SN75115N" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN75115N?qs=L5CvrNUdZiq1ImBAmaxtmQ%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SN75115N" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sn75115n/texas-instruments?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1050 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1050 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X 1YS 1 0 0 200 R 50 50 0 0 P
+X 1YP 2 0 -100 200 R 50 50 0 0 P
+X 1STRB 3 0 -200 200 R 50 50 0 0 P
+X 1RTC 4 0 -300 200 R 50 50 0 0 P
+X 1B 5 0 -400 200 R 50 50 0 0 P
+X 1RT 6 0 -500 200 R 50 50 0 0 P
+X 1A 7 0 -600 200 R 50 50 0 0 P
+X GND 8 0 -700 200 R 50 50 0 0 P
+X VCC 16 1200 0 200 L 50 50 0 0 P
+X 2YS 15 1200 -100 200 L 50 50 0 0 P
+X 2YP 14 1200 -200 200 L 50 50 0 0 P
+X 2STRB 13 1200 -300 200 L 50 50 0 0 P
+X 2RTC 12 1200 -400 200 L 50 50 0 0 P
+X 2B 11 1200 -500 200 L 50 50 0 0 P
+X 2RT 10 1200 -600 200 L 50 50 0 0 P
+X 2A 9 1200 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SN75113NE4
+#/182202/1070114/2.49/16/3/Integrated Circuit
+DEF SN75113NE4 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SN75113NE4" 850 200 50 H V L CNN
+F2 "DIP794W53P254L1930H508Q16N" 850 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/sn75113.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1632802178734&ref_url=https%253A%252F%252Fwww.mouser.com%252F" 850 0 50 H I L CNN
+F4 "Dual Differential Line Driver" 850 -100 50 H I L CNN "Description"
+F5 "5.08" 850 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SN75113NE4" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-SN75113NE4" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN75113NE4?qs=RnzODY3cU8tNpVsA04jhaw%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 850 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 850 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X 1ZP 1 0 0 200 R 50 50 0 0 P
+X 1ZS 2 0 -100 200 R 50 50 0 0 P
+X 1YS 3 0 -200 200 R 50 50 0 0 P
+X 1YP 4 0 -300 200 R 50 50 0 0 P
+X 1A 5 0 -400 200 R 50 50 0 0 P
+X 1B 6 0 -500 200 R 50 50 0 0 P
+X 1C 7 0 -600 200 R 50 50 0 0 P
+X GND 8 0 -700 200 R 50 50 0 0 P
+X VCC 16 1000 0 200 L 50 50 0 0 P
+X 2ZP 15 1000 -100 200 L 50 50 0 0 P
+X 2ZS 14 1000 -200 200 L 50 50 0 0 P
+X 2YS 13 1000 -300 200 L 50 50 0 0 P
+X 2YP 12 1000 -400 200 L 50 50 0 0 P
+X 2A 11 1000 -500 200 L 50 50 0 0 P
+X 2C 10 1000 -600 200 L 50 50 0 0 P
+X CC 9 1000 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
