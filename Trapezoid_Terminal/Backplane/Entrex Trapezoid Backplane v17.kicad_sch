@@ -12520,7 +12520,7 @@
     (effects (font (size 1.27 1.27) bold) (justify left top))
     (uuid 400f8ead-05d5-4adb-8198-6aed5107f365)
   )
-  (text_box "Duplex Switch DPDT\nCG1 or CG2\n"
+  (text_box "Duplex Switch DPDT\nOn-Off-On (Center OFF)\nCG1 or CG2\n"
     (at 243.586 53.594 0) (size 40.005 41.91)
     (stroke (width 0) (type default))
     (fill (type none))
