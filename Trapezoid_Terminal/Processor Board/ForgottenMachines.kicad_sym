@@ -140,7 +140,7 @@
     (symbol "8212_0_1"
       (rectangle (start -7.62 25.4) (end 8.89 -30.48)
         (stroke (width 0.1524) (type default))
-        (fill (type none))
+        (fill (type color) (color 255 255 194 1))
       )
     )
     (symbol "8212_1_1"
@@ -258,7 +258,7 @@
     (symbol "8273_0_1"
       (rectangle (start -7.62 25.4) (end 8.89 -19.05)
         (stroke (width 0.1524) (type default))
-        (fill (type none))
+        (fill (type color) (color 255 255 194 1))
       )
     )
     (symbol "8273_1_1"
@@ -344,7 +344,7 @@
     (symbol "8274_0_1"
       (rectangle (start -10.16 25.4) (end 10.16 -15.24)
         (stroke (width 0.1524) (type default))
-        (fill (type none))
+        (fill (type color) (color 255 255 194 1))
       )
     )
     (symbol "8274_1_1"
@@ -430,7 +430,7 @@
     (symbol "8T28_0_1"
       (rectangle (start -7.62 16.51) (end 7.62 -17.78)
         (stroke (width 0.1524) (type default))
-        (fill (type none))
+        (fill (type color) (color 255 255 194 1))
       )
     )
     (symbol "8T28_1_1"
@@ -516,7 +516,7 @@
     (symbol "8T97_0_1"
       (rectangle (start -7.62 25.4) (end 7.62 -11.43)
         (stroke (width 0.1524) (type default))
-        (fill (type none))
+        (fill (type color) (color 255 255 194 1))
       )
     )
     (symbol "8T97_1_1"
@@ -602,7 +602,7 @@
     (symbol "8T98_0_1"
       (rectangle (start -7.62 25.4) (end 7.62 -11.43)
         (stroke (width 0.1524) (type default))
-        (fill (type none))
+        (fill (type color) (color 255 255 194 1))
       )
     )
     (symbol "8T98_1_1"
@@ -1966,7 +1966,7 @@
     (symbol "D8224_0_1"
       (rectangle (start -8.89 15.24) (end 7.62 -16.51)
         (stroke (width 0.1524) (type default))
-        (fill (type none))
+        (fill (type color) (color 255 255 194 1))
       )
     )
     (symbol "D8224_1_1"
@@ -2056,7 +2056,7 @@
       )
       (rectangle (start -21.59 7.62) (end 22.86 -8.89)
         (stroke (width 0.1524) (type default))
-        (fill (type none))
+        (fill (type color) (color 255 255 194 1))
       )
     )
     (symbol "DM9324_1_1"
@@ -2493,7 +2493,7 @@
     (property "Value" "Q2T2222" (at -17.78 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 0 -2.54 0)
+    (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at -27.94 -8.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 -2.54 0)
@@ -2524,7 +2524,7 @@
           (xy 1.9304 -1.8542)
         )
         (stroke (width 0.508) (type default))
-        (fill (type none))
+        (fill (type color) (color 255 255 194 1))
       )
       (polyline
         (pts
@@ -2711,7 +2711,7 @@
     (symbol "SN75113_0_1"
       (rectangle (start -6.35 12.7) (end 6.35 -13.97)
         (stroke (width 0.1524) (type default))
-        (fill (type none))
+        (fill (type color) (color 255 255 194 1))
       )
     )
   )
@@ -2824,7 +2824,7 @@
     (symbol "SN75115N_0_1"
       (rectangle (start -10.16 15.24) (end 10.16 -31.75)
         (stroke (width 0.1524) (type default))
-        (fill (type none))
+        (fill (type color) (color 255 255 194 1))
       )
     )
   )
