@@ -2635,7 +2635,7 @@
       )
       (circle (center 1.2954 0.0508) (radius 2.8194)
         (stroke (width 0.254) (type default))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "Q2T2222_1_1"
