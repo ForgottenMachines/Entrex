@@ -1,4 +1,4 @@
-21469987046644422
+21475014957620700
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53494,6 +53494,34 @@ CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 4.5mm Elec
 2
 2
 Forgotten Machines
+Card Edge Socket 0.125in_3.175mm connector 30
+
+connector Hirose DF11 vertical
+0
+30
+30
+Forgotten Machines
+Card Edge Socket 0.125in_3.175mm connector 44
+
+connector Hirose DF11 vertical
+0
+44
+44
+Forgotten Machines
+Card Edge Socket 0.125in_3.175mm connector 80
+
+connector Hirose DF11 vertical
+0
+80
+80
+Forgotten Machines
+Card Edge Socket 0.125in_3.175mm connector 100
+
+connector Hirose DF11 vertical
+0
+100
+100
+Forgotten Machines
 Card_Edge_Entrex_Trapezoid
 
 
@@ -53501,7 +53529,7 @@ Card_Edge_Entrex_Trapezoid
 80
 80
 Forgotten Machines
-Disc Capacitor Entrex Trapezoid
+Disc Capacitor Common Entrex Trapezoid
 
 
 0
@@ -53543,22 +53571,15 @@ Disc Capacitor Entrex Trapezoid .125
 2
 2
 Forgotten Machines
-Disc Capacitor Entrex Trapezoid 2
-
-
+PinSocket_2x12_P2.54mm_Vertical
+Through hole straight socket strip, 2x12, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x12 2.54mm double row
 0
-2
-2
-Forgotten Machines
-Entrex Cap Radial Silver
-CP, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=10*4.5mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
-CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 4.5mm Electrolytic Capacitor
-0
-2
-2
+24
+24
 Forgotten Machines
 TO-92_Offset
-TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
+
 to-92 sc-43 sc-43a sot54 PA33 transistor
 0
 3
