@@ -1,0 +1,12 @@
+1) Entrex Trapezoid Schematic Suite overview & training v1
+https://youtu.be/paqGd3PHxyc
+
+Other relevant resources:
+
+https://github.com/trebisky/entrex
+
+https://github.com/phar/nixdorf-6xx-project
+
+http://cholla.mmto.org/computers/reverse/entrex/
+
+https://entrex480.blogspot.com/2022/09/how-does-entrexnixdorf-trapezoid.html
