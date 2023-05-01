@@ -21970,7 +21970,7 @@
     (property "Reference" "#PWR029" (at 324.485 364.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 324.485 374.65 0)
+    (property "Value" "VCC" (at 324.485 372.11 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 324.485 368.3 0)
