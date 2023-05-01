@@ -1,3 +1,6 @@
+WARNING:  Until refined & corrected, Global Label tag arrows may not indicate the proper signal in/out direction.
+IN was used as default when KiCad Symbols (components) were not clear on In vs out signals, so always check component datasheets when in doubt.
+
 Crude Schematic Intro/Training Video (with lots of chapters for skipping):
 https://www.youtube.com/watch?v=paqGd3PHxyc
 
