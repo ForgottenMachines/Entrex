@@ -1,0 +1,133 @@
+# remap file to change symbol names on the Entrex Interface Board schematic
+# Tom Trebisky  4-14-2023
+
+# port selects
+P15_8	inp_78*
+P15_10	inp_70*
+P15_12	inp_68*
+
+P15_28	outp_78*
+P15_30	outp_70*
+P15_32	outp_68*
+P15_34	outp_60*
+P15_36	outp_58*
+
+u11_5	outp_78
+
+# data bus
+P15_5	DO0
+P15_7	DO1
+P15_9	DO2
+P15_11	DO3
+P15_13	DO4
+P15_15	DO5
+P15_17	DO6
+P15_19	DO7
+
+P15_21	DI0
+P15_23	DI1
+P15_25	DI2
+P15_27	DI3
+P15_29	DI4
+P15_31	DI5
+P15_33	DI6
+P15_35	DI7
+
+# The duplex switch controls these.  The raw signal is grounded when that
+# connector is selected.
+# Note that these also go to pins 47 and 48 on the edge connector
+# (and that is actually how they reach the CG1 and CG2 connector)
+# They do NOT go to the processor board.
+
+P15_47	Duplex_CG1*
+P15_48	Duplex_CG2*
+
+# These are inverts of the above
+u4_12	duplex_cg1
+u4_2	duplex_cg2
+
+# strobe to load data into both 8274 shift registers
+u8_11	LOAD*
+
+# signals after de-differentializing them
+#  outA ???
+#  outB looks like TxData
+#  inC looks like RxData
+#  inD seems to be a strobe
+#  inE also looks like a clock
+
+# A/C pair - CG_outA
+u15_8	CG_outA
+
+# B/F pair - CG_outB
+u30_6	CG_data_out
+
+# D/H pair - CG_inC
+u3_12	CG_data_in
+
+# N/R pair - CG_inD
+# For a while I called this a clock,
+# but really it is a strobe
+u1_3	CG_strobe
+
+# Derived from CG_inD
+# (AND with Finish)
+u20_3	Fstrobe*
+
+# Derived from CG_inD
+# This is just a simple inverse
+u2_13	Strobe*
+
+# J/P pair - CG_inE
+u16_15	CG_clock
+u4_3	CG_clock
+
+# inverse of the above
+u4_4	clock*
+
+# signals load to LS160
+u3_8	Start*
+
+# Tc from LS160
+u2_10	Finish
+u3_10	Finish*
+
+u27_14	rMATCH
+u6_13	MATCH
+
+# From the processor board
+P15_79	P_reset*
+# Who drives this signal ?
+u34_13	Reset*
+u9_1	Reset2*
+u24_8	Reset3*
+
+# Clocks clocking data out of the two 8274 (UP and DN)
+u25_9	UP_CLOCK
+u30_9	DN_CLOCK
+
+# Data being clocked out of the 8274
+u25_6	UP_sDATA
+# DN_sData is CG_outB
+
+# This clocks data into a register to be read by
+# the processor via IN 0x70
+u14_3	DATA_CLK
+
+# lines that go to card edge and generate interrupts
+P15_64	IRQ6
+P15_66	IRQ5
+P15_67	IRQ7
+
+# parallel outputs of the 8273 shift register
+u27_13	xD3
+u31_12	xD2
+u33_12	xD1
+u20_2	xD0
+
+u27_9	xD7
+u27_10	xD6
+u27_11	xD5
+u27_12	xD4
+
+# THE END
