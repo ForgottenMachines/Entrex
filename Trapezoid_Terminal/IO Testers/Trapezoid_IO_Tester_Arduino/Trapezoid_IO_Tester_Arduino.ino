@@ -65,7 +65,7 @@ digitalWrite(Onboard_LED, HIGH);
 
 digitalWrite(P_Clock_Input, HIGH);  
 digitalWrite(J_Clock_Input, LOW); 
-digitalWrite(Onboard_LED, HIGH); 
+digitalWrite(Onboard_LED, LOW); 
   delay(1000);
 
 
