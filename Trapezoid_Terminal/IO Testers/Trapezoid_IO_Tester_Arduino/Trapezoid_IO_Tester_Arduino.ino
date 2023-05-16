@@ -32,41 +32,43 @@ void setup() {
 }
 void loop() {
 
-digitalWrite(J_Clock_Input, LOW); 
-digitalWrite(P_Clock_Input, LOW);
-
 digitalWrite(D_Data_Input, LOW);  //D=High and H=LOW to make data line low internally
 digitalWrite(H_Data_Input, HIGH); //D=LOW and H=HIGH to make data line high internally
 
 digitalWrite(N_Strobe_Input, LOW);  
 digitalWrite(R_Strobe_Input, HIGH); 
 
-//Pulse the clock
-digitalWrite(P_Clock_Input, LOW);
-digitalWrite(J_Clock_Input, HIGH); 
-  delay(1);
-digitalWrite(P_Clock_Input, HIGH);  
-digitalWrite(J_Clock_Input, LOW); 
-  delay(1);
+
+//digitalWrite(P_Clock_Input, LOW);
+//digitalWrite(J_Clock_Input, HIGH); 
+
+// digitalWrite(P_Clock_Input, HIGH);  
+// digitalWrite(J_Clock_Input, LOW); 
+
 
 
 digitalWrite(D_Data_Input, HIGH);  
 digitalWrite(H_Data_Input, LOW); 
 
-digitalWrite(N_Strobe_Input, LOW);  
-digitalWrite(R_Strobe_Input, HIGH); 
+
+
+
 
 
 //Pulse the clock
-digitalWrite(P_Clock_Input, LOW);
-digitalWrite(J_Clock_Input, HIGH); 
-digitalWrite(Onboard_LED, HIGH); 
-  delay(1000);
+ digitalWrite(P_Clock_Input, LOW);
+ digitalWrite(J_Clock_Input, HIGH); 
+ digitalWrite(Onboard_LED, HIGH); 
+   delay(1000);
 
-digitalWrite(P_Clock_Input, HIGH);  
-digitalWrite(J_Clock_Input, LOW); 
-digitalWrite(Onboard_LED, HIGH); 
-  delay(1000);
+ digitalWrite(P_Clock_Input, HIGH);  
+ digitalWrite(J_Clock_Input, LOW); 
+ digitalWrite(Onboard_LED, LOW); 
+
+//digitalWrite(N_Strobe_Input, HIGH);  
+//digitalWrite(R_Strobe_Input, LOW); 
+
+   delay(1000);
 
 
 }
