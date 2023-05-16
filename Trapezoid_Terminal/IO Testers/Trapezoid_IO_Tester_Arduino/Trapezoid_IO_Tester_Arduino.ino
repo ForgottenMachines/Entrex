@@ -15,6 +15,8 @@
 
 
 
+#define Onboard_LED 13
+
 void setup() {
 //  Serial.begin(115200);
 //  Serial.println("Hello World!");
@@ -24,6 +26,8 @@ void setup() {
   pinMode(H_Data_Input, OUTPUT);  
   pinMode(N_Strobe_Input, OUTPUT);  
   pinMode(R_Strobe_Input, OUTPUT);  
+  pinMode(Onboard_LED, OUTPUT);  
+
 
 }
 void loop() {
@@ -56,11 +60,13 @@ digitalWrite(R_Strobe_Input, HIGH);
 //Pulse the clock
 digitalWrite(P_Clock_Input, LOW);
 digitalWrite(J_Clock_Input, HIGH); 
-  delay(1);
+digitalWrite(Onboard_LED, HIGH); 
+  delay(1000);
+
 digitalWrite(P_Clock_Input, HIGH);  
 digitalWrite(J_Clock_Input, LOW); 
-  delay(1);
-
+digitalWrite(Onboard_LED, HIGH); 
+  delay(1000);
 
 
 }
