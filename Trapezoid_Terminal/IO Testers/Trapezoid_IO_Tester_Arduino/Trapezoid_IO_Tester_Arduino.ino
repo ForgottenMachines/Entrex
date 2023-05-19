@@ -55,8 +55,8 @@ digitalWrite(N_Strobe_Input, LOW);
 digitalWrite(R_Strobe_Input, HIGH); 
 
 //Clock Not Random
- digitalWrite(P_Clock_Input, LOW);
  digitalWrite(J_Clock_Input, HIGH); 
+ digitalWrite(P_Clock_Input, LOW);
  digitalWrite(Onboard_LED, HIGH); 
 
 
@@ -83,10 +83,12 @@ digitalWrite(H_Data_Input, LOW); //D=LOW and H=HIGH to make data line high inter
 digitalWrite(N_Strobe_Input, HIGH);  
 digitalWrite(R_Strobe_Input, LOW); 
 
-//Clock Not Random
- digitalWrite(P_Clock_Input, HIGH);  
+
+ //Clock Not Random
  digitalWrite(J_Clock_Input, LOW); 
+ digitalWrite(P_Clock_Input, HIGH);  
  digitalWrite(Onboard_LED, LOW); 
+
 
    delay(2);
  
