@@ -4,11 +4,11 @@
 
 long randNumber;
 
-#define J_Clock_Input 2   //GREEN 2   //Sample
+#define J_Clock_Input 2   //GREEN 2
 #define P_Clock_Input 3   //WHT/ORG 1
-#define D_Data_Input 4    //WHT/BLUE 2   //Sample
+#define D_Data_Input 4    //WHT/BLUE 2
 #define H_Data_Input 5   //ORANGE
-#define N_Strobe_Input 6  //WHT/BLUE 1   //Sample
+#define N_Strobe_Input 6  //WHT/BLUE 1
 #define R_Strobe_Input 7  //BLUE
 #define B_Data_Transmit 8  //WHT/BROWN 1
 #define F_Data_Transmit 9  //BLUE 2
@@ -22,11 +22,11 @@ long randNumber;
 void setup() {
   Serial.begin(115200);
   Serial.println("Entrex Trapezoid I/O Experimenter");
-  pinMode(J_Clock_Input, OUTPUT);  //Sample
+  pinMode(J_Clock_Input, OUTPUT);  
   pinMode(P_Clock_Input, OUTPUT);  
-  pinMode(D_Data_Input, OUTPUT);  //Sample
+  pinMode(D_Data_Input, OUTPUT);  
   pinMode(H_Data_Input, OUTPUT);  
-  pinMode(N_Strobe_Input, OUTPUT);  //Sample
+  pinMode(N_Strobe_Input, OUTPUT);  
   pinMode(R_Strobe_Input, OUTPUT);  
   pinMode(Onboard_LED, OUTPUT);  
 
@@ -50,31 +50,19 @@ digitalWrite(H_Data_Input, LOW); //D=LOW and H=HIGH to make data line high inter
 }
 
 
-randNumber = random(1, 10);
-Serial.println("STROBE");
-Serial.println(randNumber);
-//random pulse the strobe...or not...
-if (randNumber > 5) {
-Serial.println(1);
+//Strobe Not Random
 digitalWrite(N_Strobe_Input, LOW);  
 digitalWrite(R_Strobe_Input, HIGH); 
-}
-else {
-Serial.println(0);
-digitalWrite(N_Strobe_Input, HIGH);  
-digitalWrite(R_Strobe_Input, LOW); 
-}
 
-
-//pulse the clock
- digitalWrite(J_Clock_Input, HIGH); 
+//Clock Not Random
  digitalWrite(P_Clock_Input, LOW);
+ digitalWrite(J_Clock_Input, HIGH); 
  digitalWrite(Onboard_LED, HIGH); 
-
 
 
    delay(2);
  
+
 //random data bit set
 randNumber = random(1, 10);
 Serial.println("DATA");
@@ -91,32 +79,16 @@ digitalWrite(H_Data_Input, LOW); //D=LOW and H=HIGH to make data line high inter
 }
 
 
-randNumber = random(1, 10);
-Serial.println("STROBE");
-Serial.println(randNumber);
-//random pulse the strobe...or not...
-if (randNumber > 5) {
-Serial.println(1);
-digitalWrite(N_Strobe_Input, LOW);  
-digitalWrite(R_Strobe_Input, HIGH); 
-}
-else {
-Serial.println(0);
+//strobe not random
 digitalWrite(N_Strobe_Input, HIGH);  
 digitalWrite(R_Strobe_Input, LOW); 
-}
 
-
-//pulse the clock
+//Clock Not Random
+ digitalWrite(P_Clock_Input, HIGH);  
  digitalWrite(J_Clock_Input, LOW); 
- digitalWrite(P_Clock_Input, HIGH);
- digitalWrite(Onboard_LED, HIGH); 
-
-
-
+ digitalWrite(Onboard_LED, LOW); 
 
    delay(2);
-
-
+ 
 
 }
