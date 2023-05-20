@@ -69,7 +69,7 @@ DCount++;
 digitalWrite(D_Data_Input, LOW);  //D=High and H=LOW to make data line low internally
 digitalWrite(H_Data_Input, HIGH); //D=LOW and H=HIGH to make data line high internally
 } else {
-if (DCount < 480) { //6 ONES is all we need, so previous value +6
+if (DCount < 266) { //6 ONES is all we need, so previous value +6
 DCount++;
 //0
 digitalWrite(D_Data_Input, HIGH);  //D=High and H=LOW to make data line low internally
