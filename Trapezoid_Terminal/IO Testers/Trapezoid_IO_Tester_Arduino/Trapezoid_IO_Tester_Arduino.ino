@@ -15,9 +15,13 @@ long randNumber;
 #define A_Other_Transmit 10  //WHT/GREEN 1
 #define C_Other_Transmit 11  //GREEN 1
 
-
-
 #define Onboard_LED 13
+
+int ACount;
+int BCount;
+int DCount;
+int ClockDuration;
+
 
 void setup() {
   Serial.begin(115200);
@@ -31,13 +35,17 @@ void setup() {
   pinMode(Onboard_LED, OUTPUT);  
 
 randomSeed(1);
+
+ClockDuration = 32;
+
 }
 void loop() {
 
-//random data bit set
+
+
+if (DCount < 253) {
+DCount++;
 randNumber = random(1, 10);
-Serial.println("DATA");
-Serial.println(randNumber);
 if (randNumber > 5) {
 Serial.println(1);
 digitalWrite(D_Data_Input, LOW);  //D=High and H=LOW to make data line low internally
@@ -48,46 +56,63 @@ Serial.println(0);
 digitalWrite(D_Data_Input, HIGH);  //D=High and H=LOW to make data line low internally
 digitalWrite(H_Data_Input, LOW); //D=LOW and H=HIGH to make data line high internally
 }
+} else {
+if (DCount < 256) {
+DCount++;
+//0
+digitalWrite(D_Data_Input, HIGH);  //D=High and H=LOW to make data line low internally
+digitalWrite(H_Data_Input, LOW); //D=LOW and H=HIGH to make data line high internally
+} else {
+if (DCount < 262) { //6 ONES is all we need, so previous value +6
+DCount++;
+//1
+digitalWrite(D_Data_Input, LOW);  //D=High and H=LOW to make data line low internally
+digitalWrite(H_Data_Input, HIGH); //D=LOW and H=HIGH to make data line high internally
+} else {
+if (DCount < 480) { //6 ONES is all we need, so previous value +6
+DCount++;
+//0
+digitalWrite(D_Data_Input, HIGH);  //D=High and H=LOW to make data line low internally
+digitalWrite(H_Data_Input, LOW); //D=LOW and H=HIGH to make data line high internally
+} else {
+DCount = 0;
+}
+}
+}
+}
 
 
-//Strobe Not Random
-digitalWrite(N_Strobe_Input, LOW);  
-digitalWrite(R_Strobe_Input, HIGH); 
 
+if (ACount < ClockDuration) {
+ACount++;
 //Clock Not Random
- digitalWrite(J_Clock_Input, HIGH); 
- digitalWrite(P_Clock_Input, LOW);
- digitalWrite(Onboard_LED, HIGH); 
+digitalWrite(J_Clock_Input, LOW); 
+digitalWrite(P_Clock_Input, HIGH);  
+digitalWrite(Onboard_LED, LOW); 
+} else {
+digitalWrite(N_Strobe_Input, HIGH);  
+digitalWrite(R_Strobe_Input, LOW); 
+ACount = 0;
+}
 
 
    delay(2);
  
 
-//random data bit set
-randNumber = random(1, 10);
-Serial.println("DATA");
-Serial.println(randNumber);
-if (randNumber > 5) {
-Serial.println(1);
-digitalWrite(D_Data_Input, LOW);  //D=High and H=LOW to make data line low internally
-digitalWrite(H_Data_Input, HIGH); //D=LOW and H=HIGH to make data line high internally
-}
-else {
-Serial.println(0);
-digitalWrite(D_Data_Input, HIGH);  //D=High and H=LOW to make data line low internally
-digitalWrite(H_Data_Input, LOW); //D=LOW and H=HIGH to make data line high internally
-}
 
-
-//strobe not random
-digitalWrite(N_Strobe_Input, HIGH);  
-digitalWrite(R_Strobe_Input, LOW); 
+if (BCount < ClockDuration) {
+BCount++;
+} else {
+digitalWrite(N_Strobe_Input, LOW);  
+digitalWrite(R_Strobe_Input, HIGH); 
+BCount = 0;
+}
 
 
  //Clock Not Random
- digitalWrite(J_Clock_Input, LOW); 
- digitalWrite(P_Clock_Input, HIGH);  
- digitalWrite(Onboard_LED, LOW); 
+ digitalWrite(J_Clock_Input, HIGH); 
+ digitalWrite(P_Clock_Input, LOW);
+ digitalWrite(Onboard_LED, HIGH); 
 
 
    delay(2);
