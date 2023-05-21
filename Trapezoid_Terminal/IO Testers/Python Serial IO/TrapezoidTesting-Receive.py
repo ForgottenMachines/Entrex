@@ -1,6 +1,6 @@
 import serial
 
-arduino = serial.Serial(port='COM16', baudrate=250000,)
+arduino = serial.Serial(port='COM16', baudrate=250000)
 
 with open("data.txt" , mode="wb") as my_file:
     while True:
