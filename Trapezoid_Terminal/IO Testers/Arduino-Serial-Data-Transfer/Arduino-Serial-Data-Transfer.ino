@@ -1,0 +1,18 @@
+char input;
+ 
+void setup() {
+    Serial.begin(115200); 
+    delay(2000);  
+ 
+    Serial.println("Arduino Ready!");
+}
+ 
+void loop() {
+//        input = Serial.read();
+//        Serial.println(input);
+        Serial.println("xyz123");
+delay(1000);
+
+
+    }
+
