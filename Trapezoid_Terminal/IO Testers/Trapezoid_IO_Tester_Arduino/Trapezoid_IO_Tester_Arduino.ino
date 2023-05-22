@@ -53,7 +53,7 @@ void setup() {
 
 randomSeed(1);
 
-ClockDuration = 32;
+ClockDuration = 4;
 
     Serial.begin(250000); 
     delay(2000);  
