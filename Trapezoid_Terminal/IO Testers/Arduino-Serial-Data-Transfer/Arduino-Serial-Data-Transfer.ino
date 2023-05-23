@@ -46,7 +46,6 @@ void loop() {
         input = "";
         input = Serial.readString();
         if (input != "") {
-        Serial.println(input);
         delay(1);
         Clock = (input.substring(1,2));
         Strobe = (input.substring(3,4));
