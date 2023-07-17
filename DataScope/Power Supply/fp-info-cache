@@ -1,4 +1,4 @@
-21495458015394943
+21490184459054852
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53290,27 +53290,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-FM-editable
-CAP non-polarized P25.00mm
-CP, Axial series, Axial, Horizontal, pin pitch=25mm, , length*diameter=18*6.5mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
-CP Axial series Axial Horizontal pin pitch 25mm  length 18mm diameter 6.5mm Electrolytic Capacitor
-0
-2
-2
-FM-editable
-R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal
-Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm
-0
-2
-2
-FM-editable
-Resistor P17.70mm
-Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm
-0
-2
-2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
