@@ -3124,6 +3124,10 @@
     (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
     (uuid d75d6995-0ee3-433c-8b73-ad2e18d2233b)
   )
+  (text "+23v DC" (at 401.955 380.365 0)
+    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
+    (uuid f921c4e1-91a5-438d-af5f-456827fcd773)
+  )
 
   (label "Q7P2" (at 486.41 320.675 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -4948,8 +4952,8 @@
     (property "Datasheet" "" (at 361.95 344.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid b4fd1273-a4cc-4024-b9a9-0b08a7906437))
-    (pin "" (uuid b4fd1273-a4cc-4024-b9a9-0b08a7906437))
+    (pin "" (uuid b4fd1273-a4cc-4024-b9a9-0b08a7906438))
+    (pin "" (uuid b4fd1273-a4cc-4024-b9a9-0b08a7906438))
     (instances
       (project "Power Supply - Entrex DataScope"
         (path "/f8e1ecad-fe3b-4e50-ba2e-5fd3bbf3c285"
@@ -6067,8 +6071,8 @@
     (property "Datasheet" "" (at 355.6 350.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 60056e2c-522a-47f8-8722-880b2f13d76a))
-    (pin "" (uuid 60056e2c-522a-47f8-8722-880b2f13d76a))
+    (pin "" (uuid 60056e2c-522a-47f8-8722-880b2f13d76b))
+    (pin "" (uuid 60056e2c-522a-47f8-8722-880b2f13d76b))
     (instances
       (project "Power Supply - Entrex DataScope"
         (path "/f8e1ecad-fe3b-4e50-ba2e-5fd3bbf3c285"
@@ -6369,8 +6373,8 @@
     (property "Datasheet" "" (at 355.6 403.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid f8caa118-5509-479c-a6dd-345f90dcd22d))
-    (pin "" (uuid f8caa118-5509-479c-a6dd-345f90dcd22d))
+    (pin "" (uuid f8caa118-5509-479c-a6dd-345f90dcd22e))
+    (pin "" (uuid f8caa118-5509-479c-a6dd-345f90dcd22e))
     (instances
       (project "Power Supply - Entrex DataScope"
         (path "/f8e1ecad-fe3b-4e50-ba2e-5fd3bbf3c285"
@@ -7632,8 +7636,8 @@
     (property "Datasheet" "" (at 361.95 410.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 78d23117-91d7-4b33-ab4e-13e51faaee7e))
-    (pin "" (uuid 78d23117-91d7-4b33-ab4e-13e51faaee7e))
+    (pin "" (uuid 78d23117-91d7-4b33-ab4e-13e51faaee7f))
+    (pin "" (uuid 78d23117-91d7-4b33-ab4e-13e51faaee7f))
     (instances
       (project "Power Supply - Entrex DataScope"
         (path "/f8e1ecad-fe3b-4e50-ba2e-5fd3bbf3c285"
