@@ -1531,6 +1531,10 @@
     (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
     (uuid 1d068c9b-b1bd-4d4d-a093-556bd757e6be)
   )
+  (text "C" (at 122.555 59.69 0)
+    (effects (font (size 0.8 0.8)) (justify left bottom))
+    (uuid 1e071173-6994-4b55-aed8-558a277f830d)
+  )
   (text "v AC" (at 29.845 107.823 0)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 1e3cb195-252a-47bf-894a-a72891c3accc)
@@ -1542,6 +1546,10 @@
   (text "0v" (at 180.975 45.72 0)
     (effects (font (size 2 2) (thickness 0.4) bold (color 255 2 13 1)) (justify left bottom))
     (uuid 1fcb131f-289c-4419-af87-229b56b17cff)
+  )
+  (text "B\n" (at 121.285 62.865 0)
+    (effects (font (size 0.8 0.8)) (justify left bottom))
+    (uuid 2a41021e-4983-4377-81ec-a708f698492f)
   )
   (text "R18, C4 provide damping at\nthe output." (at 288.29 65.405 0)
     (effects (font (size 2 2) (thickness 0.6) bold) (justify left bottom))
@@ -1628,6 +1636,10 @@
   (text "+23v DC" (at 56.007 124.46 0)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid f921c4e1-91a5-438d-af5f-456827fcd773)
+  )
+  (text "E" (at 119.38 59.055 0)
+    (effects (font (size 0.8 0.8)) (justify left bottom))
+    (uuid fe1dfa1a-7011-49c6-aaea-39a68b7341c0)
   )
 
   (label "C1+" (at 50.419 121.285 0) (fields_autoplaced)
@@ -2150,8 +2162,8 @@
     (property "Datasheet" "" (at 16.129 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid b4fd1273-a4cc-4024-b9a9-0b08a7906445))
-    (pin "" (uuid b4fd1273-a4cc-4024-b9a9-0b08a7906445))
+    (pin "" (uuid b4fd1273-a4cc-4024-b9a9-0b08a7906446))
+    (pin "" (uuid b4fd1273-a4cc-4024-b9a9-0b08a7906446))
     (instances
       (project "Power Supply - Entrex DataScope - 5v Only"
         (path "/f8e1ecad-fe3b-4e50-ba2e-5fd3bbf3c285"
@@ -2566,8 +2578,8 @@
     (property "Datasheet" "" (at 9.779 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 60056e2c-522a-47f8-8722-880b2f13d778))
-    (pin "" (uuid 60056e2c-522a-47f8-8722-880b2f13d778))
+    (pin "" (uuid 60056e2c-522a-47f8-8722-880b2f13d779))
+    (pin "" (uuid 60056e2c-522a-47f8-8722-880b2f13d779))
     (instances
       (project "Power Supply - Entrex DataScope - 5v Only"
         (path "/f8e1ecad-fe3b-4e50-ba2e-5fd3bbf3c285"
@@ -2618,8 +2630,8 @@
     (property "Datasheet" "" (at 9.779 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid f8caa118-5509-479c-a6dd-345f90dcd23b))
-    (pin "" (uuid f8caa118-5509-479c-a6dd-345f90dcd23b))
+    (pin "" (uuid f8caa118-5509-479c-a6dd-345f90dcd23c))
+    (pin "" (uuid f8caa118-5509-479c-a6dd-345f90dcd23c))
     (instances
       (project "Power Supply - Entrex DataScope - 5v Only"
         (path "/f8e1ecad-fe3b-4e50-ba2e-5fd3bbf3c285"
@@ -3039,8 +3051,8 @@
     (property "Datasheet" "" (at 16.129 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 78d23117-91d7-4b33-ab4e-13e51faaee8c))
-    (pin "" (uuid 78d23117-91d7-4b33-ab4e-13e51faaee8c))
+    (pin "" (uuid 78d23117-91d7-4b33-ab4e-13e51faaee8d))
+    (pin "" (uuid 78d23117-91d7-4b33-ab4e-13e51faaee8d))
     (instances
       (project "Power Supply - Entrex DataScope - 5v Only"
         (path "/f8e1ecad-fe3b-4e50-ba2e-5fd3bbf3c285"
