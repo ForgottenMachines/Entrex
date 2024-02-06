@@ -1,4 +1,24 @@
+This is a great job for someone just starting on Upwork, wanting their first positive feedback.  No expeirence required, only attention to detail.
+
+Please watch this entire 34 minute video, it is the entire job description:
 
 
+URL's shown in video:
 
+Install KiCad (if you don't already have version 7)
+https://www.kicad.org/download/
+
+Download source files https://github.com/ForgottenMachines/Entrex/blob/main/Mystery%20Test%20Board/AMLDC-2044B.kicad_pro
+
+https://github.com/ForgottenMachines/Entrex/blob/main/Mystery%20Test%20Board/AMLDC-2044B.kicad_sch
+
+Use Footprints:
 Package_DIP:DIP-14_W7.62mm
+Package_DIP:DIP-16_W7.62mm
+
+
+
+
+
+
+
