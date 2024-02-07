@@ -1,0 +1,24 @@
+Doing research on what I think is a National Semicondutor DM958, and wanting to find a proper schematic symbol for KiCad.
+
+According to the 1976_National_TTL_Databook at http://www.bitsavers.org/components/national/_dataBooks/1976_National_TTL_Databook.pdf
+It's a 
+
+"Quad 2-Input Power Gates"
+
+And apparently is equivalent with a Fairchild 9158, for which I don't even know how to find a datasheet for.
+
+Trying to find an equivalent, When google-searching 7400 series Quad 2-Input Power Gates I get a 7400 Quad 2-Input NAND Gate
+
+Comparing the logic symbol with a 7400 chip, it appears that they are mostly the same, BUT 
+Pins 6 & 4 are swapped
+and
+Pins 10 & 8 are swapped
+
+And the 7400 is called a Quad 2-Input NAND Gate
+not a Quad 2-Input POWER Gate
+even though they look by the symbols that they do the same thing logically.  
+
+So, are these errors in the datasheets that I'm digging up, or are these chips really not quite the same thing?
+
+
+
