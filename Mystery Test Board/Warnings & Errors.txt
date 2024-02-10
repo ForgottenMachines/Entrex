@@ -1,0 +1,37 @@
+Warning: Footprint 'R2' has no assigned symbol.
+Warning: Footprint 'R4' has no assigned symbol.
+Warning: Footprint 'C1' has no assigned symbol.
+Warning: Footprint 'R1' has no assigned symbol.
+Warning: Footprint 'CR1' has no assigned symbol.
+
+
+
+Error: Cannot find UM0 pin ''.
+Error: Cannot find UM0 pin ''.
+Error: Cannot find UM0 pin ''.
+Error: Cannot find UM0 pin ''.
+Error: Cannot find UM0 pin ''.
+Error: Cannot find UK1 pin ''.
+Error: Cannot find UK1 pin ''.
+Error: Cannot find UK1 pin ''.
+Error: Cannot find UD0 pin ''.
+Error: Cannot find UD0 pin ''.
+Error: Cannot find UD0 pin ''.
+Error: Cannot find UD0 pin ''.
+Error: Cannot find C64 pin ''.
+
+
+Change UG4 pin 13 net label from 'UG4A' to 'Net-(UG4A-Q)'.
+Change UG4 pin 4 net label from 'H4p12' to 'F4p11'.
+
+
+Change R4 value from 'R_US' to '~'.
+Change R2 value from 'R_US' to '~'.
+Add label '+5V' to R2 pin 1 net.
+Change R1 footprint assignment from 'Forgotten Machines:Resistor for Entrex-AMLDC Board' to 'Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal'.
+Change R1 value from 'R_US' to '~'.
+Add label '+5V' to R1 pin 1 net.
+Change CR1 footprint assignment from 'Forgotten Machines:Diode for Entrex-AMLDC Board' to 'Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal'.
+Add label 'C0p9' to CR1 pin 1 net.
+Add label 'GND' to CR1 pin 2 net.
+

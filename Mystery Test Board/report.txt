@@ -1,0 +1,431 @@
+Warning: Footprint 'R2' has no assigned symbol.
+Warning: Footprint 'R4' has no assigned symbol.
+Warning: Footprint 'C1' has no assigned symbol.
+Warning: Footprint 'R1' has no assigned symbol.
+Warning: Footprint 'CR1' has no assigned symbol.
+Add label 'R9p2' to C43 pin 1 net.
+Add label 'GND' to C43 pin 2 net.
+Add label '+5V' to UE3 pin 14 net.
+Add label 'GND' to UE3 pin 7 net.
+Error: Cannot find UM0 pin ''.
+Add label '+5V' to UM0 pin 14 net.
+Add label 'GND' to UM0 pin 7 net.
+Add label '+5V' to R29 pin 2 net.
+Change UK2 pin 8 net label from 'K2p8' to 'G2p2'.
+Change UB2 pin 9 net label from 'B2p9' to 'B2p13'.
+Add label 'R10p2' to R10 pin 2 net.
+Error: Cannot find UD0 pin ''.
+Change UD0 pin 5 net label from 'D0p5' to 'D0p9'.
+Add label 'Pad15p15' to C12 pin 1 net.
+Add label 'Pad14p14' to C12 pin 2 net.
+Add label '+5V' to UN0 pin 14 net.
+Add label 'GND' to UN0 pin 7 net.
+Add label 'N2p5' to UP2 pin 14 net.
+Change UF1 pin 4 net label from 'F1p4' to 'D1p3'.
+Change UD1 pin 12 net label from 'D1p12' to 'B1p13'.
+Change UH4 pin 9 net label from 'H4p9' to 'GND'.
+Add label '+5V' to UD4 pin 14 net.
+Add label 'GND' to UD4 pin 7 net.
+Add label 'E0p3' to R53 pin 2 net.
+Add label 'B1p10' to R77 pin 1 net.
+Add label 'B1p9' to R77 pin 2 net.
+Add label '+5V' to UR0 pin 14 net.
+Add label 'GND' to UR0 pin 7 net.
+Add label '+5V' to UB4 pin 16 net.
+Add label 'GND' to UB4 pin 8 net.
+Change UD4 pin 2 net label from 'D4p2' to 'C4p3'.
+Add label '+5V' to UP1 pin 14 net.
+Add label 'GND' to UP1 pin 7 net.
+Add label '+5V' to UH3 pin 14 net.
+Add label 'GND' to UH3 pin 7 net.
+Add label '+5V' to UF1 pin 14 net.
+Add label 'GND' to UF1 pin 7 net.
+Change UE3 pin 12 net label from 'E3p12' to 'C3p5'.
+Change UR3 pin 2 net label from 'R3p2' to 'R3p13'.
+Change UR3 pin 3 net label from 'R3p3' to 'L3p3'.
+Change UG2 pin 5 net label from 'G2p5' to 'G2p2'.
+Add label 'H4p7' to R67 pin 1 net.
+Add label '+5V' to R87 pin 2 net.
+Change UN3 pin 11 net label from 'N3p11' to 'L3p11'.
+Add label 'R34P1' to R16 pin 1 net.
+Add label 'DISK2' to R16 pin 2 net.
+Change UM3 pin 11 net label from 'M3p11' to 'L3p11'.
+Change UG1 pin 10 net label from 'G1p10' to 'F1p2'.
+Change UG1 pin 9 net label from 'G1p9' to 'E1p8'.
+Change UP1 pin 1 net label from 'P1p1' to 'P1p13'.
+Change UP1 pin 2 net label from 'P1p2' to 'P1p12'.
+Change UM3 pin 2 net label from 'M3p2' to 'M3p13'.
+Change UM3 pin 3 net label from 'M3p3' to 'L3p3'.
+Change UG1 pin 12 net label from 'G1p12' to 'F1p2'.
+Change UG1 pin 13 net label from 'G1p13' to 'G1p2'.
+Change UD1 pin 8 net label from 'D1p8' to 'B1p12'.
+Add label '+5V' to US3 pin 14 net.
+Add label 'GND' to US3 pin 7 net.
+Add label '+5V' to UL3 pin 14 net.
+Add label 'GND' to UL3 pin 7 net.
+Add label '+5V' to UC3 pin 14 net.
+Add label 'GND' to UC3 pin 7 net.
+Add label '+5V' to R47 pin 1 net.
+Add label '+5V' to UK0 pin 14 net.
+Add label 'GND' to UK0 pin 7 net.
+Change US0 pin 13 net label from 'S0p13' to 'R0p13'.
+Change UH1 pin 4 net label from 'H1p4' to 'H1p11'.
+Change UP3 pin 2 net label from 'P3p2' to 'P3p13'.
+Change UP3 pin 3 net label from 'P3p3' to 'L3p3'.
+Add label '+5V' to R32 pin 2 net.
+Error: Cannot find UM0 pin ''.
+Change UM0 pin 11 net label from 'M0p11' to 'L0p11'.
+Add label 'B4p15' to C41 pin 1 net.
+Add label 'B4p14' to C41 pin 2 net.
+Change UN0 pin 13 net label from 'N0p13' to 'L0p3'.
+Add label '+5V' to R55 pin 2 net.
+Add label '+5V' to UK2 pin 14 net.
+Add label 'GND' to UK2 pin 7 net.
+Change UH3 pin 13 net label from 'H3p13' to 'G3p2'.
+Change UM1 pin 10 net label from 'M1p10' to 'L1p10'.
+Change UM1 pin 11 net label from 'M1p11' to 'L1p4'.
+Change UM1 pin 13 net label from 'M1p13' to 'J1p13'.
+Change UM1 pin 14 net label from 'M1p14' to '+5V'.
+Change UM1 pin 3 net label from 'M1p3' to 'L1p3'.
+Change UM1 pin 4 net label from 'M1p4' to 'N1p7'.
+Change UM1 pin 7 net label from 'M1p7' to 'GND'.
+Change UL0 pin 5 net label from 'L0p5' to 'L0p10'.
+Add label 'H4p15' to C56 pin 1 net.
+Add label 'H4p14' to C56 pin 2 net.
+Change UK2 pin 12 net label from 'K2p12' to 'J2p4'.
+Change UK2 pin 13 net label from 'K2p13' to 'G2p1'.
+Change UN0 pin 9 net label from 'N0p9' to 'L0p8'.
+Add label 'E4p4' to UF4 pin 13 net.
+Error: Cannot find UM0 pin ''.
+Change UM0 pin 3 net label from 'M0p3' to 'L0p3'.
+Error: Cannot find UD0 pin ''.
+Add label 'GND' to UD0 pin 7 net.
+Add label 'H4p12' to UG4 pin 10 net.
+Add label 'F4p3' to UG4 pin 12 net.
+Add label 'E4p6' to UG4 pin 5 net.
+Add label 'Pad6p6' to UG4 pin 6 net.
+Add label 'UG4A' to UG4 pin 7 net.
+Add label 'GND' to UG4 pin 9 net.
+Add label '+5V' to UR3 pin 14 net.
+Add label 'GND' to UR3 pin 7 net.
+Change UR3 pin 5 net label from 'R3p5' to 'R3p10'.
+Change UR3 pin 6 net label from 'R3p6' to 'L3p6'.
+Change UR1 pin 12 net label from 'R1p12' to 'GND'.
+Change UR1 pin 13 net label from 'R1p13' to 'R1p4'.
+Change UN4 pin 2 net label from 'N4p2' to 'L4p3'.
+Change UN4 pin 3 net label from 'N4p3' to 'L4p11'.
+Change UN4 pin 4 net label from 'N4p4' to 'N4p13'.
+Change UN4 pin 6 net label from 'N4p6' to 'L4p10'.
+Change UN4 pin 7 net label from 'N4p7' to 'L4p4'.
+Add label '+5V' to R88 pin 2 net.
+Add label '+5V' to UH1 pin 14 net.
+Add label 'GND' to UH1 pin 7 net.
+Add label '+5V' to UJ2 pin 14 net.
+Add label 'GND' to UJ2 pin 7 net.
+Change UR2 pin 10 net label from 'R2p10' to 'P2p5'.
+Change UR2 pin 2 net label from 'R2p2' to 'N2p16'.
+Change UR2 pin 3 net label from 'R2p3' to 'N2p15'.
+Change UR2 pin 5 net label from 'R2p5' to '+5V'.
+Change UR2 pin 6 net label from 'R2p6' to 'N2p10'.
+Change UR2 pin 7 net label from 'R2p7' to 'N2p9'.
+Add label 'K0p1' to C57 pin 1 net.
+Change UP3 pin 8 net label from 'P3p8' to 'L3p8'.
+Change UM3 pin 8 net label from 'M3p8' to 'L3p8'.
+Add label '+5V' to UN3 pin 14 net.
+Add label 'GND' to UN3 pin 7 net.
+Add label 'B1p9' to C16 pin 1 net.
+Add label 'GND' to C16 pin 2 net.
+Change UF0 pin 9 net label from 'F0p9' to 'E0p6'.
+Change UL2 pin 12 net label from 'L2p12' to 'K2p11'.
+Add label 'C59p1' to C59 pin 1 net.
+Add label 'C58p2' to C59 pin 2 net.
+Add label '+5V' to UF4 pin 14 net.
+Add label 'GND' to UF4 pin 7 net.
+Add label '+5V' to UG4 pin 16 net.
+Add label 'GND' to UG4 pin 8 net.
+Add label '+5V' to US2 pin 14 net.
+Add label 'GND' to US2 pin 7 net.
+Add label '+5V' to R37 pin 2 net.
+Change UL3 pin 5 net label from 'L3p5' to 'L3p10'.
+Add label 'C58p1' to R71 pin 1 net.
+Add label 'D0p3' to R71 pin 2 net.
+Add label 'R50P2' to CR3 pin 1 net.
+Add label 'GND' to CR3 pin 2 net.
+Add label 'R34P1' to R15 pin 1 net.
+Add label '+5V' to R12 pin 2 net.
+Add label '+5V' to R30 pin 2 net.
+Change UR3 pin 8 net label from 'R3p8' to 'L3p8'.
+Add label 'B2p11' to R91 pin 1 net.
+Add label 'B2p10' to R91 pin 2 net.
+Add label '+5V' to US0 pin 14 net.
+Add label 'GND' to US0 pin 7 net.
+Add label '+5V' to R93 pin 1 net.
+Add label '+5V' to R93 pin 2 net.
+Add label 'GND' to C45 pin 1 net.
+Add label 'B1p2' to C45 pin 2 net.
+Add label 'GND' to C71 pin 2 net.
+Change UD3 pin 9 net label from 'D3p9' to 'GND'.
+Change UC3 pin 2 net label from 'C3p2' to 'C3p9'.
+Add label 'GND' to R72 pin 2 net.
+Change UL0 pin 2 net label from 'L0p2' to 'L0p13'.
+Add label 'C0p9' to R49 pin 1 net.
+Add label 'GND' to R49 pin 2 net.
+Change UP0 pin 11 net label from 'P0p11' to 'L0p11'.
+Add label '+5V' to C65 pin 1 net.
+Change UB2 pin 3 net label from 'B2p3' to 'B2p13'.
+Add label '+5V' to R18 pin 2 net.
+Change UR0 pin 5 net label from 'R0p5' to 'R0p13'.
+Change UR0 pin 6 net label from 'R0p6' to 'L0p6'.
+Change UP0 pin 10 net label from 'P0p10' to 'N0p4'.
+Change UP0 pin 8 net label from 'P0p8' to 'L0p8'.
+Add label '+5V' to R50 pin 1 net.
+Add label 'H4p6' to C11 pin 1 net.
+Add label 'H4p7' to C11 pin 2 net.
+Add label '+5V' to UP3 pin 14 net.
+Add label 'GND' to UP3 pin 7 net.
+Add label 'B4p6' to C42 pin 1 net.
+Add label 'B4p7' to C42 pin 2 net.
+Change UN1 pin 13 net label from 'N1p13' to 'N1p4'.
+Change UN1 pin 2 net label from 'N1p2' to 'L1p3'.
+Change UN1 pin 3 net label from 'N1p3' to 'L1p11'.
+Change UN1 pin 5 net label from 'N1p5' to '+5V'.
+Change UN1 pin 6 net label from 'N1p6' to 'L1p10'.
+Add label 'C58p1' to C58 pin 1 net.
+Add label 'C58p2' to C58 pin 2 net.
+Error: Cannot find UK1 pin ''.
+Add label '+5V' to UK1 pin 14 net.
+Add label 'GND' to UK1 pin 7 net.
+Change UN2 pin 12 net label from 'N2p12' to 'GND'.
+Change UN2 pin 4 net label from 'N2p4' to 'N2p13'.
+Change UL4 pin 14 net label from 'L4p14' to '+5V'.
+Change UL4 pin 7 net label from 'L4p7' to 'GND'.
+Add label '+5V' to UJ3 pin 14 net.
+Add label 'GND' to UJ3 pin 7 net.
+Change UN3 pin 9 net label from 'N3p9' to 'L3p8'.
+Change UR0 pin 2 net label from 'R0p2' to 'R0p13'.
+Change UR0 pin 3 net label from 'R0p3' to 'L0p3'.
+Add label 'R34P1' to R34 pin 1 net.
+Add label '+5V' to UL2 pin 14 net.
+Add label 'GND' to UL2 pin 7 net.
+Change UD1 pin 4 net label from 'D1p4' to 'B1p3'.
+Change UD1 pin 5 net label from 'D1p5' to 'D1p9'.
+Add label 'SPARE' to R56 pin 1 net.
+Add label 'R56P2' to R56 pin 2 net.
+Add label 'B2p4' to R70 pin 1 net.
+Add label 'B2p5' to R70 pin 2 net.
+Add label '+5V' to UE1 pin 14 net.
+Add label 'GND' to UE1 pin 7 net.
+Change UH2 pin 5 net label from 'H2p5' to 'H2p12'.
+Add label 'GND' to C62 pin 2 net.
+Change UC3 pin 11 net label from 'C3p11' to 'GND'.
+Change UE0 pin 13 net label from 'E0p13' to 'D0p9'.
+Add label '+5V' to R54 pin 1 net.
+Add label '+5V' to R13 pin 1 net.
+Add label 'R13p2' to R13 pin 2 net.
+Add label '+5V' to UH4 pin 16 net.
+Add label 'GND' to UH4 pin 8 net.
+Change UJ0 pin 1 net label from 'J0p1' to 'H0p2'.
+Error: Cannot find UD0 pin ''.
+Change UD0 pin 13 net label from 'D0p13' to 'D0p9'.
+Change UR4 pin 12 net label from 'R4p12' to 'GND'.
+Change UR4 pin 4 net label from 'R4p4' to 'R4p13'.
+Change UN3 pin 13 net label from 'N3p13' to 'L3p3'.
+Change US3 pin 10 net label from 'S3p10' to 'R3p10'.
+Change UC2 pin 9 net label from 'C2p9' to 'C2p13'.
+Add label '+5V' to UH0 pin 14 net.
+Add label 'GND' to UH0 pin 7 net.
+Change UC4 pin 9 net label from 'C4p9' to 'B4p1'.
+Add label '+5V' to UB1 pin 14 net.
+Add label 'GND' to UB1 pin 7 net.
+Add label '+5V' to UP0 pin 14 net.
+Add label 'GND' to UP0 pin 7 net.
+Change UG2 pin 11 net label from 'G2p11' to 'D2p5'.
+Add label '+5V' to UM3 pin 14 net.
+Add label 'GND' to UM3 pin 7 net.
+Change UH3 pin 6 net label from 'H3p6' to 'H3p9'.
+Change UM3 pin 5 net label from 'M3p5' to 'M3p10'.
+Change UM3 pin 6 net label from 'M3p6' to 'L3p6'.
+Add label 'B2p10' to C30 pin 1 net.
+Add label 'GND' to C30 pin 2 net.
+Add label 'Pad77' to R36 pin 1 net.
+Add label 'R56P2' to R36 pin 2 net.
+Change UN0 pin 5 net label from 'N0p5' to 'L0p6'.
+Change UG0 pin 11 net label from 'G0p11' to 'F0p4'.
+Change UG0 pin 12 net label from 'G0p12' to 'F0p2'.
+Change UG0 pin 3 net label from 'G0p3' to 'F0p2'.
+Error: Cannot find C64 pin ''.
+Add label 'K0p5' to C64 pin 1 net.
+Change UP0 pin 5 net label from 'P0p5' to 'N0p4'.
+Change UP0 pin 6 net label from 'P0p6' to 'L0p6'.
+Change UB4 pin 5 net label from 'B4p5' to 'B4p1'.
+Change UB4 pin 9 net label from 'B4p9' to 'GND'.
+Change US0 pin 2 net label from 'S0p2' to 'R0p13'.
+Add label 'GND' to UC0 pin 7 net.
+Change UJ2 pin 1 net label from 'J2p1' to 'G2p1'.
+Change UJ2 pin 5 net label from 'J2p5' to 'J2p12'.
+Change UP3 pin 11 net label from 'P3p11' to 'L3p11'.
+Add label '+5V' to UC1 pin 14 net.
+Add label 'GND' to UC1 pin 7 net.
+Add label '+5V' to UH2 pin 14 net.
+Add label 'GND' to UH2 pin 7 net.
+Change US1 pin 12 net label from 'S1p12' to 'GND'.
+Change US1 pin 13 net label from 'S1p13' to 'R1p4'.
+Change US1 pin 4 net label from 'S1p4' to 'R1p4'.
+Change US1 pin 5 net label from 'S1p5' to 'R1p5'.
+Add label '+5V' to UE2 pin 14 net.
+Add label 'GND' to UE2 pin 7 net.
+Add label '+5V' to UJ0 pin 14 net.
+Add label 'GND' to UJ0 pin 7 net.
+Error: Cannot find UK1 pin ''.
+Change UK1 pin 2 net label from 'K1p2' to 'K1p9'.
+Add label '+5V' to UD1 pin 14 net.
+Add label 'GND' to UD1 pin 7 net.
+Add label '+5V' to UF2 pin 14 net.
+Add label 'GND' to UF2 pin 7 net.
+Change UG3 pin 1 net label from 'G3p1' to 'J3p3'.
+Change UG3 pin 3 net label from 'G3p3' to 'E3p2'.
+Change UG2 pin 3 net label from 'G2p3' to 'G2p2'.
+Change UD4 pin 11 net label from 'D4p11' to 'C4p5'.
+Change UD4 pin 9 net label from 'D4p9' to 'B4p10'.
+Add label 'Pad14p14' to UG4 pin 14 net.
+Add label 'Pad15p15' to UG4 pin 15 net.
+Add label 'F4p3' to UG4 pin 2 net.
+Add label 'F4p11' to UG4 pin 4 net.
+Add label '+5V' to R85 pin 2 net.
+Add label 'C59p1' to R51 pin 1 net.
+Add label 'E0p11' to R51 pin 2 net.
+Change US4 pin 12 net label from 'S4p12' to 'GND'.
+Change US4 pin 13 net label from 'S4p13' to 'R4p13'.
+Change US4 pin 4 net label from 'S4p4' to 'R4p13'.
+Add label '+5V' to UB2 pin 14 net.
+Add label 'GND' to UB2 pin 7 net.
+Add label 'D2p2' to C44 pin 1 net.
+Change UD3 pin 4 net label from 'D3p4' to 'D3p10'.
+Change UG1 pin 4 net label from 'G1p4' to 'D1p9'.
+Change UG1 pin 5 net label from 'G1p5' to 'F1p6'.
+Add label '+5V' to UE4 pin 14 net.
+Add label 'GND' to UE4 pin 7 net.
+Change UR0 pin 11 net label from 'R0p11' to 'L0p11'.
+Add label '+5V' to UJ1 pin 14 net.
+Add label 'GND' to UJ1 pin 7 net.
+Add label 'C58p2' to C61 pin 2 net.
+Add label 'C31p2' to R94 pin 2 net.
+Change UF2 pin 12 net label from 'F2p12' to 'F2p3'.
+Change UD2 pin 13 net label from 'D2p13' to 'B2p13'.
+Add label '+5V' to R68 pin 1 net.
+Error: Cannot find UK1 pin ''.
+Add label '+5V' to C46 pin 1 net.
+Add label '+5V' to UC2 pin 16 net.
+Add label 'GND' to UC2 pin 8 net.
+Add label 'C58p2' to C60 pin 2 net.
+Add label 'R13p2' to C15 pin 1 net.
+Add label 'C2p6' to C15 pin 2 net.
+Change UR0 pin 10 net label from 'R0p10' to 'R0p13'.
+Change UR0 pin 8 net label from 'R0p8' to 'L0p8'.
+Add label 'B2p5' to C13 pin 1 net.
+Add label 'GND' to C13 pin 2 net.
+Add label '+5V' to UD3 pin 16 net.
+Add label 'GND' to UD3 pin 8 net.
+Change UE0 pin 9 net label from 'E0p9' to 'D0p9'.
+Change UL3 pin 2 net label from 'L3p2' to 'L3p13'.
+Change UN0 pin 11 net label from 'N0p11' to 'L0p11'.
+Add label 'Pad77' to J1 pin 77 net.
+Change UH1 pin 2 net label from 'H1p2' to 'H1p10'.
+Change UH3 pin 8 net label from 'H3p8' to 'G3p9'.
+Add label '+5V' to UE0 pin 14 net.
+Add label 'GND' to UE0 pin 7 net.
+Add label 'R50P2' to C28 pin 2 net.
+Add label '+5V' to C26 pin 1 net.
+Add label 'GND' to C26 pin 2 net.
+Add label '+5V' to C55 pin 1 net.
+Add label 'N4p12' to C55 pin 2 net.
+Add label '+5V' to UC4 pin 14 net.
+Add label 'GND' to UC4 pin 7 net.
+Add label 'GND' to C31 pin 1 net.
+Add label 'C31p2' to C31 pin 2 net.
+Change UP1 pin 4 net label from 'P1p4' to 'P1p12'.
+Change UC4 pin 2 net label from 'C4p2' to 'C4p13'.
+Change US3 pin 5 net label from 'S3p5' to 'R3p10'.
+Change UN3 pin 5 net label from 'N3p5' to 'L3p6'.
+Error: Cannot find UM0 pin ''.
+Change UM0 pin 8 net label from 'M0p8' to 'L0p8'.
+Add label 'D3p15' to C25 pin 1 net.
+Add label 'D3p14' to C25 pin 2 net.
+Add label 'GND' to UF0 pin 7 net.
+Add label '+5V' to UG2 pin 14 net.
+Add label 'GND' to UG2 pin 7 net.
+Add label '+5V' to UG1 pin 14 net.
+Add label 'GND' to UG1 pin 7 net.
+Add label 'D3p6' to C27 pin 1 net.
+Add label 'D3p7' to C27 pin 2 net.
+Change US3 pin 2 net label from 'S3p2' to 'R3p13'.
+Add label '+5V' to UG0 pin 14 net.
+Add label 'GND' to UG0 pin 7 net.
+Add label '+5V' to UL0 pin 14 net.
+Add label 'GND' to UL0 pin 7 net.
+Change UF4 pin 2 net label from 'F4p2' to 'F4p12'.
+Change UH2 pin 8 net label from 'H2p8' to 'G2p6'.
+Add label 'R34P1' to R35 pin 1 net.
+Add label 'Pad77' to R35 pin 2 net.
+Change UE1 pin 2 net label from 'E1p2' to 'D1p3'.
+Change UE1 pin 3 net label from 'E1p3' to 'B1p3'.
+Change UE1 pin 5 net label from 'E1p5' to 'D1p9'.
+Add label 'B1p2' to R38 pin 2 net.
+Change US0 pin 10 net label from 'S0p10' to 'R0p13'.
+Change UR3 pin 11 net label from 'R3p11' to 'L3p11'.
+Error: Cannot find UD0 pin ''.
+Change UP3 pin 5 net label from 'P3p5' to 'P3p10'.
+Change UP3 pin 6 net label from 'P3p6' to 'L3p6'.
+Add label 'C0p5' to R19 pin 1 net.
+Add label 'GND' to R19 pin 2 net.
+Add label 'L4p10' to UP4 pin 10 net.
+Add label 'N4p12' to UP4 pin 11 net.
+Add label 'N4p12' to UP4 pin 14 net.
+Add label 'L4p3' to UP4 pin 15 net.
+Add label '+5V' to UP4 pin 16 net.
+Add label 'N4p12' to UP4 pin 2 net.
+Add label 'N4p12' to UP4 pin 5 net.
+Add label 'L4p4' to UP4 pin 6 net.
+Add label 'GND' to UP4 pin 8 net.
+Change US3 pin 13 net label from 'S3p13' to 'R3p13'.
+Add label 'K0p10' to C72 pin 1 net.
+Add label 'GND' to C72 pin 2 net.
+Error: Cannot find UM0 pin ''.
+Change UM0 pin 5 net label from 'M0p5' to 'M0p10'.
+Change UM0 pin 6 net label from 'M0p6' to 'L0p6'.
+Change UG3 pin 13 net label from 'G3p13' to 'J3p3'.
+Add label 'C2p14' to C29 pin 2 net.
+Add label 'R56P2' to R92 pin 2 net.
+Add label 'R9p2' to R9 pin 2 net.
+Add label 'N2p5' to C69 pin 1 net.
+Change UH2 pin 3 net label from 'H2p3' to 'H2p12'.
+Add label '+5V' to R27 pin 2 net.
+Add label '+5V' to UD2 pin 14 net.
+Add label 'GND' to UD2 pin 7 net.
+Add label 'GND' to R7 pin 2 net.
+Change US0 pin 5 net label from 'S0p5' to 'R0p13'.
+Change UJ3 pin 13 net label from 'J3p13' to 'H3p12'.
+Change UL1 pin 13 net label from 'L1p13' to 'J1p13'.
+Change UL1 pin 14 net label from 'L1p14' to '+5V'.
+Change UL1 pin 4 net label from 'L1p4' to 'N1p7'.
+Change UL1 pin 7 net label from 'L1p7' to 'GND'.
+Change UM4 pin 10 net label from 'M4p10' to 'L4p10'.
+Change UM4 pin 11 net label from 'M4p11' to 'L4p11'.
+Change UM4 pin 13 net label from 'M4p13' to 'L4p13'.
+Change UM4 pin 14 net label from 'M4p14' to '+5V'.
+Change UM4 pin 3 net label from 'M4p3' to 'L4p3'.
+Change UM4 pin 4 net label from 'M4p4' to 'L4p4'.
+Change UM4 pin 7 net label from 'M4p7' to 'GND'.
+Add label '+5V' to C70 pin 1 net.
+Add label 'J0p10' to UJ0 pin 13 net.
+Add label 'DSK ~{RST}' to R17 pin 1 net.
+Add label 'R56P2' to R17 pin 2 net.
+Change UJ1 pin 8 net label from 'J1p8' to 'H1p5'.
+Add label '+5V' to UG3 pin 14 net.
+Add label 'GND' to UG3 pin 7 net.
+Change UP0 pin 2 net label from 'P0p2' to 'P0p13'.
+Change UP0 pin 3 net label from 'P0p3' to 'L0p3'.
+Change UM2 pin 1 net label from 'M2p1' to 'L2p3'.
+Change UM2 pin 15 net label from 'M2p15' to 'GND'.
+Change UM2 pin 16 net label from 'M2p16' to '+5V'.
+Change UM2 pin 8 net label from 'M2p8' to 'GND'.
