@@ -160,11 +160,11 @@
     (at 61.878 136.196)
     (path "/00000000-0000-0000-0000-00005fd4ed7b")
     (attr through_hole)
-    (fp_text reference "J1" (at 40 -6.3) (layer "Cmts.User")
+    (fp_text reference "J1" (at 40 -6.3) (layer "Cmts.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d2375c07-ee68-4781-ab6c-1bc495fbe56b)
     )
-    (fp_text value "Slot_02x26" (at 39.7 -5.1) (layer "F.Fab")
+    (fp_text value "Slot_02x26" (at 39.7 -5.1) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a5f80340-b5e2-4ac9-95c3-8efeb9594d87)
     )
@@ -942,11 +942,11 @@
     (descr "https://store.arduino.cc/arduino-mega-2560-rev3")
     (path "/00000000-0000-0000-0000-00005fd4d780")
     (attr through_hole)
-    (fp_text reference "XA1" (at 2.54 -54.356) (layer "F.SilkS")
+    (fp_text reference "XA1" (at 2.54 -54.356) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4cbb272d-a2e9-4a15-bada-b1eb77c6d3af)
     )
-    (fp_text value "Arduino_Mega2560_Shield" (at 15.494 -54.356) (layer "F.Fab")
+    (fp_text value "Arduino_Mega2560_Shield" (at 15.494 -54.356) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 11e5083b-bf84-449b-9af2-428a9f47a4e9)
     )
