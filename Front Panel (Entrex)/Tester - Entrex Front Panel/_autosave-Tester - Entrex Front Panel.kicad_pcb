@@ -10138,7 +10138,7 @@
   (gr_text "GND\n" (at 111.765 42.84) (layer "F.SilkS") (tstamp c30c0703-4630-4532-8314-92dbc335c454)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
-  (gr_text "Front Panel" (at 93.35 47.9) (layer "F.SilkS") (tstamp c8cf6d48-d6c2-4e90-b31d-1c8bef086c55)
+  (gr_text "Front Panel" (at 94.234 47.625) (layer "F.SilkS") (tstamp c8cf6d48-d6c2-4e90-b31d-1c8bef086c55)
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )
   (gr_text "GND\n" (at 86.35 42.799) (layer "F.SilkS") (tstamp cf4b9e37-d142-4741-885a-350753ae71d7)
