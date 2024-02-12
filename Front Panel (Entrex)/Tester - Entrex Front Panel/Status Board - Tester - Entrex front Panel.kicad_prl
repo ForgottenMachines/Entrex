@@ -62,11 +62,11 @@
       39,
       40
     ],
-    "visible_layers": "0001020_80000001",
+    "visible_layers": "fff5fff_ffffffff",
     "zone_display_mode": 1
   },
   "meta": {
-    "filename": "Tester - Entrex Front Panel.kicad_prl",
+    "filename": "Status Board - Tester - Entrex front Panel.kicad_prl",
     "version": 3
   },
   "project": {
