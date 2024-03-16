@@ -1,0 +1,35 @@
+@quantx @martyg4848 @nevets01 OK, I've been racking my brain on this, the Nova addressing / command operation is still rather hard for me to get my head around.  So, from best I can tell, it appears that the Entrex front panel does 4 operations in rapid succession:  
+1 Reset
+2 Examine
+3 Deposit
+4 Start
+
+BUT, how it's communicating the address that it's examining, and data it's depositing to that address in steps 2 & 3 are still a bit of a mystery.
+
+
+
+@quantx @martyg4848 @nevets01 @commodoreZ OK, I've been racking my brain on this, the Nova addressing / command operation is still rather hard for me to get my head around.  This is regarding a standard Nova 1200 front panel:
+
+Am I correct in understanding that the /MEM0-15 lines are connected by the 0-15 selection switches to the /CON DATA line to tell the CPU what address to examine when the Examine switch is pressed?
+
+And then is it exactly the same switches, also connecting to the /CON DATA line to tell the CPU what data to deposit in the "current address" when the Deposit switch is pressed?
+
+OK, if those things are true, then when either the Examine or Deposit switches are pressed, the front panel also sends a "code" to the CPU over the same MEM0-7 lines, while asserting /CON RQ, is this also correct?
+
+So, if all this is correct, then the timing must be very tricky to get right.
+
+What is the order of signals that go high/low in order to execute all of this correctly?  
+
+For reference, here's my aggregated collection of all front panel schematics:
+
+
+Thanks for helping me understand this, guys!
+
+
+
+
+
+
+HOW does the 
+
+It seems like it's using the same lines for both the address/data AND the command bits 
