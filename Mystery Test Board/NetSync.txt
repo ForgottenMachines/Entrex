@@ -1,0 +1,22 @@
+Change UV0 pin 5 net label from 'M0p13' to 'DATA_IN_B'.
+Change UM3 pin 13 net label from 'M0p13' to 'DATA_IN_B'.
+Change UM3 pin 2 net label from 'M0p13' to 'DATA_IN_B'.
+Change UM0 pin 13 net label from 'M0p13' to 'DATA_IN_B'.
+Change UV3 pin 10 net label from 'M0p13' to 'DATA_IN_B'.
+Change UM0 pin 2 net label from 'M0p13' to 'DATA_IN_B'.
+Change UV3 pin 2 net label from 'M0p13' to 'DATA_IN_B'.
+Change UM3 pin 10 net label from 'M0p13' to 'DATA_IN_B'.
+Change UV0 pin 10 net label from 'M0p13' to 'DATA_IN_B'.
+Change UV3 pin 5 net label from 'M0p13' to 'DATA_IN_B'.
+Add label 'T0p13' to UP0 pin 13 net.
+Add label 'GND' to C18 pin 1 net.
+Change UV3 pin 13 net label from 'M0p13' to 'DATA_IN_B'.
+Change UM3 pin 5 net label from 'M0p13' to 'DATA_IN_B'.
+Add label 'K1p5' to UK1 pin 5 net.
+Change UD4 pin 10 net label from 'D4P10' to 'D4p10'.
+Add label 'D4p8' to UD4 pin 8 net.
+Change UV0 pin 13 net label from 'M0p13' to 'DATA_IN_B'.
+Change UV0 pin 2 net label from 'M0p13' to 'DATA_IN_B'.
+Change UM0 pin 10 net label from 'M0p13' to 'DATA_IN_B'.
+Change UH2 pin 10 net label from 'K1p5' to 'E1p13'.
+Change UM0 pin 5 net label from 'M0p13' to 'DATA_IN_B'.
