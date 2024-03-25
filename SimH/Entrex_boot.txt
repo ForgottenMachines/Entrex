@@ -1,0 +1,130 @@
+;---------------------------------
+; comments
+; we know that tape records are 4KW or less in size, so
+; load first tape record into main memory so we can 'investigate';
+; instructions are IORST, NIOS MTA and JMP . in high memory
+; where they will not be overwritten by data read in...
+;---------------------------------
+
+Wild Hare Computer Systems Nova and Eclipse [beta 00.00.05] simulator V4.0-0 Current        git commit id: a06fa926
+sim> d 40000 62677
+sim> d 40001 60122
+sim> d 40002   400
+sim> e -m 40000/5
+40000:  IORST
+40001:  NIOS 0,MTA
+40002:  JMP 40002
+40003:  JMP 0
+40004:  JMP 0
+sim> set cpu hist=100
+sim> attach mta entrex.tap
+sim> d mta rtime 1
+sim> d mta ctime 1
+sim> run 40000
+
+;---------------------------------
+; <control/E> after a few seconds to regain SCP control...
+;---------------------------------
+
+     040001 / 060122  NIOS  = 000000, <022>    [    0 | 000000]
+Simulation stopped, PC: 040002 (JMP 40002)
+sim> e 177
+177:    000762
+
+;---------------------------------
+; you indicated location 177 was "starting address" of bootstrap
+; process, so examine that address - which looks like a plausible
+; 'JMP' instruction, so examine the target address of the JMP...
+;---------------------------------
+
+sim> e -m 177
+177:    JMP 161
+sim> e -m 161/10
+161:    SKPBZ MTA
+162:    JMP 161
+163:    IORST
+164:    SUB 3,3
+165:    LDA 0,0,3
+166:    STA 0,0,3
+167:    INC 3,3,SZR
+170:    JMP 165
+
+;---------------------------------
+; so the target instructions also seem plausible boot activity - waiting
+; for the mag tape to finish operation and then starting a block memory 
+; move loop, so set the PC to 0177 and continue execution...
+;---------------------------------
+
+sim> d PC 177
+sim> cont
+
+ Simulation stopped, PC: 004150 (JMP 4147)
+sim>
+sim> show hist
+
+;---------------------------------
+; stop program execution and see what is happening...
+;---------------------------------
+
+
+ 07000000  00000000  ffffffff   0   0  0     004147 / 063660    000020  000000  013200  000002  0    SKPDN 60
+ 07000000  00000000  ffffffff   0   0  0     004150 / 000777    000020  000000  013200  000002  0    JMP 4147
+ 07000000  00000000  ffffffff   0   0  0     004147 / 063660    000020  000000  013200  000002  0    SKPDN 60
+ 07000000  00000000  ffffffff   0   0  0     004150 / 000777    000020  000000  013200  000002  0    JMP 4147
+ 07000000  00000000  ffffffff   0   0  0     004147 / 063660    000020  000000  013200  000002  0    SKPDN 60
+ 07000000  00000000  ffffffff   0   0  0     004150 / 000777    000020  000000  013200  000002  0    JMP 4147
+ 07000000  00000000  ffffffff   0   0  0     004147 / 063660    000020  000000  013200  000002  0    SKPDN 60
+ 07000000  00000000  ffffffff   0   0  0     004150 / 000777    000020  000000  013200  000002  0    JMP 4147
+ 07000000  00000000  ffffffff   0   0  0     004147 / 063660    000020  000000  013200  000002  0    SKPDN 60
+ 07000000  00000000  ffffffff   0   0  0     004150 / 000777    000020  000000  013200  000002  0    JMP 4147
+ 07000000  00000000  ffffffff   0   0  0     004147 / 063660    000020  000000  013200  000002  0    SKPDN 60
+ 07000000  00000000  ffffffff   0   0  0     004150 / 000777    000020  000000  013200  000002  0    JMP 4147
+ 07000000  00000000  ffffffff   0   0  0     004147 / 063660    000020  000000  013200  000002  0    SKPDN 60
+
+;---------------------------------
+; the boot code loaded additional program in and is interrogating device code <060>;
+; waiting for some condition on this device.  A peek at code after the device <060>
+; test instructions show additional test made on the device.
+; I do not know what this device is, or if there are any other device(s) which this
+; boot code assumes exists - more information about the hardware devices on this
+; system would be a "very good thing".
+;---------------------------------
+
+sim> e -m 4147/20
+4147:   SKPDN 60
+4150:   JMP 4147
+4151:   NIOP 0,60
+4152:   SKPBZ 60
+4153:   JMP 4151
+4154:   DOA 1,60
+4155:   SKPBZ 61
+4156:   JMP 4155
+4157:   DOA 0,61
+4160:   DOCS 3,61
+4161:   INC 1,1
+4162:   DSZ 61,2
+4163:   JMP 4147
+4164:   LDA 3,67
+4165:   AND# 3,1,SNR
+4166:   JMP 4143
+sim> e ac0
+AC0:    000020
+sim> e ac1
+AC1:    000000
+sim> e ac2
+AC2:    013200
+sim> e ac3
+AC3:    000002
+sim>
+
+;---------------------------------
+; at this point the tape boots in a somewhat-reasonable fashion and is
+; expecting other devices to exist and be in some assumed condition.
+; To minimize future time...
+;
+;	What devices exist in the system?
+;
+;	What are their functions?
+;
+;---------------------------------
+
