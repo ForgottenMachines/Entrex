@@ -1,0 +1,5 @@
+(page_layout
+  (setup (textsize 1.5 1.5)(linewidth 0.15)(textlinewidth 0.15)
+  (left_margin 5)(right_margin 5)(top_margin 5)(bottom_margin 5))
+  (rect (name rect1:Rect) (start 0 0 lbcorner) (end 0 0 rtcorner))
+)

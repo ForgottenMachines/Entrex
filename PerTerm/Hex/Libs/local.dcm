@@ -1,0 +1,100 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC74
+D Dual D Flip-flop, Set & Reset
+K TTL DFF
+F 74xx/74hc_hct74.pdf
+$ENDCMP
+#
+$CMP 899-1_330
+D 13 resistor network, star topology, bussed resistors, small US symbol
+K R network star-topology
+$ENDCMP
+#
+$CMP 899-5_R220_R330
+D Resistor network, 12 dual terminator
+K R network terminator
+$ENDCMP
+#
+$CMP 9614
+D Dual differencial line driver
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP CPol
+D Polarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor, US symbol
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP SN7400
+D quad 2-input NAND gate
+K TTL nand 2-input
+$ENDCMP
+#
+$CMP SN7404
+D Hex Inverter
+K TTL not inv
+$ENDCMP
+#
+$CMP SN7407
+D hex buffer (open drain)
+K hex buffer
+$ENDCMP
+#
+$CMP SN7408
+D Quad And 2 inputs
+K CMOS And
+F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf
+$ENDCMP
+#
+$CMP SN7410
+D Triple 3-input NAND
+K TTL Nand3
+F http://www.ti.com/lit/gpn/sn74LS10
+$ENDCMP
+#
+$CMP SN7438
+D Quad 2-input NAND Open collector
+K TTL Nand2 OpenCol
+F http://www.ti.com/lit/gpn/sn74LS38
+$ENDCMP
+#
+$CMP SN7442
+D 4 to 10 line Decoder
+K TTL DECOD DECOD10
+$ENDCMP
+#
+$CMP SN7474
+D Dual D Flip-flop, Set & Reset
+K TTL DFF
+$ENDCMP
+#
+$CMP SN75108
+D DUAL LINE RECEIVER
+K line receiver
+$ENDCMP
+#
+$CMP SheetName
+D for hierarhical sheets
+F ~
+$ENDCMP
+#
+#End Doc Library
