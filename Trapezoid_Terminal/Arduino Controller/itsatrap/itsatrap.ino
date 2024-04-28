@@ -1,5 +1,8 @@
 /*
 
+case F works - https://discord.com/channels/700194611091472415/805549399475617833/1120986033346064427
+https://discord.com/channels/700194611091472415/805549399475617833/1120496376174891068
+
 BSYNC:  pin 7
 BDIR:    pin 6
 
@@ -228,6 +231,8 @@ uint8_t blen;
 //----------------------------------------------------
 
           case 'F':
+            Serial.write("Case F");
+            Serial.println();
             terminal_print(TERMINAL_ID, "hello world!\n");
 
               delay(100);
