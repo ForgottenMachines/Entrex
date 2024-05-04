@@ -87,7 +87,7 @@ struct terminal_t TERMINAL_FIFOS[MAX_TERMINALS];
 #define STATE_FLAG_2 0x20   //targets UF7A
 
 
-#define TERMINAL_ID 0x0a
+#define TERMINAL_ID 0x1a
 #define COMMAND_MODE  0
 #define ECHO_MODE     1
 
@@ -139,6 +139,11 @@ void setup() {
   term_init();
 
   Serial.println("boot");
+
+  terminal_print(TERMINAL_ID, " "
+                              "    Annual 'Last' CHICAGO CoCoFEST!     "
+                              "         May 4th and 5th 2024           "
+                              "      MAY THE FOURTH BE WITH YOU!       ");
 
 }
 
@@ -277,7 +282,51 @@ uint8_t blen;
             delay(500);
           }
           break;        
-            
+        
+        case 'I':
+          Serial.write("Case I");
+          Serial.println();
+          // terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
+          // delay(1);
+          // term_write_lowlevel('A');
+          // term_bsync();
+          // delay(5);
+
+          term_write_lowlevel('L');
+          delay(50);
+          digitalWrite(BSYNC_PIN, HIGH);
+          delay(1);
+          terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
+          delay(1);
+          digitalWrite(BSYNC_PIN, LOW);
+          delay(50);
+          break;
+
+        case 'J':
+          Serial.write("Case J");
+          Serial.println();
+          // terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
+          // delay(1);
+          // term_write_lowlevel('A');
+          // term_bsync();
+          // delay(5);
+
+          term_write_lowlevel('M');
+          delay(50);
+          digitalWrite(BSYNC_PIN, HIGH);
+          delay(1);
+          terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
+          delay(1);
+          digitalWrite(BSYNC_PIN, LOW);
+          delay(50);
+
+          break;
+
+        case 'K':
+          terminal_print(TERMINAL_ID, "     Annual 'Last' CHICAGO CoCoFEST!     "
+                                       "         May 4th and 5th 2024           "
+                                       "      MAY THE FOURTH BE WITH YOU!       ");
+          break;
         }
       }
 
@@ -324,11 +373,20 @@ void terminal_putc(uint8_t terminal_id, uint8_t c){
     // Serial.print(c,HEX);
     // Serial.println(")");
     
-    terminal_attention(terminal_id, S_CHAR_TO_TERM);
-    delay(2);
+    // terminal_attention(terminal_id, S_CHAR_TO_TERM);
+    // delay(2);
+    // term_write_lowlevel(c);
+    // term_bsync();
+    // delay(2);    //might be able to yank this out   
+
     term_write_lowlevel(c);
-    term_bsync();
-    delay(2);    //might be able to yank this out   
+    delay(50);
+    digitalWrite(BSYNC_PIN, HIGH);
+    delay(1);
+    terminal_attention(terminal_id, S_CHAR_TO_TERM);
+    delay(1);
+    digitalWrite(BSYNC_PIN, LOW);
+    delay(50);
 }
 
 bool terminal_attention(uint8_t terminal_id, uint8_t command){
@@ -392,7 +450,14 @@ void term_init(){
   pinMode(BDIR_PIN, INPUT_PULLUP);
 
   sync_bitcounter();
-  term_bsync();
+  //term_bsync();
+
+  digitalWrite(BSYNC_PIN, HIGH);
+  delay(1);
+  terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
+  delay(1);
+  digitalWrite(BSYNC_PIN, LOW);
+  delay(50);
 }
 
 
@@ -410,8 +475,9 @@ void term_magic(uint8_t terminal_id, uint8_t command, uint8_t arg){
 
 
 uint8_t term_write_lowlevel(uint8_t word_0){
-
-  return  SPI.transfer16( (word_0 << 8) | 0x7f); //9 bit transfer hack seems to work ith the cards state machine without consequence
+  // was DDDDDDDD01111111
+  // 1DDDDDDDD0111111
+  return  SPI.transfer16( (word_0 << 7) | 0x803f); //9 bit transfer hack seems to work ith the cards state machine without consequence
   delay(4);  //will need tightening
 }
 
