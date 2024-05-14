@@ -146,9 +146,9 @@ void setup() {
                               "      MAY THE FOURTH BE WITH YOU!       ");
 
   delay(5000);
-  terminal_print(TERMINAL_ID,"\f");
+  terminal_print(TERMINAL_ID,"\e");
   delay(1000);
-  terminal_print(TERMINAL_ID,"Form Feed ASCII control code was sent.");
+  terminal_print(TERMINAL_ID,"Escape ASCII control code was sent.");
 }
 
 

@@ -145,10 +145,6 @@ void setup() {
                               "         May 4th and 5th 2024           "
                               "      MAY THE FOURTH BE WITH YOU!       ");
 
-  delay(5000);
-  terminal_print(TERMINAL_ID,"\f");
-  delay(1000);
-  terminal_print(TERMINAL_ID,"Form Feed ASCII control code was sent.");
 }
 
 
