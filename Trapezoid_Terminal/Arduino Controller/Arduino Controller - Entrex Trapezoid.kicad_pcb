@@ -10122,7 +10122,7 @@
   (gr_text "A15" (at 60.316 58.45 -90) (layer "F.SilkS") (tstamp 67b0c741-55ba-4370-b630-934ba15332ff)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Entrex {dblquote}Trapezoid{dblquote} Data/Terminal Interface" (at 51.181 64.262) (layer "F.SilkS") (tstamp 6f5c8041-7f8e-495f-abdc-e70f8eb0d053)
+  (gr_text "Entrex {dblquote}Trapezoid{dblquote} Data/Terminal Controller" (at 51.181 64.262) (layer "F.SilkS") (tstamp 6f5c8041-7f8e-495f-abdc-e70f8eb0d053)
     (effects (font (size 3 3) (thickness 0.5) bold) (justify left bottom))
   )
   (gr_text "~{BSYNC}\n" (at 143.764 82.677) (layer "F.SilkS") (tstamp 707a489c-b135-47a2-81ec-e5859f8f793c)
