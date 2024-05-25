@@ -145,13 +145,11 @@ void setup() {
                               "         May 4th and 5th 2024           "
                               "      MAY THE FOURTH BE WITH YOU!       ");
 
+  delay(5000);
+  terminal_print(TERMINAL_ID,"\e");
   delay(1000);
-  terminal_print(TERMINAL_ID,0x41);
-  delay(1000);
-  terminal_print(TERMINAL_ID,"   Was that an 'A'?");
+  terminal_print(TERMINAL_ID,"Escape ASCII control code was sent.");
 }
-
-
 
 
 
