@@ -386,13 +386,13 @@ void terminal_putc(uint8_t terminal_id, uint8_t c){
     // delay(2);    //might be able to yank this out   
 
     term_write_lowlevel(c);
-    delay(50);
+    delay(2);
     digitalWrite(BSYNC_PIN, HIGH);
     delay(1);
     terminal_attention(terminal_id, S_CHAR_TO_TERM);
     delay(1);
     digitalWrite(BSYNC_PIN, LOW);
-    delay(50);
+    delay(2);
 }
 
 bool terminal_attention(uint8_t terminal_id, uint8_t command){
