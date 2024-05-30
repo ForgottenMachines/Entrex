@@ -141,10 +141,6 @@ void setup() {
 
   terminal_print(TERMINAL_ID, " "
                               "Entrex 'Trapezoid' Data/Terminal Test   ");
-  delay(500);
-  term_write_lowlevel(0x41);
-  delay(500);
-  terminal_print(TERMINAL_ID,"   Was that an 'A'?  ");
 }
 
 
@@ -316,8 +312,9 @@ uint8_t blen;
           // term_write_lowlevel('A');
           // term_bsync();
           // delay(5);
-
-          term_write_lowlevel(0x41);
+for (i = 256; i > -1; i--) {
+          Serial.println(i);
+          term_write_lowlevel(i);
           delay(50);
           digitalWrite(BSYNC_PIN, HIGH);
           delay(1);
@@ -325,7 +322,7 @@ uint8_t blen;
           delay(1);
           digitalWrite(BSYNC_PIN, LOW);
           delay(50);
-
+};
           break;
 
         case 'K':
