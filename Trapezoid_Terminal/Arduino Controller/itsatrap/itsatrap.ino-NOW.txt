@@ -133,6 +133,7 @@ void setup() {
 
   Serial.begin(115200);
 
+
   memset(&TERMINAL_FIFOS,0,sizeof(TERMINAL_FIFOS));
 
   term_init();
@@ -140,12 +141,19 @@ void setup() {
   Serial.println("boot");
 
   terminal_print(TERMINAL_ID, " "
-                              "Entrex 'Trapezoid' Data/Terminal Test   ");
+                              "    Annual 'Last' CHICAGO CoCoFEST!     "
+                              "         May 4th and 5th 2024           "
+                              "      MAY THE FOURTH BE WITH YOU!       ");
+
   delay(500);
-  term_write_lowlevel(0x41);
+  terminal_print(TERMINAL_ID,0x41);
   delay(500);
-  terminal_print(TERMINAL_ID,"   Was that an 'A'?  ");
+  terminal_print(TERMINAL_ID,"   Was that an 'A'?");
 }
+
+
+
+
 
 
 void service_update(){
@@ -188,14 +196,6 @@ uint8_t blen;
 
   if(Serial.available()){
       switch(Serial.read()){ 
-          case 'x':
-            Serial.write("Case x\n");
-            Serial.write(0x41);
-            delay(5);
-            Serial.write("   Was that an 'A'? \n");
-            Serial.write(0x1b);
-          break;
-
           case 't': //define termid
             while (!Serial.available());
             id = Serial.read();
@@ -362,11 +362,13 @@ void terminal_println(uint8_t terminal_id, char * instr){
 
 void terminal_print(uint8_t terminal_id, char * instr){
 int e;
+
   terminal_send(terminal_id, instr, strlen(instr));
 }
 
 void terminal_send(uint8_t terminal_id, char * buff, uint16_t bufflen){
 int e;
+
   for(e=0;e<bufflen;e++){
     terminal_putc(terminal_id, buff[e]);
   }
