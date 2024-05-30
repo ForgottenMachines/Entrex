@@ -308,7 +308,7 @@ uint8_t blen;
           delay(50);
           break;
 
-        case 'J':
+        case 'j':
           Serial.write("Case J");
           Serial.println();
           // terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
@@ -317,7 +317,7 @@ uint8_t blen;
           // term_bsync();
           // delay(5);
 
-          term_write_lowlevel('M');
+          term_write_lowlevel(0x41);
           delay(50);
           digitalWrite(BSYNC_PIN, HIGH);
           delay(1);
