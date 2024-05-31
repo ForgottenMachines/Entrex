@@ -184,7 +184,7 @@ uint8_t blen;
 
   if(Serial.available()){
       switch(Serial.read()){ 
-          case 'x':
+          case 'X':
             Serial.write("Case x\n");
             Serial.write(0x41);
             delay(5);
@@ -192,7 +192,7 @@ uint8_t blen;
             Serial.write(0x1b);
           break;
 
-          case 't': //define termid
+          case 'T': //define termid
             while (!Serial.available());
             id = Serial.read();
             c = new_terminal(id);
@@ -219,7 +219,7 @@ uint8_t blen;
               }
             break;
 
-          case 'r': //recv (pc recv from terminal)
+          case 'R': //recv (pc recv from terminal)
             while (!Serial.available());
             id = get_idx_from_termid(Serial.read());
             readBufferFromFifo((fifo_t *)&TERMINAL_FIFOS[id].fifo_i,(char *) readbuff, (TERMINAL_FIFOS[i].fifo_i.fifotail - TERMINAL_FIFOS[i].fifo_i.fifohead + FIFO_SIZE) % FIFO_SIZE);
@@ -305,24 +305,72 @@ uint8_t blen;
           break;
 
         case 'j':
-          Serial.write("Case J");
+          Serial.println("Case j");  //how do we get a final backspace out of this, and keep the cursor like we do?  
           Serial.println();
-          // terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
-          // delay(1);
-          // term_write_lowlevel('A');
-          // term_bsync();
-          // delay(5);
-for (i = 256; i > -1; i--) {
-          Serial.println(i);
-          term_write_lowlevel(i);
-          delay(50);
-          digitalWrite(BSYNC_PIN, HIGH);
-          delay(1);
-          terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
-          delay(1);
-          digitalWrite(BSYNC_PIN, LOW);
-          delay(50);
+for (i = 206; i > 188; i--) {
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
 };
+          break;
+
+        case 'k':
+          Serial.println("Case k");
+          Serial.println();
+for (i = 189; i < 194; i++) {
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+};
+          break;
+
+
+        case 't':
+          Serial.println("Casel t for Cursor on Top Line");
+          send_asci_decimal(195);
+          break;
+
+        case 'l':
+          Serial.println("Casel l for 'guess'");
+i=187;
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          break;
+
+        case 'e':
+          Serial.println("Casel e for ≠");
+          send_asci_decimal(182);
+          break;
+
+        case 'c':
+          Serial.println("Casel c for ¢");
+          send_asci_decimal(184);
+          break;
+
+
+        case 'r':  //once works, unless the terminal is locked and then we have to do it twice, so might as well do it twice all the time
+          Serial.println("RESET!");
+          send_asci_decimal(164);
+          send_asci_decimal(164);
+          break;
+
+        case 'x':
+          Serial.println("XMISSION ERROR");
+          send_asci_decimal(163);
+          send_asci_decimal(163);
+          break;
+
+          case 'm':
+          for (i = 0; i < 255; i++) {
+            Serial.println(i);
+            delay(6);
+          };
           break;
 
         case 'K':
@@ -330,6 +378,12 @@ for (i = 256; i > -1; i--) {
                                        "         May 4th and 5th 2024           "
                                        "      MAY THE FOURTH BE WITH YOU!       ");
           break;
+        case 'J':
+        Serial.println("     I am the Entrex Trapezoid...       ");
+          terminal_print(TERMINAL_ID,  " "
+                                       "     I am the Entrex Trapezoid...       ");
+          break;
+
         }
       }
 
@@ -468,6 +522,17 @@ uint8_t arg = BEEP_CHARACTER;
   terminal_send(terminal_id, &arg, 1);
 }
 
+void send_asci_decimal(uint8_t asciiDecimal){
+          Serial.println(asciiDecimal);
+          term_write_lowlevel(asciiDecimal);
+          delay(50);
+          digitalWrite(BSYNC_PIN, HIGH);
+          delay(1);
+          terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
+          delay(1);
+          digitalWrite(BSYNC_PIN, LOW);
+          delay(50);
+}
 
 void term_magic(uint8_t terminal_id, uint8_t command, uint8_t arg){
   terminal_send(terminal_id, &command,1);
