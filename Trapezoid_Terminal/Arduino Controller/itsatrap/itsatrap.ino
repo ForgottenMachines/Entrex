@@ -466,6 +466,25 @@ for (i = 0; i < 128; i++) {
          break;
 
 
+        case 'q':
+for (i = 181; i < 209; i++) {
+          send_asci_decimal(164); //reset
+          send_asci_decimal(164);
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(169);  // cursor to leftmost cursor position
+          itoa(i,numberArray,10);
+          if (i < 10) { terminal_print(TERMINAL_ID, "00"); }
+          else if (i < 100) { terminal_print(TERMINAL_ID, "0"); }
+          terminal_print(TERMINAL_ID, numberArray);
+          terminal_print(TERMINAL_ID,  "  67890123456789012345678901234567890");
+          send_asci_decimal(192);
+          send_asci_decimal(i); 
+          delay(5000);
+};
+         break;
+
+
+
         case 'n':
         randNumber = random(10, 20);
           Serial.println(randNumber);
