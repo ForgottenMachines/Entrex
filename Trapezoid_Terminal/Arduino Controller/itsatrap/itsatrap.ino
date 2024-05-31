@@ -352,6 +352,14 @@ i=202;
           send_asci_decimal(169);
           break;
 
+        case 'B':
+          Serial.println("Case B for bb for Cursor below Bottom");
+i=203;
+          send_asci_decimal(i);
+          send_asci_decimal(169);
+          break;
+
+
         case 'm':
           Serial.println("Case m for middle");
 i=197;
