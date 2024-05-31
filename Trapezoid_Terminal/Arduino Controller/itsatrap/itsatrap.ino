@@ -82,6 +82,8 @@ typedef struct terminal_t{
 
 long randNumber;
 
+char numberArray[20];
+
 struct terminal_t TERMINAL_FIFOS[MAX_TERMINALS];
 
 #define STATE_FLAG_0 0x80
@@ -307,6 +309,24 @@ for (i = 188; i < 206; i++) {
 };
           break;
 
+          case '@':
+          Serial.println("Case @");
+i=192;
+          send_asci_decimal(i);
+          send_asci_decimal(64); 
+          //but this puts a full line of amprosands above line 1....or is it line 1?
+          break;
+
+          case '2':
+          Serial.println("Case 2");
+for (i = 192; i < 208; i++) {
+          send_asci_decimal(i);
+          send_asci_decimal(64); 
+};
+          //but this puts a full SCREEN of amprosands above line 1....or is it line 1?
+          break;
+
+
 //first byte is row, second byte is column?  
 //rows top to bottom:  192-203 (202 when last line won't display)
 //columns: 169-191 stays, 192-208 won't stay
@@ -316,6 +336,14 @@ i=192;
           send_asci_decimal(i);
           send_asci_decimal(169); //anything past 191 "wont' stay"
           break;
+
+        case '3':
+          Serial.println("Case 3 ");
+i=191;
+          send_asci_decimal(i);
+          send_asci_decimal(169); //anything past 191 "wont' stay"
+          break;
+
 
         case 'b':
           Serial.println("Case b for Cursor on Bottom Line position 34, but it doesn't stay");
@@ -343,11 +371,13 @@ i=189;
         case 'e':
           Serial.println("Case e for ≠");
           send_asci_decimal(182);
+          send_asci_decimal(28);
           break;
 
         case 'c':
           Serial.println("Case c for ¢");
           send_asci_decimal(184);
+          send_asci_decimal(30);
           break;
 
         case 'd':
@@ -394,7 +424,7 @@ i=189;
         Serial.println("     I am the Entrex Trapezoid...       ");
           send_asci_decimal(192);  // cursor to to top row
           send_asci_decimal(169);  // cursor to leftmost cursor position
-          terminal_print(TERMINAL_ID,  "01                                      "
+          terminal_print(TERMINAL_ID,  "01 - 67890123456789012345678901234567890"
                                        "02       1         2         3         4"
                                        "03 - 67890123456789012345678901234567890"
                                        "04       1         2         3         4"
@@ -408,16 +438,25 @@ i=189;
                                        "12 -   I am the Entrex Trapezoid...     ");
           send_asci_decimal(192);  // cursor to to top row
           send_asci_decimal(169);  // cursor to leftmost cursor position
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(170);  // cursor to leftmost cursor position
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(171);  // cursor to leftmost cursor position
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(172);  // cursor to leftmost cursor position
-
-//          send_asci_decimal(163); xmission error
-//          send_asci_decimal(163);
          break;
+
+        case 'P':
+        Serial.println("Case P");
+for (i = 0; i < 128; i++) {
+          send_asci_decimal(164); //reset
+          send_asci_decimal(164);
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(169);  // cursor to leftmost cursor position
+          itoa(i,numberArray,10);
+          if (i < 10) { terminal_print(TERMINAL_ID, "00"); }
+          else if (i < 100) { terminal_print(TERMINAL_ID, "0"); }
+          terminal_print(TERMINAL_ID, numberArray);
+          terminal_print(TERMINAL_ID, " - ");
+          send_asci_decimal(i); 
+          delay(300);
+};
+         break;
+
 
         case 'n':
         randNumber = random(10, 20);
@@ -425,9 +464,14 @@ i=189;
           delay(50);
         break;
 
+
+
 case 'i':
           Serial.println(Serial.read());
 break;
+
+
+
 
         }
       }
