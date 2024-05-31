@@ -80,6 +80,8 @@ typedef struct terminal_t{
   fifo_t    fifo_i;
 }terminal_t;
 
+long randNumber;
+
 struct terminal_t TERMINAL_FIFOS[MAX_TERMINALS];
 
 #define STATE_FLAG_0 0x80
@@ -130,6 +132,7 @@ uint8_t i;
 
 
 void setup() {
+  randomSeed(analogRead(0)); //for random number testing
 
   Serial.begin(115200);
 
@@ -285,29 +288,12 @@ uint8_t blen;
           }
           break;        
         
-        case 'I':
-          Serial.write("Case I");
-          Serial.println();
-          // terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
-          // delay(1);
-          // term_write_lowlevel('A');
-          // term_bsync();
-          // delay(5);
 
-          term_write_lowlevel('L');
-          delay(50);
-          digitalWrite(BSYNC_PIN, HIGH);
-          delay(1);
-          terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
-          delay(1);
-          digitalWrite(BSYNC_PIN, LOW);
-          delay(50);
-          break;
-
-        case 'j':
+        case 'j': // steps cursor from bottom up to top, and back a few spaces, and cursor stays
           Serial.println("Case j");  //how do we get a final backspace out of this, and keep the cursor like we do?  
           Serial.println();
-for (i = 206; i > 188; i--) {
+//for (i = 206; i > 188; i--) {
+for (i = 206; i > 201; i--) {
           send_asci_decimal(i);
           send_asci_decimal(i);
           send_asci_decimal(i);
@@ -317,10 +303,11 @@ for (i = 206; i > 188; i--) {
 };
           break;
 
-        case 'k':
+        case 'k':  //steps cursor from top to bottom, but cursor doesn't stay
           Serial.println("Case k");
           Serial.println();
-for (i = 189; i < 194; i++) {
+//for (i = 188; i < 206; i++) {
+for (i = 192; i < 193; i++) {
           send_asci_decimal(i);
           send_asci_decimal(i);
           send_asci_decimal(i);
@@ -332,13 +319,25 @@ for (i = 189; i < 194; i++) {
 
 
         case 't':
-          Serial.println("Casel t for Cursor on Top Line");
-          send_asci_decimal(195);
+          Serial.println("Case t for Cursor on Top Line position 24, but it doesn't stay");
+i=192;
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
           break;
 
-        case 'l':
-          Serial.println("Casel l for 'guess'");
-i=187;
+        case 'b':
+          Serial.println("Case b for Cursor on Bottom Line position 34, but it doesn't stay");
+i=202;
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          break;
+
+
+        case 'l': 
+          Serial.println("Casel l  - relocates cursor to posotion 21 on the current line, and it stays there!");
+i=189;
           send_asci_decimal(i);
           send_asci_decimal(i);
           break;
@@ -358,6 +357,7 @@ i=187;
           Serial.println("RESET!");
           send_asci_decimal(164);
           send_asci_decimal(164);
+//          terminal_print(TERMINAL_ID,  "Screen cleared/reset with 164 twice ");
           break;
 
         case 'x':
@@ -383,6 +383,32 @@ i=187;
           terminal_print(TERMINAL_ID,  " "
                                        "     I am the Entrex Trapezoid...       ");
           break;
+
+        case 'L':
+          send_asci_decimal(164);
+          send_asci_decimal(164);
+        Serial.println("     I am the Entrex Trapezoid...       ");
+          terminal_print(TERMINAL_ID,  ""
+                                       "02       1         2         3         4"
+                                       "03 - 67890123456789012345678901234567890"
+                                       "04       1         2         3         4"
+                                       "05 - 67890123456789012345678901234567890"
+                                       "06       1         2         3         4"
+                                       "07 - 67890123456789012345678901234567890"
+                                       "08       1         2         3         4"
+                                       "09 - 67890123456789012345678901234567890"
+                                       "10       1         2         3         4"
+                                       "11 - 67890123456789012345678901234567890"
+                                       "12 -   I am the Entrex Trapezoid...     ");
+          send_asci_decimal(163);
+          send_asci_decimal(163);
+         break;
+
+        case 'n':
+        randNumber = random(10, 20);
+          Serial.println(randNumber);
+          delay(50);
+        break;
 
         }
       }
