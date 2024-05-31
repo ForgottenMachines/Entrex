@@ -292,7 +292,12 @@ uint8_t blen;
         case 'j': // steps cursor from bottom up to top, and back a few spaces, and cursor stays
           Serial.println("Case j");  //how do we get a final backspace out of this, and keep the cursor like we do?  
           Serial.println();
-for (i = 206; i > 188; i--) {
+//for (i = 206; i > 188; i--) {
+for (i = 206; i > 201; i--) {
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
           send_asci_decimal(i);
           send_asci_decimal(i);
 };
@@ -301,60 +306,51 @@ for (i = 206; i > 188; i--) {
         case 'k':  //steps cursor from top to bottom, but cursor doesn't stay
           Serial.println("Case k");
           Serial.println();
-for (i = 188; i < 206; i++) {
+//for (i = 188; i < 206; i++) {
+for (i = 192; i < 193; i++) {
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
           send_asci_decimal(i);
           send_asci_decimal(i);
 };
           break;
 
-//first byte is row, second byte is column?  
-//rows top to bottom:  192-203 (202 when last line won't display)
-//columns: 169-191 stays, 192-208 won't stay
+
         case 't':
           Serial.println("Case t for Cursor on Top Line position 24, but it doesn't stay");
 i=192;
           send_asci_decimal(i);
-          send_asci_decimal(169); //anything past 191 "wont' stay"
+          send_asci_decimal(i);
+          send_asci_decimal(i);
           break;
 
         case 'b':
           Serial.println("Case b for Cursor on Bottom Line position 34, but it doesn't stay");
 i=202;
           send_asci_decimal(i);
-          send_asci_decimal(169);
-          break;
-
-        case 'm':
-          Serial.println("Case m for middle");
-i=197;
           send_asci_decimal(i);
-          send_asci_decimal(169);
+          send_asci_decimal(i);
           break;
-
 
 
         case 'l': 
-          Serial.println("Case l  - relocates cursor to posotion 21 on the current line, and it stays there!");
+          Serial.println("Casel l  - relocates cursor to posotion 21 on the current line, and it stays there!");
 i=189;
           send_asci_decimal(i);
           send_asci_decimal(i);
           break;
 
         case 'e':
-          Serial.println("Case e for ≠");
+          Serial.println("Casel e for ≠");
           send_asci_decimal(182);
           break;
 
         case 'c':
-          Serial.println("Case c for ¢");
+          Serial.println("Casel c for ¢");
           send_asci_decimal(184);
           break;
-
-        case 'd':
-          Serial.println("Case d for DEL");
-          send_asci_decimal(127);
-          break;
-
 
 
         case 'r':  //once works, unless the terminal is locked and then we have to do it twice, so might as well do it twice all the time
@@ -370,7 +366,7 @@ i=189;
           send_asci_decimal(163);
           break;
 
-          case 'M':
+          case 'm':
           for (i = 0; i < 255; i++) {
             Serial.println(i);
             delay(6);
@@ -389,12 +385,10 @@ i=189;
           break;
 
         case 'L':
-          send_asci_decimal(164); //reset
+          send_asci_decimal(164);
           send_asci_decimal(164);
         Serial.println("     I am the Entrex Trapezoid...       ");
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(169);  // cursor to leftmost cursor position
-          terminal_print(TERMINAL_ID,  "01                                      "
+          terminal_print(TERMINAL_ID,  ""
                                        "02       1         2         3         4"
                                        "03 - 67890123456789012345678901234567890"
                                        "04       1         2         3         4"
@@ -406,17 +400,8 @@ i=189;
                                        "10       1         2         3         4"
                                        "11 - 67890123456789012345678901234567890"
                                        "12 -   I am the Entrex Trapezoid...     ");
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(169);  // cursor to leftmost cursor position
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(170);  // cursor to leftmost cursor position
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(171);  // cursor to leftmost cursor position
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(172);  // cursor to leftmost cursor position
-
-//          send_asci_decimal(163); xmission error
-//          send_asci_decimal(163);
+          send_asci_decimal(163);
+          send_asci_decimal(163);
          break;
 
         case 'n':
@@ -424,10 +409,6 @@ i=189;
           Serial.println(randNumber);
           delay(50);
         break;
-
-case 'i':
-          Serial.println(Serial.read());
-break;
 
         }
       }
