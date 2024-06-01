@@ -539,7 +539,7 @@ r = 203;
           send_asci_decimal(196);  //row
           send_asci_decimal(133);  //column
           terminal_print(TERMINAL_ID, "c=");
-for (i = 129; i < 160; i++) {
+for (i = 1; i < 32; i++) {
           send_asci_decimal(196);  //row
           send_asci_decimal(135);  //column
           itoa(i,numberArray,10);
@@ -548,7 +548,7 @@ for (i = 129; i < 160; i++) {
           terminal_print(TERMINAL_ID, numberArray);
           send_asci_decimal(r);
           send_asci_decimal(i); 
-          delay(500);
+          delay(1000);
 };
          break;
 
