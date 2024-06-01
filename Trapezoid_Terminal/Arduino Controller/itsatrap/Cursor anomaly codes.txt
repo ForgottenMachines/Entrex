@@ -7,23 +7,19 @@
 184 & 30
 
 
-00110110
-54
 
 
-160
-
-ee and 3e do not work
+160 scrolls! (and makes cursor disappear)
 
 
 
-00111110 3e
+//Address alternatives
 
-
-1E = normal
-9E = respond
-DE = respond
-FE = respond
-7E
-BE
-3E
+//1E = normal
+//9E = respond
+//DE = respond
+//FE = respond
+//7E = can get "PRINTER NOT READY"
+//BE = response
+//3E = can get "PRINTER NOT READY"
+//5E = normal?

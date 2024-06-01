@@ -94,6 +94,16 @@ struct terminal_t TERMINAL_FIFOS[MAX_TERMINALS];
 //#define TERMINAL_ID 0x1a
 #define TERMINAL_ID 0x5E
 /////////////SET TERMINAL ADDRESS HERE///////////////////////
+//Address alternatives
+
+//1E = normal
+//9E = respond
+//DE = respond
+//FE = respond
+//7E = no response
+//BE = response
+//3E = can get "PRINTER NOT READY"
+//5E = normal?
 
 #define COMMAND_MODE  0
 #define ECHO_MODE     1
@@ -342,9 +352,8 @@ for (i = 192; i < 208; i++) {
 //columns: 169-191 stays, 192-208 won't stay
         case 't':
           Serial.println("Case t for Cursor on Top Line position 24, but it doesn't stay");
-i=192;
-          send_asci_decimal(i);
-          send_asci_decimal(169); //anything past 191 "wont' stay"
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(160);  // cursor to leftmost cursor position
           break;
 
         case '3':
@@ -403,35 +412,9 @@ i=189;
           send_asci_decimal(127);
           break;
 
-          case 'w':
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(160);  // cursor to leftmost cursor position
-          
-i=65;          
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(160);  // cursor to leftmost cursor position
-i=7;          
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
-          send_asci_decimal(i);
+          case 'w':  //it locks the cursor but we don't know what it's trying to do
+          send_asci_decimal(162);
+//          send_asci_decimal(162);
           break;
 
 
@@ -465,6 +448,10 @@ i=7;
 
         case 'J':
         Serial.println("     I am the Entrex Trapezoid...       ");
+          send_asci_decimal(164); //reset
+          send_asci_decimal(164);
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(169);  // cursor to leftmost cursor position
           terminal_print(TERMINAL_ID,  " "
                                        "     I am the Entrex Trapezoid...       ");
           break;
@@ -508,42 +495,14 @@ for (i = 0; i < 128; i++) {
 };
          break;
 
-         case 's':
-          send_asci_decimal(164); //reset
-          send_asci_decimal(164);
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(129);  // cursor to leftmost cursor position
-          terminal_print(TERMINAL_ID,  "1234567890123456789012345678901234567890"
-                                       "2        1         2         3         4"
-                                       "3                                       "
-                                       "4                                       "
-                                       "5                                       "
-                                       "6                                       "
-                                       "7                                       "
-                                       "8                                       "
-                                       "9                                       "
-                                       "10       1         2         3         4"
-                                       "11  567890123456789012345678901234567890"
-                                       "12                                      ");
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(129);  // cursor to leftmost cursor position
-          delay(3000);
-          //send_asci_decimal(160);  //SCROLL
-          send_asci_decimal(128);  //zero column?
-          send_asci_decimal(128);  //zero column?
-          send_asci_decimal(128);  //zero column?
-          send_asci_decimal(128);  //zero column?
-          send_asci_decimal(128);  //zero column?
-          send_asci_decimal(128);  //zero column?
-          send_asci_decimal(128);  //zero column?
-          send_asci_decimal(128);  //zero column?
-          
+         case 's':   //SCROLL
+          send_asci_decimal(160);  //SCROLL
          break;
 
 
 //first byte is row, second byte is column?  
-//rows top to bottom:  192-203 (202 when last line won't display)
-//columns: 129-168 BUT 160, 163 and 164 error out
+//rows top to bottom:  192-203 
+//columns: 129-168 BUT 160, 163 and 164 error out and 128 goes to the last column of the previous line
 //previous thought on columns: 169-191 stays, 192-208 won't stay
 
         case 'q':
@@ -566,22 +525,43 @@ for (i = 0; i < 128; i++) {
           send_asci_decimal(195);  //row
           send_asci_decimal(133);  //column
           terminal_print(TERMINAL_ID, "r=");
-r = 203;
+for (r = 192; r < 204; r++) { // row
           itoa(r,numberArray,10);
+          send_asci_decimal(195);  //row
+          send_asci_decimal(135);  //column
           terminal_print(TERMINAL_ID, numberArray);
           send_asci_decimal(196);  //row
           send_asci_decimal(133);  //column
           terminal_print(TERMINAL_ID, "c=");
-for (i = 128; i < 169; i++) {
+for (i = 128; i < 169; i++) { // column but skip 160, 163 and 164 cuz they do something else
           send_asci_decimal(196);  //row
           send_asci_decimal(135);  //column
           itoa(i,numberArray,10);
           if (i < 10) { terminal_print(TERMINAL_ID, "00"); }
           else if (i < 100) { terminal_print(TERMINAL_ID, "0"); }
           terminal_print(TERMINAL_ID, numberArray);
+          
+if (i == 160) {
+  terminal_print(TERMINAL_ID, " - Skipped / INVALID");
+}
+else if (i == 162) {
+  terminal_print(TERMINAL_ID, " - Skipped / INVALID");
+}
+else if (i == 163) {
+  terminal_print(TERMINAL_ID, " - Skipped / INVALID");
+}
+else if (i == 164) {
+  terminal_print(TERMINAL_ID, " - Skipped / INVALID");
+}
+else {
+  if (i == 161) { terminal_print(TERMINAL_ID, "                    ");}
+  if (i == 165) { terminal_print(TERMINAL_ID, "                    ");}
           send_asci_decimal(r);
           send_asci_decimal(i); 
-          delay(1000);
+
+};
+          delay(350);
+};
 };
          break;
 

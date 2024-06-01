@@ -10658,7 +10658,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d7309c7e-f020-4b26-9825-12e8c3e5d513)
   )
-  (text "Request to send" (at 72.0131 236.474 0)
+  (text "Handshaking Line(s)" (at 68.58 236.855 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d7786157-6b20-47f0-982a-4fc0200d23c7)
   )
