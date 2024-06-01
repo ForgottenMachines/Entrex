@@ -92,7 +92,7 @@ struct terminal_t TERMINAL_FIFOS[MAX_TERMINALS];
 
 /////////////SET TERMINAL ADDRESS HERE///////////////////////
 //#define TERMINAL_ID 0x1a
-#define TERMINAL_ID 0x1e  
+#define TERMINAL_ID 0x5E
 /////////////SET TERMINAL ADDRESS HERE///////////////////////
 
 #define COMMAND_MODE  0
@@ -218,7 +218,7 @@ uint8_t blen;
             }
             break;
 
-          case 's': //send (pc send to terminal)
+          case 'S': //send (pc send to terminal)
             while (!Serial.available());
             id = get_idx_from_termid(Serial.read());
               while (!Serial.available());
@@ -450,7 +450,7 @@ i=7;
 
           case 'M':
           for (i = 0; i < 255; i++) {
-            Serial.println(i);
+            send_asci_decimal(i);
             delay(6);
           };
           break;
@@ -508,9 +508,42 @@ for (i = 0; i < 128; i++) {
 };
          break;
 
+         case 's':
+          send_asci_decimal(164); //reset
+          send_asci_decimal(164);
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+          terminal_print(TERMINAL_ID,  "1234567890123456789012345678901234567890"
+                                       "2        1         2         3         4"
+                                       "3                                       "
+                                       "4                                       "
+                                       "5                                       "
+                                       "6                                       "
+                                       "7                                       "
+                                       "8                                       "
+                                       "9                                       "
+                                       "10       1         2         3         4"
+                                       "11  567890123456789012345678901234567890"
+                                       "12                                      ");
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+          delay(3000);
+          //send_asci_decimal(160);  //SCROLL
+          send_asci_decimal(128);  //zero column?
+          send_asci_decimal(128);  //zero column?
+          send_asci_decimal(128);  //zero column?
+          send_asci_decimal(128);  //zero column?
+          send_asci_decimal(128);  //zero column?
+          send_asci_decimal(128);  //zero column?
+          send_asci_decimal(128);  //zero column?
+          send_asci_decimal(128);  //zero column?
+          
+         break;
+
+
 //first byte is row, second byte is column?  
 //rows top to bottom:  192-203 (202 when last line won't display)
-//columns: 129-168 
+//columns: 129-168 BUT 160, 163 and 164 error out
 //previous thought on columns: 169-191 stays, 192-208 won't stay
 
         case 'q':
@@ -539,7 +572,7 @@ r = 203;
           send_asci_decimal(196);  //row
           send_asci_decimal(133);  //column
           terminal_print(TERMINAL_ID, "c=");
-for (i = 1; i < 32; i++) {
+for (i = 128; i < 169; i++) {
           send_asci_decimal(196);  //row
           send_asci_decimal(135);  //column
           itoa(i,numberArray,10);

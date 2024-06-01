@@ -5,3 +5,25 @@
 10111000 ¢
 00011110 ¢
 184 & 30
+
+
+00110110
+54
+
+
+160
+
+ee and 3e do not work
+
+
+
+00111110 3e
+
+
+1E = normal
+9E = respond
+DE = respond
+FE = respond
+7E
+BE
+3E
