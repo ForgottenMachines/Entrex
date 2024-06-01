@@ -209,107 +209,7 @@ uint8_t blen;
 
   if(Serial.available()){
       switch(Serial.read()){ 
-          case 'X':
-            Serial.write("Case x\n");
-            Serial.write(0x41);
-            delay(5);
-            Serial.write("   Was that an 'A'? \n");
-            Serial.write(0x1b);
-          break;
 
-          case 'T': //define termid
-            while (!Serial.available());
-            id = Serial.read();
-            c = new_terminal(id);
-            if(c == -1){
-              Serial.write(0);  //fail
-            }else{
-              Serial.write(1);  //success
-            }
-            break;
-
-          case 'S': //send (pc send to terminal)
-            while (!Serial.available());
-            id = get_idx_from_termid(Serial.read());
-              while (!Serial.available());
-              blen = Serial.read();
-              if (blen <= sizeof(readbuff)){
-                if (id != -1 && blen <= (FIFO_SIZE - TERMINAL_FIFOS[id].fifo_o.fifohead + TERMINAL_FIFOS[id].fifo_o.fifotail) % FIFO_SIZE){ 
-                  Serial.write(0x01); //continue
-                  Serial.readBytes(readbuff, blen);                
-                  Serial.write(appendBufferToFifo((fifo_t *)&TERMINAL_FIFOS[id].fifo_o,(char *) readbuff, blen));
-                }else{
-                  Serial.write(0); //error
-                }
-              }
-            break;
-
-          case 'R': //recv (pc recv from terminal)
-            while (!Serial.available());
-            id = get_idx_from_termid(Serial.read());
-            readBufferFromFifo((fifo_t *)&TERMINAL_FIFOS[id].fifo_i,(char *) readbuff, (TERMINAL_FIFOS[i].fifo_i.fifotail - TERMINAL_FIFOS[i].fifo_i.fifohead + FIFO_SIZE) % FIFO_SIZE);
-            Serial.write(readbuff, (TERMINAL_FIFOS[i].fifo_i.fifotail - TERMINAL_FIFOS[i].fifo_i.fifohead + FIFO_SIZE) % FIFO_SIZE); //length
-            break;
-
-          case 'p': //poll
-            Serial.write(MAX_TERMINALS);
-            for(i=0;i<MAX_TERMINALS;i++){
-              Serial.write(TERMINAL_FIFOS[i].inuse);
-              Serial.write(TERMINAL_FIFOS[i].termid);
-              Serial.write((FIFO_SIZE - TERMINAL_FIFOS[i].fifo_o.fifohead + TERMINAL_FIFOS[i].fifo_o.fifotail) % FIFO_SIZE); //remaining
-              Serial.write((TERMINAL_FIFOS[i].fifo_i.fifotail - TERMINAL_FIFOS[i].fifo_i.fifohead + FIFO_SIZE) % FIFO_SIZE); //available
-            }
-            break;
-//----------------------------------------------------
-
-          case 'F':
-            Serial.write("Case F");
-            Serial.println();
-            terminal_print(TERMINAL_ID, "hello world!\n");
-
-              delay(100);
-              for(int i=0;i<0xff;i++){ 
-                if(isprint(i)){
-                  terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
-                    delay(2);
-                    term_write_lowlevel(i);
-                    term_bsync();
-                    delay(4); 
-                }
-              }  
-              terminal_print(TERMINAL_ID,"\n");            
-              delay(100);
-              for(int i=0;i<0xff;i++){ 
-                if(isprint(i)){
-                    terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
-                    delay(1);
-                    term_write_lowlevel(i);
-                    term_bsync();
-                    delay(5); 
-                }
-            }  
-            break;
-            
-        case 'G':
-          terminal_print(TERMINAL_ID, "hello world!\r\n\0");
-          terminal_print(TERMINAL_ID, "hello world!\n\0");
-          // for(int i=0;i<10;i++){
-          //   terminal_print(TERMINAL_ID, "\xa7");
-          //   delay(500);
-          // }
-          break;
-          
-        case 'H':
-          terminal_print(TERMINAL_ID, "hello world!\r\n");
-          terminal_print(TERMINAL_ID, "hello world!\xA8");
-          terminal_print(TERMINAL_ID, "hello world!\n");
-          
-          for(int i=0;i<10;i++){
-            terminal_print(TERMINAL_ID, "\xa9");
-            delay(500);
-          }
-          break;        
-        
 
         case 'j': // steps cursor from bottom up to top, and back a few spaces, and cursor stays
           Serial.println("Case j");  //how do we get a final backspace out of this, and keep the cursor like we do?  
@@ -566,7 +466,6 @@ else {
          break;
 
 
-
         case 'n':
         randNumber = random(10, 20);
           Serial.println(randNumber);
@@ -574,11 +473,9 @@ else {
         break;
 
 
-
 case 'i':
           Serial.println(Serial.read());
 break;
-
 
 
 
