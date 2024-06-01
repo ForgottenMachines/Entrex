@@ -90,8 +90,11 @@ struct terminal_t TERMINAL_FIFOS[MAX_TERMINALS];
 #define S_CHAR_TO_TERM 0x40 
 #define STATE_FLAG_2 0x20   //targets UF7A
 
+/////////////SET TERMINAL ADDRESS HERE///////////////////////
+//#define TERMINAL_ID 0x1a
+#define TERMINAL_ID 0x1e  
+/////////////SET TERMINAL ADDRESS HERE///////////////////////
 
-#define TERMINAL_ID 0x1a
 #define COMMAND_MODE  0
 #define ECHO_MODE     1
 
@@ -144,8 +147,14 @@ void setup() {
 
   Serial.println("boot");
 
+
+  send_asci_decimal(164); //reset
+  send_asci_decimal(164);
   terminal_print(TERMINAL_ID, " "
-                              "Entrex 'Trapezoid' Data/Terminal Test   ");
+                              " Entrex 'Trapezoid' Data/Terminal Test  ");
+  send_asci_decimal(192);  // cursor to to top row
+  send_asci_decimal(169);  // cursor to leftmost cursor position
+  
 }
 
 
@@ -185,6 +194,7 @@ char readbuff[FIFO_SIZE];
 uint8_t c;
 uint8_t id;
 uint8_t i;
+uint8_t r;
 uint8_t blen;
 
   if(Serial.available()){
@@ -380,7 +390,7 @@ i=189;
           Serial.println("Case e for ≠");
           send_asci_decimal(182);
           send_asci_decimal(28);
-          break;
+                    break;
 
         case 'c':
           Serial.println("Case c for ¢");
@@ -393,6 +403,36 @@ i=189;
           send_asci_decimal(127);
           break;
 
+          case 'w':
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(160);  // cursor to leftmost cursor position
+          
+i=65;          
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(160);  // cursor to leftmost cursor position
+i=7;          
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          break;
 
 
         case 'r':  //once works, unless the terminal is locked and then we have to do it twice, so might as well do it twice all the time
@@ -416,10 +456,13 @@ i=189;
           break;
 
         case 'K':
+          send_asci_decimal(164); //reset
+          send_asci_decimal(164);
           terminal_print(TERMINAL_ID, "     Annual 'Last' CHICAGO CoCoFEST!     "
                                        "         May 4th and 5th 2024           "
                                        "      MAY THE FOURTH BE WITH YOU!       ");
           break;
+
         case 'J':
         Serial.println("     I am the Entrex Trapezoid...       ");
           terminal_print(TERMINAL_ID,  " "
@@ -465,21 +508,47 @@ for (i = 0; i < 128; i++) {
 };
          break;
 
+//first byte is row, second byte is column?  
+//rows top to bottom:  192-203 (202 when last line won't display)
+//columns: 129-168 
+//previous thought on columns: 169-191 stays, 192-208 won't stay
 
         case 'q':
-for (i = 181; i < 209; i++) {
           send_asci_decimal(164); //reset
           send_asci_decimal(164);
           send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(169);  // cursor to leftmost cursor position
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+          terminal_print(TERMINAL_ID,  "1234567890123456789012345678901234567890"
+                                       "2        1         2         3         4"
+                                       "3                                       "
+                                       "4                                       "
+                                       "5                                       "
+                                       "6                                       "
+                                       "7                                       "
+                                       "8                                       "
+                                       "9                                       "
+                                       "10       1         2         3         4"
+                                       "11  567890123456789012345678901234567890"
+                                       "12                                      ");
+          send_asci_decimal(195);  //row
+          send_asci_decimal(133);  //column
+          terminal_print(TERMINAL_ID, "r=");
+r = 203;
+          itoa(r,numberArray,10);
+          terminal_print(TERMINAL_ID, numberArray);
+          send_asci_decimal(196);  //row
+          send_asci_decimal(133);  //column
+          terminal_print(TERMINAL_ID, "c=");
+for (i = 129; i < 160; i++) {
+          send_asci_decimal(196);  //row
+          send_asci_decimal(135);  //column
           itoa(i,numberArray,10);
           if (i < 10) { terminal_print(TERMINAL_ID, "00"); }
           else if (i < 100) { terminal_print(TERMINAL_ID, "0"); }
           terminal_print(TERMINAL_ID, numberArray);
-          terminal_print(TERMINAL_ID,  "  67890123456789012345678901234567890");
-          send_asci_decimal(192);
+          send_asci_decimal(r);
           send_asci_decimal(i); 
-          delay(5000);
+          delay(500);
 };
          break;
 
