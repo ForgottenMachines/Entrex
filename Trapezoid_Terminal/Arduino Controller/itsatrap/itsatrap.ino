@@ -92,7 +92,7 @@ struct terminal_t TERMINAL_FIFOS[MAX_TERMINALS];
 
 /////////////SET TERMINAL ADDRESS HERE///////////////////////
 //#define TERMINAL_ID 0x1a
-#define TERMINAL_ID 0x5E
+#define TERMINAL_ID 0x5e
 /////////////SET TERMINAL ADDRESS HERE///////////////////////
 //Address alternatives
 
@@ -100,7 +100,7 @@ struct terminal_t TERMINAL_FIFOS[MAX_TERMINALS];
 //9E = respond
 //DE = respond
 //FE = respond
-//7E = no response
+//7E = can get "PRINTER NOT READY"
 //BE = response
 //3E = can get "PRINTER NOT READY"
 //5E = normal?
@@ -332,7 +332,12 @@ i=189;
           break;
 
           case 'M':
-          for (i = 0; i < 255; i++) {
+          Serial.println("RESET!");
+          send_asci_decimal(164);
+          send_asci_decimal(164);
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+          for (i = 1; i < 255; i++) {
             send_asci_decimal(i);
             delay(6);
           };
