@@ -15816,6 +15816,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dd885edb-dc95-4fe7-805e-9d9139637a90)
   )
+  (label "DPLX sw CG2" (at 128.27 151.13 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dd95d45a-e124-4583-b8cc-a2ddbdfa72af)
+  )
   (label "u15_8" (at 213.995 34.29 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid dd987973-9a2d-4b14-8bf5-c6400241712e)
@@ -20058,7 +20062,7 @@
     (pin "14" (uuid 4a9e58de-9ebb-444a-ae5e-19b106e190df))
     (pin "7" (uuid 65c0e6ab-34d2-464e-9b87-6e1a1a64a89b))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB6") (unit 5)
         )
@@ -20087,7 +20091,7 @@
     (pin "1" (uuid 816cfb9e-e7aa-41b1-b5ed-ad8db4196257))
     (pin "2" (uuid cecbefde-f97b-4aed-b7dd-1943bddffcab))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C1") (unit 1)
         )
@@ -20112,7 +20116,7 @@
     )
     (pin "1" (uuid 8502fe4c-9114-4cb2-8252-4521048ff149))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR031") (unit 1)
         )
@@ -20137,7 +20141,7 @@
     )
     (pin "1" (uuid 2ef76f08-fcc2-4fea-826f-139d784cd8ab))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR023") (unit 1)
         )
@@ -20166,7 +20170,7 @@
     (pin "1" (uuid 63e6bcdc-a45a-4355-81bb-1bed9e925ecb))
     (pin "2" (uuid 1b269593-21e6-44ba-b9f2-9a3aaa25bede))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C26") (unit 1)
         )
@@ -20191,7 +20195,7 @@
     )
     (pin "1" (uuid 828c0d9e-daa0-47be-9095-433a59fb6bb2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR077") (unit 1)
         )
@@ -20216,7 +20220,7 @@
     )
     (pin "1" (uuid 8e62549c-52ff-4d43-8236-8ec248b98513))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR090") (unit 1)
         )
@@ -20245,7 +20249,7 @@
     (pin "1" (uuid a2eea26f-9e08-4d46-9bf4-4a8b6b86b6ad))
     (pin "2" (uuid b13f8434-69f9-4934-a8ce-eb0c63321651))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C22") (unit 1)
         )
@@ -20283,7 +20287,7 @@
     (pin "14" (uuid bc0c58c4-dc82-4c4b-b405-4190745b2cc5))
     (pin "7" (uuid b4de87f3-a715-45f4-b0fe-1ca7cca63eb1))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC8") (unit 2)
         )
@@ -20308,7 +20312,7 @@
     )
     (pin "1" (uuid 02f6e8b7-8692-4674-b7c0-4bfcb10beb48))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0132") (unit 1)
         )
@@ -20346,7 +20350,7 @@
     (pin "12" (uuid 118498a2-dbaa-4e47-a7cc-050eb74ec264))
     (pin "13" (uuid 7531e012-4227-4692-ade1-7891c89f87c7))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE2") (unit 1)
         )
@@ -20371,7 +20375,7 @@
     )
     (pin "1" (uuid e5055883-76c0-473e-bc8e-c3f64f71de99))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR036") (unit 1)
         )
@@ -20397,7 +20401,7 @@
     (pin "1" (uuid 46f46921-9db0-422d-b70a-ba424d34ca54))
     (pin "2" (uuid 59706076-72c6-444b-a703-416434f1cec6))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "D1") (unit 1)
         )
@@ -20422,7 +20426,7 @@
     )
     (pin "1" (uuid a0684aee-1deb-4165-ac31-1b0590f4fcad))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR086") (unit 1)
         )
@@ -20460,7 +20464,7 @@
     (pin "12" (uuid 5d01d813-afde-4ffe-861b-6a8f8f98e969))
     (pin "13" (uuid 7e1b4291-3ed3-41be-8604-c67fc4e2061c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE2") (unit 4)
         )
@@ -20489,7 +20493,7 @@
     (pin "1" (uuid 5b6b2152-6c77-493c-89d5-f402ff83957f))
     (pin "2" (uuid 321afd4f-65fb-4426-a0bf-68edef5e4c6c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C12") (unit 1)
         )
@@ -20527,7 +20531,7 @@
     (pin "14" (uuid 9ede8eab-ce31-4b84-92d1-9365a99b4fbc))
     (pin "7" (uuid 3def8a0f-dc0c-4b2a-aeab-6b2645407ceb))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA7") (unit 3)
         )
@@ -20565,7 +20569,7 @@
     (pin "14" (uuid b0795af5-66a7-466a-b5e0-466309012e29))
     (pin "7" (uuid 197fca65-4a8c-43f5-bec5-31d074611d9e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF5") (unit 1)
         )
@@ -20590,7 +20594,7 @@
     )
     (pin "1" (uuid 2a3e1e91-0edf-4b26-9c23-e7145db59760))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR059") (unit 1)
         )
@@ -20626,7 +20630,7 @@
     (pin "13" (uuid 2e240379-3521-41bc-9326-fee7c2fa87ef))
     (pin "14" (uuid 7155c1cc-fad9-4829-aed9-6ab2ba8ce230))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF1") (unit 2)
         )
@@ -20664,7 +20668,7 @@
     (pin "14" (uuid 1501f4b0-4095-44cf-9e11-b868d4b15ecd))
     (pin "7" (uuid 45a86a9c-6b7d-4c72-9785-56bb36200cf2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF6") (unit 2)
         )
@@ -20689,7 +20693,7 @@
     )
     (pin "1" (uuid 81c4270f-e03c-40f4-b937-bbf5fd9f4513))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR053") (unit 1)
         )
@@ -20714,7 +20718,7 @@
     )
     (pin "1" (uuid b486329e-9991-47da-90ed-010ecdd1ccdd))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0183") (unit 1)
         )
@@ -20739,7 +20743,7 @@
     )
     (pin "1" (uuid 106fbdb0-424c-47f3-a302-234f0615be44))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR095") (unit 1)
         )
@@ -20764,7 +20768,7 @@
     )
     (pin "1" (uuid 9c8fd960-d98b-4bef-b5d7-8def459c9e66))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR045") (unit 1)
         )
@@ -20789,7 +20793,7 @@
     )
     (pin "1" (uuid 19b6d508-e8ac-40ec-8e97-9d27fed98c17))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0140") (unit 1)
         )
@@ -20818,7 +20822,7 @@
     (pin "1" (uuid ecc827f6-3184-4518-9b1a-ff801da490f4))
     (pin "2" (uuid 1efc2c08-a49d-4020-a0e1-0930a62999da))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C2") (unit 1)
         )
@@ -20847,7 +20851,7 @@
     (pin "1" (uuid bd2a668e-b188-4d2c-87fb-ce7b10f0aef6))
     (pin "2" (uuid 5bb44094-5a81-4e2e-8307-d74da3c4925a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C17") (unit 1)
         )
@@ -20885,7 +20889,7 @@
     (pin "14" (uuid 5a4c4726-8c61-463d-a86f-5569f6847487))
     (pin "7" (uuid 40a3b971-0acf-4f85-8573-483feff94da1))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB7") (unit 6)
         )
@@ -20910,7 +20914,7 @@
     )
     (pin "1" (uuid 65ded3da-16a7-44bc-b93e-23395af6b0ba))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR091") (unit 1)
         )
@@ -20935,7 +20939,7 @@
     )
     (pin "1" (uuid 3f4a729f-1833-4d7c-aa6f-39e612e61bd8))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0178") (unit 1)
         )
@@ -20960,7 +20964,7 @@
     )
     (pin "1" (uuid 0229fde5-d262-4343-8184-addf5e863edb))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0115") (unit 1)
         )
@@ -20985,7 +20989,7 @@
     )
     (pin "1" (uuid 91b55bbb-da51-4cad-a0b3-6ffdb9a3e7be))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0131") (unit 1)
         )
@@ -21023,7 +21027,7 @@
     (pin "12" (uuid f530c699-b9c0-4f5f-be40-d1fa423f8667))
     (pin "13" (uuid 8429d1c5-b1ce-434a-8499-9a6599463f66))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE2") (unit 2)
         )
@@ -21048,7 +21052,7 @@
     )
     (pin "1" (uuid 6bf5b6c6-f691-4d7f-b53a-e02d349ff7c1))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR032") (unit 1)
         )
@@ -21086,7 +21090,7 @@
     (pin "14" (uuid 7b05d973-3d90-4d9a-b1cc-657d0772be61))
     (pin "7" (uuid 15511cfb-cedf-4638-8bfc-31521be222bc))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF5") (unit 2)
         )
@@ -21111,7 +21115,7 @@
     )
     (pin "1" (uuid afad8c6c-45d0-4213-8e4d-03cc5cc9c32f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR057") (unit 1)
         )
@@ -21149,7 +21153,7 @@
     (pin "14" (uuid 7f9b9386-6c80-4a4c-95bf-1bf04e42cd0b))
     (pin "7" (uuid 2b866b51-03f3-4538-9180-dc02141043a9))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF3") (unit 1)
         )
@@ -21187,7 +21191,7 @@
     (pin "14" (uuid 66bf5bf0-20bb-4301-80a7-0ddb7a31cb0e))
     (pin "7" (uuid 7a34698d-de37-4100-a58e-31e2cd6562bc))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD8") (unit 4)
         )
@@ -21212,7 +21216,7 @@
     )
     (pin "1" (uuid 9cec09e1-5850-4a1d-85c6-483189c1d250))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0148") (unit 1)
         )
@@ -21237,7 +21241,7 @@
     )
     (pin "1" (uuid 180bc584-79a1-4f2e-925e-2c9deb9d334a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR033") (unit 1)
         )
@@ -21262,7 +21266,7 @@
     )
     (pin "1" (uuid 63bdf448-eac7-443d-9fcb-8db5ade51850))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0211") (unit 1)
         )
@@ -21318,7 +21322,7 @@
     (pin "1" (uuid 46cbfe87-3a0e-4181-af37-1299604ade87))
     (pin "2" (uuid 2cbd2237-2a1e-43af-a5c5-536a317f294d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R4") (unit 1)
         )
@@ -21358,7 +21362,7 @@
     (pin "8" (uuid 2a96d88d-9c3b-4857-8c5d-a25d3bc0af59))
     (pin "9" (uuid e1b3dd93-1869-435c-b947-7e1452991002))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA4") (unit 1)
         )
@@ -21414,7 +21418,7 @@
     (pin "1" (uuid 72323c64-d4c2-4a16-9013-3ce38f0e31f6))
     (pin "2" (uuid 345e2c8a-5751-47e4-b0df-3436c6154b0d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R20") (unit 1)
         )
@@ -21470,7 +21474,7 @@
     (pin "1" (uuid 68671e43-a879-4a3c-bdfe-fe2b6c09095b))
     (pin "2" (uuid 373759a0-f46d-41cd-9b97-da69766535fa))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R5") (unit 1)
         )
@@ -21495,7 +21499,7 @@
     )
     (pin "1" (uuid 7bfda628-307e-4d61-ac4a-1a21dbf1b711))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0123") (unit 1)
         )
@@ -21551,7 +21555,7 @@
     (pin "1" (uuid ebe2446e-fb3e-428f-82fb-3880d15bfad7))
     (pin "2" (uuid 5f81503a-5c83-4a17-958e-a6e6600b5902))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R101") (unit 1)
         )
@@ -21576,7 +21580,7 @@
     )
     (pin "1" (uuid 601a0db1-d619-4d4b-8da6-c9f5ac3e8e79))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR035") (unit 1)
         )
@@ -21601,7 +21605,7 @@
     )
     (pin "1" (uuid 0c1a054f-b6fe-415f-95f4-5a372abb730d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0125") (unit 1)
         )
@@ -21626,7 +21630,7 @@
     )
     (pin "1" (uuid bcb596b8-57a1-4efd-8a48-cd2c938c61c6))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0191") (unit 1)
         )
@@ -21651,7 +21655,7 @@
     )
     (pin "1" (uuid ccb9b966-4c75-4406-b8e4-b559b1ff22f8))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0102") (unit 1)
         )
@@ -21689,7 +21693,7 @@
     (pin "14" (uuid 6cd7f480-48d7-42c4-b3d9-76a9ec2230dd))
     (pin "7" (uuid 80716a7f-dfa5-4b6c-be49-48a6d69c0fb6))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB5") (unit 1)
         )
@@ -21745,7 +21749,7 @@
     (pin "1" (uuid e6e54ae6-ed7c-4edb-be27-6d5c70567d60))
     (pin "2" (uuid a3bb334a-f1ec-48c0-a0ec-7d22e8fba7fc))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R6") (unit 1)
         )
@@ -21770,7 +21774,7 @@
     )
     (pin "1" (uuid 2154c663-bcc0-493c-a421-72cce84e7436))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0174") (unit 1)
         )
@@ -21808,7 +21812,7 @@
     (pin "14" (uuid 3391b508-072e-4b8c-b3bb-c0d894f9a345))
     (pin "7" (uuid a9de2601-5c98-466e-bf33-4fb8ab0bc014))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA8") (unit 2)
         )
@@ -21846,7 +21850,7 @@
     (pin "14" (uuid 79a1fde1-1112-45b4-b260-300ea9d07fb0))
     (pin "7" (uuid e2ba3feb-d147-4153-9c77-1763068d1943))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD8") (unit 1)
         )
@@ -21871,7 +21875,7 @@
     )
     (pin "1" (uuid 6cbd8080-fe52-42c9-9a09-358f048f6835))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR094") (unit 1)
         )
@@ -21896,7 +21900,7 @@
     )
     (pin "1" (uuid 6af9b422-9c88-405c-98ec-0538a29daa3c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR015") (unit 1)
         )
@@ -21921,7 +21925,7 @@
     )
     (pin "1" (uuid 29c5e615-cdf6-48d0-9b5d-a5cc88c1a3a5))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0105") (unit 1)
         )
@@ -21946,7 +21950,7 @@
     )
     (pin "1" (uuid 9e02af17-e063-4ee3-b641-171d61d627f1))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0143") (unit 1)
         )
@@ -22013,7 +22017,7 @@
     (pin "8" (uuid 1ed0e2a1-fbcf-4371-be64-144910a82e9f))
     (pin "9" (uuid 09efdde6-5d78-4e8f-ba85-300ce0abfed0))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE5") (unit 1)
         )
@@ -22051,7 +22055,7 @@
     (pin "14" (uuid bc067f24-3ed0-46c7-bfc0-b5a3ffb237d1))
     (pin "7" (uuid f2501afd-3257-4191-8de8-8b390c42d8b2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB7") (unit 1)
         )
@@ -22089,7 +22093,7 @@
     (pin "14" (uuid 055e9a68-1a85-4088-9610-dd52504aa385))
     (pin "7" (uuid 6c07d150-34df-42c5-8253-9db721833a6c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC2") (unit 4)
         )
@@ -22127,7 +22131,7 @@
     (pin "14" (uuid d6fb8385-e8e2-4512-8a70-2b48c26c9734))
     (pin "7" (uuid 15056f10-d3a6-4973-aa5e-ab8b3a658978))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD7") (unit 2)
         )
@@ -22152,7 +22156,7 @@
     )
     (pin "1" (uuid 484e2530-da13-4c99-a67d-11ac9e944a53))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR078") (unit 1)
         )
@@ -22177,7 +22181,7 @@
     )
     (pin "1" (uuid 78a813d5-e8b4-4732-b85d-45b858341523))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0156") (unit 1)
         )
@@ -22215,7 +22219,7 @@
     (pin "14" (uuid 1a05b876-d5b9-465b-a73f-16c472b06d9e))
     (pin "7" (uuid 332d557e-9d20-4956-b11a-182e51f4a205))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF3") (unit 4)
         )
@@ -22240,7 +22244,7 @@
     )
     (pin "1" (uuid 8859f98c-c390-446f-9287-92be37798b97))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0216") (unit 1)
         )
@@ -22265,7 +22269,7 @@
     )
     (pin "1" (uuid ca7ca3b3-7c78-4727-b410-68db6ff76d32))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR029") (unit 1)
         )
@@ -22290,7 +22294,7 @@
     )
     (pin "1" (uuid 333f4eb8-5fe4-4b3c-a113-aeab83dc2b4f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR096") (unit 1)
         )
@@ -22346,7 +22350,7 @@
     (pin "1" (uuid 3660bdde-4903-4cf1-b247-33819fbc3cfc))
     (pin "2" (uuid 22dfa0c8-5870-4cce-b0a1-7c40888d170c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R7") (unit 1)
         )
@@ -22371,7 +22375,7 @@
     )
     (pin "1" (uuid 456c23a5-fc49-4a41-a886-ecea0ccffb5b))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0135") (unit 1)
         )
@@ -22396,7 +22400,7 @@
     )
     (pin "1" (uuid ed244676-a1c4-40ae-a7d4-d245e8b8db51))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR09") (unit 1)
         )
@@ -22452,7 +22456,7 @@
     (pin "1" (uuid d3d1f274-c170-4cb1-8438-07fbe9d21d0a))
     (pin "2" (uuid 490b478a-2396-4431-895d-b2c012c10b5a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R18") (unit 1)
         )
@@ -22508,7 +22512,7 @@
     (pin "1" (uuid 102d336f-9ed1-45f0-bd3b-26bdd078b535))
     (pin "2" (uuid 256c4cbd-c1f9-4135-b705-75c403031035))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R22") (unit 1)
         )
@@ -22533,7 +22537,7 @@
     )
     (pin "1" (uuid 3f0d5fdf-4914-4053-ad3d-73b757b4fdf5))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0104") (unit 1)
         )
@@ -22558,7 +22562,7 @@
     )
     (pin "1" (uuid 27a71366-609a-442b-8dd3-3529b7af61d3))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0171") (unit 1)
         )
@@ -22596,7 +22600,7 @@
     (pin "14" (uuid c5469a81-3073-48c3-885b-1d334c73ea34))
     (pin "7" (uuid 6059d340-235e-44b2-8580-dfec7da6c8c0))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC8") (unit 3)
         )
@@ -22621,7 +22625,7 @@
     )
     (pin "1" (uuid e000c1d3-08b9-4b13-b244-6da930c0a42f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR02") (unit 1)
         )
@@ -22659,7 +22663,7 @@
     (pin "14" (uuid 5de98eea-19f0-46f8-b9ba-9324bc16ff41))
     (pin "7" (uuid 44df6edd-8cdf-4ada-9c60-8b866ca5873e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB7") (unit 2)
         )
@@ -22684,7 +22688,7 @@
     )
     (pin "1" (uuid 713b1374-a234-4b79-9954-1ac1841cfed6))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR024") (unit 1)
         )
@@ -22709,7 +22713,7 @@
     )
     (pin "1" (uuid 94aabcb8-9332-48cf-b68e-230c9c02e816))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0202") (unit 1)
         )
@@ -22749,7 +22753,7 @@
     (pin "8" (uuid 573d0b55-55f7-4352-8695-364f00547095))
     (pin "9" (uuid 72aa7839-4f11-47af-8669-cea9627d9f61))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA3") (unit 1)
         )
@@ -22774,7 +22778,7 @@
     )
     (pin "1" (uuid acb3a917-2e19-4ecf-8987-fc8432e3930f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR097") (unit 1)
         )
@@ -22812,7 +22816,7 @@
     (pin "14" (uuid de2c3591-d14a-4fbf-ae52-b9be5c69337e))
     (pin "7" (uuid 3657e8aa-2d3e-4409-96f4-cee19eadedbf))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD8") (unit 7)
         )
@@ -22837,7 +22841,7 @@
     )
     (pin "1" (uuid 5c423c17-d43e-451d-9fe4-f9ae444ee0fa))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR092") (unit 1)
         )
@@ -22862,7 +22866,7 @@
     )
     (pin "1" (uuid 48b02f49-b70e-483a-811d-7183a712d3ca))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0188") (unit 1)
         )
@@ -22891,7 +22895,7 @@
     (pin "1" (uuid 3b24ca94-6c44-407e-808f-eccba34e25de))
     (pin "2" (uuid d36ec740-fca3-4356-ad99-8ac4dc209998))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C3") (unit 1)
         )
@@ -22916,7 +22920,7 @@
     )
     (pin "1" (uuid ffd8cbf0-e3f2-4b18-9c96-4c2c5b2d3377))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR048") (unit 1)
         )
@@ -22954,7 +22958,7 @@
     (pin "12" (uuid 4dadb0dc-7cda-43fa-b029-8451f410a86c))
     (pin "13" (uuid dad1d4cf-1191-4a7b-93b2-b4cdf2535df2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE1") (unit 5)
         )
@@ -23010,7 +23014,7 @@
     (pin "1" (uuid e61701a4-563c-431a-acec-0568cec5d363))
     (pin "2" (uuid 51265c30-7dda-4170-adc9-608c8ca284ac))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R15") (unit 1)
         )
@@ -23035,7 +23039,7 @@
     )
     (pin "1" (uuid 29db30f6-e497-43eb-b7f5-b97b266a491c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0186") (unit 1)
         )
@@ -23073,7 +23077,7 @@
     (pin "14" (uuid e5f57299-1c4a-4c30-8313-65965c756ca2))
     (pin "7" (uuid 48fabab3-4872-4932-8f3a-35b3e2fdf831))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB7") (unit 3)
         )
@@ -23111,7 +23115,7 @@
     (pin "14" (uuid 26e841cd-a011-40bd-b753-d55f54f3c5ee))
     (pin "7" (uuid 574e9a14-214c-4376-9688-ada2d2e64be6))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC7") (unit 2)
         )
@@ -23136,7 +23140,7 @@
     )
     (pin "1" (uuid 141301fc-2107-4f2b-8f64-edd8237d9b9b))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0212") (unit 1)
         )
@@ -23161,7 +23165,7 @@
     )
     (pin "1" (uuid 2c2efbd4-c8eb-437f-99c3-6cf85c44127a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0217") (unit 1)
         )
@@ -23186,7 +23190,7 @@
     )
     (pin "1" (uuid 5fd949fb-fbb5-4290-8993-93bb7ab32dd0))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0177") (unit 1)
         )
@@ -23211,7 +23215,7 @@
     )
     (pin "1" (uuid ff005da8-3b7c-44af-bc17-c79e2562d3f3))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0203") (unit 1)
         )
@@ -23240,7 +23244,7 @@
     (pin "1" (uuid 27b5ee0a-e3fd-42c6-82aa-b8ca7252a72a))
     (pin "2" (uuid 97646759-fec1-4f22-8372-d9a9d38e42ac))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C28") (unit 1)
         )
@@ -23276,7 +23280,7 @@
     (pin "13" (uuid de729dac-5cbf-4094-82c5-096cef3ab423))
     (pin "14" (uuid 945a25a1-8465-4eea-802d-f8a25229313a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF1") (unit 1)
         )
@@ -23301,7 +23305,7 @@
     )
     (pin "1" (uuid 31553c3f-d59f-487d-9c7a-c1db22873a8f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR093") (unit 1)
         )
@@ -23326,7 +23330,7 @@
     )
     (pin "1" (uuid fd59adc9-cc81-43ef-9b99-4ef559b1c7f0))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR056") (unit 1)
         )
@@ -23351,7 +23355,7 @@
     )
     (pin "1" (uuid 2fef541a-76e5-4ff2-a638-c820b71d941f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0124") (unit 1)
         )
@@ -23376,7 +23380,7 @@
     )
     (pin "1" (uuid 8d7b0a29-1f3a-4d92-bad1-b97f248451aa))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0187") (unit 1)
         )
@@ -23401,7 +23405,7 @@
     )
     (pin "1" (uuid ef6e414c-81ca-4eac-ac1f-19696fef2270))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0181") (unit 1)
         )
@@ -23426,7 +23430,7 @@
     )
     (pin "1" (uuid a9bd683f-050d-4381-895e-d4f4c0a339b7))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR041") (unit 1)
         )
@@ -23464,7 +23468,7 @@
     (pin "14" (uuid ebc98102-11c4-404d-a212-538c04a50a7d))
     (pin "7" (uuid e5db91c6-05c1-4476-99c2-5694de72a446))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD7") (unit 3)
         )
@@ -23489,7 +23493,7 @@
     )
     (pin "1" (uuid 6bcab778-08b4-4eeb-8e8c-744f1523ba3d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0197") (unit 1)
         )
@@ -23518,7 +23522,7 @@
     (pin "1" (uuid cebbe030-01a0-4755-b6d6-55e8ba00e0ac))
     (pin "2" (uuid 259ed9a1-2f1e-4a5e-adef-e8d5fdb077f2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C14") (unit 1)
         )
@@ -23556,7 +23560,7 @@
     (pin "14" (uuid 5ea15267-c86b-4471-bd98-c993d0fca426))
     (pin "7" (uuid 28f8b530-8cfe-4193-a071-3f72ef138c96))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB8") (unit 3)
         )
@@ -23594,7 +23598,7 @@
     (pin "14" (uuid db00ec3d-3ae6-4921-b323-ea67f047bcd8))
     (pin "7" (uuid c8e766d2-22a9-4337-938e-f4cd6694ecfa))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA8") (unit 3)
         )
@@ -23619,7 +23623,7 @@
     )
     (pin "1" (uuid 1b8e9705-f1c5-4ede-b895-6a6ac69abbfc))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR076") (unit 1)
         )
@@ -23644,7 +23648,7 @@
     )
     (pin "1" (uuid 38ca1021-f605-4185-a0f7-6e9d2aadabe6))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR05") (unit 1)
         )
@@ -23682,7 +23686,7 @@
     (pin "12" (uuid 16793ed7-63c7-4db7-8e48-5bff684c227d))
     (pin "13" (uuid 0a2ae027-277d-417f-8dc3-7be032631c82))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD1") (unit 2)
         )
@@ -23707,7 +23711,7 @@
     )
     (pin "1" (uuid f15f2f59-4fb9-4ee2-9e0d-3286e3071afd))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0136") (unit 1)
         )
@@ -23763,7 +23767,7 @@
     (pin "1" (uuid b204c73c-2eff-418c-acf7-c28cac0ae7f4))
     (pin "2" (uuid 2edc9f40-4c2c-4a07-9f80-fdf5630bb583))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R21") (unit 1)
         )
@@ -23788,7 +23792,7 @@
     )
     (pin "1" (uuid cf111bac-e89e-4602-9c10-a0de63b61093))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0121") (unit 1)
         )
@@ -23813,7 +23817,7 @@
     )
     (pin "1" (uuid 01a059c2-7dab-456f-841e-43bda2857404))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR01") (unit 1)
         )
@@ -23851,7 +23855,7 @@
     (pin "14" (uuid 33c0747c-42ff-4757-8e23-87eabd73c8d0))
     (pin "7" (uuid 5dd5617d-8cff-4a69-82be-59f2ab944945))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE3") (unit 2)
         )
@@ -23876,7 +23880,7 @@
     )
     (pin "1" (uuid ae5544aa-f3fb-4675-9cc6-b2460ad79b85))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0159") (unit 1)
         )
@@ -23916,7 +23920,7 @@
     (pin "8" (uuid 29fc9ac4-d57d-4c41-995b-abbeb079466c))
     (pin "9" (uuid b4cceceb-0897-4295-9519-b4f848390655))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "SW1") (unit 1)
         )
@@ -23954,7 +23958,7 @@
     (pin "14" (uuid 84b56754-e150-4fc9-9e4c-7b2c63c2e505))
     (pin "7" (uuid 05820636-9513-4025-bcc3-05d07e7d9e87))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF2") (unit 1)
         )
@@ -23981,7 +23985,7 @@
     (pin "2" (uuid 7b749b6e-4606-4dff-8133-50bf6fadba5e))
     (pin "3" (uuid c3cfeb29-391a-4d76-a70a-5610c8439b34))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "DPLX_sw_SG1") (unit 1)
         )
@@ -24006,7 +24010,7 @@
     )
     (pin "1" (uuid 18d95701-d16d-46ea-a2cb-b969b9dda050))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0213") (unit 1)
         )
@@ -24031,7 +24035,7 @@
     )
     (pin "1" (uuid 028f50c9-bf96-436d-ba93-fe35f935a377))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0205") (unit 1)
         )
@@ -24056,7 +24060,7 @@
     )
     (pin "1" (uuid 8df14e8e-4768-4f68-a873-d5b780ed50d2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0208") (unit 1)
         )
@@ -24094,7 +24098,7 @@
     (pin "14" (uuid 06c82792-93e6-45d1-b5a0-c3caac364ea1))
     (pin "7" (uuid d92b1257-c67a-4db1-8583-41a82159f2a9))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC6") (unit 5)
         )
@@ -24134,7 +24138,7 @@
     (pin "8" (uuid 5e3f6960-cbdc-469b-bad9-2827cfa34d34))
     (pin "9" (uuid 5ba87e45-be2d-44b3-8418-b917a8afbc45))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE4") (unit 1)
         )
@@ -24163,7 +24167,7 @@
     (pin "1" (uuid cb5fcc4a-e50d-44a1-b846-58468a444e72))
     (pin "2" (uuid a11ab9c4-2c9a-4c9b-8a72-a7104d66cadf))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C5") (unit 1)
         )
@@ -24188,7 +24192,7 @@
     )
     (pin "1" (uuid b9dd901f-dbdd-416f-b14a-868eb40b48bc))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0113") (unit 1)
         )
@@ -24213,7 +24217,7 @@
     )
     (pin "1" (uuid d36adebc-1b7c-4dcf-a65d-7539d4fb67ac))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR064") (unit 1)
         )
@@ -24251,7 +24255,7 @@
     (pin "14" (uuid 8e981473-8e6c-4784-8e2e-91fe93542bfe))
     (pin "7" (uuid 3476c200-cdf3-472a-9be3-29d9bd46a9cf))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA7") (unit 4)
         )
@@ -24355,7 +24359,7 @@
     (pin "80" (uuid 2e30d913-d982-4633-b493-09dacd9bd30f))
     (pin "9" (uuid 9aa873d1-92bc-4364-b094-86628bdba65c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "P15") (unit 1)
         )
@@ -24391,7 +24395,7 @@
     (pin "14" (uuid 213a73f7-3c1d-481f-a5cc-3d028e93bf2c))
     (pin "7" (uuid 794b64c1-1586-43ab-a89e-b80f952ea4bb))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF7") (unit 2)
         )
@@ -24439,7 +24443,7 @@
     (pin "8" (uuid f109f5c1-b08c-4e93-bce7-ee548da02a2d))
     (pin "9" (uuid acf14bea-b7d4-40e7-a96a-ad943bb2f646))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA1") (unit 1)
         )
@@ -24477,7 +24481,7 @@
     (pin "14" (uuid 1696c1ee-e747-4249-9983-f3e9fbd2ef50))
     (pin "7" (uuid b14ee8fc-9f3e-4465-97e7-ff13f24883d6))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF4") (unit 3)
         )
@@ -24502,7 +24506,7 @@
     )
     (pin "1" (uuid e2b968b5-6201-4d87-9231-09e2e1180fdc))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR063") (unit 1)
         )
@@ -24540,7 +24544,7 @@
     (pin "14" (uuid e9e21f84-30e8-4db4-b9ea-4e91f4bda98d))
     (pin "7" (uuid 3a4642d5-679d-4604-b22a-e6f1b480f558))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA6") (unit 4)
         )
@@ -24565,7 +24569,7 @@
     )
     (pin "1" (uuid c4311e80-a396-4c44-91c3-9930464cc00d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0112") (unit 1)
         )
@@ -24590,7 +24594,7 @@
     )
     (pin "1" (uuid 6790e95c-5898-4a34-9630-c2514a14ba9d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR065") (unit 1)
         )
@@ -24619,7 +24623,7 @@
     (pin "1" (uuid 5e8b6a72-f518-44cc-9dd0-1a65c27638ae))
     (pin "2" (uuid cb2d260a-dc32-4142-83f2-c28647570f38))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C9") (unit 1)
         )
@@ -24644,7 +24648,7 @@
     )
     (pin "1" (uuid f5affe2c-9ff5-45f2-90e2-0da9c48dfa49))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR018") (unit 1)
         )
@@ -24680,7 +24684,7 @@
     (pin "13" (uuid 6569f4ab-e9b6-4637-a48b-bd8fa35a06a4))
     (pin "14" (uuid c9ef9dfb-5c8a-4328-a67f-f64452ad9579))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF1") (unit 4)
         )
@@ -24705,7 +24709,7 @@
     )
     (pin "1" (uuid b004266a-e791-42e0-bbc7-66b7bcaedc19))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR030") (unit 1)
         )
@@ -24734,7 +24738,7 @@
     (pin "1" (uuid 1c971651-2daa-4e90-b730-3dc55f5d3b5d))
     (pin "2" (uuid 597cefa8-56ba-410d-b027-62428412b299))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C27") (unit 1)
         )
@@ -24759,7 +24763,7 @@
     )
     (pin "1" (uuid ccf1206e-d3bb-4b15-a6d8-77e97c87bced))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0207") (unit 1)
         )
@@ -24797,7 +24801,7 @@
     (pin "14" (uuid 24ec65fc-46a2-4794-a46e-8e8cd679d5a0))
     (pin "7" (uuid 043d031d-c9f4-4d65-8f93-9713403fa6b9))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB8") (unit 4)
         )
@@ -24822,7 +24826,7 @@
     )
     (pin "1" (uuid 160b4f87-eda9-48d8-8864-4aeadfa5b374))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0201") (unit 1)
         )
@@ -24860,7 +24864,7 @@
     (pin "14" (uuid db6c31c9-68bf-4792-bc5f-c1e8949826b3))
     (pin "7" (uuid e6c331d8-0b00-470a-871a-60be3b52ff5d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF6") (unit 4)
         )
@@ -24898,7 +24902,7 @@
     (pin "14" (uuid 331a1398-24d4-4351-b2c6-a862775c3d66))
     (pin "7" (uuid e653dfcf-29da-4610-b667-e36aa305400c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD8") (unit 2)
         )
@@ -24923,7 +24927,7 @@
     )
     (pin "1" (uuid 18f6a64b-954a-4008-876b-72d0b6ea07e7))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR070") (unit 1)
         )
@@ -24961,7 +24965,7 @@
     (pin "12" (uuid bf47fe06-f44a-47f1-a0ee-2a90001ba152))
     (pin "13" (uuid a988c4ec-5eea-4d7e-a3e5-d6ed7ac52c7e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD1") (unit 4)
         )
@@ -24986,7 +24990,7 @@
     )
     (pin "1" (uuid 4fe65639-45e6-4f40-be77-e8fb718592f3))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR071") (unit 1)
         )
@@ -25026,7 +25030,7 @@
     (pin "7" (uuid a46eb63e-d676-47c5-bbd5-e43e6b76692b))
     (pin "9" (uuid 6159dd07-7a8f-459f-ac6e-69b04a8aad0e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE8") (unit 1)
         )
@@ -25066,7 +25070,7 @@
     (pin "13" (uuid 39d2dd12-7769-413c-b076-526f658c51ec))
     (pin "5" (uuid 2951f9d9-df9f-49cd-b076-3fc82e2ed324))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA5") (unit 1)
         )
@@ -25130,7 +25134,7 @@
     (pin "8" (uuid d492f8c0-76b8-446e-acc0-64a2346fa055))
     (pin "9" (uuid 4cf43c58-7a52-4741-ac2d-dd2076c52380))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE6") (unit 1)
         )
@@ -25168,7 +25172,7 @@
     (pin "14" (uuid 545aa5d5-518d-4cbb-a109-87d4d9be4fb7))
     (pin "7" (uuid 8492d72a-064b-435a-8349-0e6edc204839))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA6") (unit 3)
         )
@@ -25206,7 +25210,7 @@
     (pin "14" (uuid d97acdac-7fd9-43e5-9886-3de65214dc63))
     (pin "7" (uuid ebd640e1-0b34-4378-af73-d1bea0608841))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD7") (unit 4)
         )
@@ -25244,7 +25248,7 @@
     (pin "14" (uuid 4f5955ab-9a83-47e6-a0e8-ada469ca0b6b))
     (pin "7" (uuid 42e7f918-b9b5-4052-b4aa-c3ffabe8a901))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB7") (unit 7)
         )
@@ -25282,7 +25286,7 @@
     (pin "14" (uuid 2a3cb118-db4c-443b-8227-4807fd1286db))
     (pin "7" (uuid 2fbc9faa-702d-4b42-bf98-059e3f452279))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA6") (unit 2)
         )
@@ -25307,7 +25311,7 @@
     )
     (pin "1" (uuid 5727e59a-07fc-4ee2-a438-e7570dbd528d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR085") (unit 1)
         )
@@ -25332,7 +25336,7 @@
     )
     (pin "1" (uuid cebcc444-f21f-4256-b890-4f2a25bb134e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0190") (unit 1)
         )
@@ -25372,7 +25376,7 @@
     (pin "7" (uuid 4caa3c73-2fe4-4079-a2b1-a2fc0ed8987f))
     (pin "9" (uuid 03ccf64c-c949-483b-ae0d-4df6c776e1df))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB3") (unit 1)
         )
@@ -25408,7 +25412,7 @@
     (pin "14" (uuid 3d0001dc-da3d-46b6-9a9a-12c8e7fcf827))
     (pin "7" (uuid af998d00-b4b1-44d4-924a-3a7c816bf845))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF7") (unit 3)
         )
@@ -25446,7 +25450,7 @@
     (pin "14" (uuid 85425e01-cd2b-47e6-9586-ade03962174a))
     (pin "7" (uuid d3537837-a22f-4870-90e7-b3948671c20d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA6") (unit 1)
         )
@@ -25471,7 +25475,7 @@
     )
     (pin "1" (uuid e756cbf8-4fd3-473e-ba3a-1b1eddfe6a1b))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0149") (unit 1)
         )
@@ -25538,7 +25542,7 @@
     (pin "8" (uuid 1a0a2b9c-8ce5-48f2-bd69-4b02baaf9a95))
     (pin "9" (uuid d584c896-e2a8-4789-ae50-10631a3fd6e4))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC5") (unit 1)
         )
@@ -25563,7 +25567,7 @@
     )
     (pin "1" (uuid 216ee8ce-81e4-4694-a1cd-4f049185d248))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0111") (unit 1)
         )
@@ -25619,7 +25623,7 @@
     (pin "1" (uuid 9a74766a-1679-4e0c-a0cd-48a5fead351c))
     (pin "2" (uuid f69a3487-a686-43af-96fd-7e0ffa8500ce))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R19") (unit 1)
         )
@@ -25657,7 +25661,7 @@
     (pin "12" (uuid 6ae21f6d-72e5-4191-8adb-18db040ef9ab))
     (pin "13" (uuid f034f5cb-8fe0-4d5d-b2e5-2b7671d3110c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE1") (unit 2)
         )
@@ -25682,7 +25686,7 @@
     )
     (pin "1" (uuid 98a50111-926b-4981-8fd4-3e657ed00866))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR040") (unit 1)
         )
@@ -25720,7 +25724,7 @@
     (pin "14" (uuid 64c2c32b-6c06-483b-aa26-d3acfc42ea73))
     (pin "7" (uuid cfad1428-2ab3-439d-806d-af9c3c66eb68))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB5") (unit 3)
         )
@@ -25749,7 +25753,7 @@
     (pin "1" (uuid 3ee6580c-af2a-435f-b715-eecb6faca3b3))
     (pin "2" (uuid 35093d2d-2ad5-4fe9-93ff-3e0ebe159f8d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C10") (unit 1)
         )
@@ -25805,7 +25809,7 @@
     (pin "1" (uuid 19ecac30-3707-4971-8c2e-d2bebe52a819))
     (pin "2" (uuid 280642f9-76a8-40d2-bd78-1190d229497c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R8") (unit 1)
         )
@@ -25830,7 +25834,7 @@
     )
     (pin "1" (uuid bcf34159-cd36-4fa6-ab58-ccb67161368e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0196") (unit 1)
         )
@@ -25855,7 +25859,7 @@
     )
     (pin "1" (uuid e8f75f23-2360-44db-b2da-317459b132f6))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR034") (unit 1)
         )
@@ -25880,7 +25884,7 @@
     )
     (pin "1" (uuid 12b5ea36-0e26-42e0-884f-bcb5ec0d936c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR017") (unit 1)
         )
@@ -25936,7 +25940,7 @@
     (pin "1" (uuid 09f1e4a9-cde9-4d4c-addb-08fe0bc1462f))
     (pin "2" (uuid 93ff76a8-e011-4322-8f8a-19fb3720812f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R2") (unit 1)
         )
@@ -25961,7 +25965,7 @@
     )
     (pin "1" (uuid 1b696e0e-6d02-4ce0-a961-6483ce22d791))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0215") (unit 1)
         )
@@ -25986,7 +25990,7 @@
     )
     (pin "1" (uuid f00679d2-70e4-4da8-b7a3-dc81fb889023))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR080") (unit 1)
         )
@@ -26011,7 +26015,7 @@
     )
     (pin "1" (uuid 991f081a-1b10-4888-8e26-b66f443df1df))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0166") (unit 1)
         )
@@ -26051,7 +26055,7 @@
     (pin "13" (uuid 0c9a0d23-4a6e-463f-aa03-c0d28e5f20f7))
     (pin "5" (uuid f8368c9b-caf7-4559-8dde-20afebbf4872))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA5") (unit 2)
         )
@@ -26076,7 +26080,7 @@
     )
     (pin "1" (uuid 79586ffa-45cc-4f33-9305-2aa9941cd42d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR066") (unit 1)
         )
@@ -26101,7 +26105,7 @@
     )
     (pin "1" (uuid 6cb5cc1c-0c4c-44b8-90af-0062577494f2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0218") (unit 1)
         )
@@ -26157,7 +26161,7 @@
     (pin "1" (uuid 9d49c54b-c0f1-4535-a44a-33d04b48f080))
     (pin "2" (uuid e532551e-b4df-4554-9d4b-58a94627fd85))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R11") (unit 1)
         )
@@ -26195,7 +26199,7 @@
     (pin "14" (uuid 137b1c18-1569-49bf-bf75-9e61af0fed9a))
     (pin "7" (uuid 11530cca-0ae8-4e45-a0f7-16212ae84448))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC2") (unit 6)
         )
@@ -26233,7 +26237,7 @@
     (pin "14" (uuid c5849f08-0de2-4a58-9ec3-531d9fe8dfde))
     (pin "7" (uuid 7fa0e199-878e-459c-99c9-da7357b28303))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB5") (unit 2)
         )
@@ -26271,7 +26275,7 @@
     (pin "14" (uuid ed28360e-0b26-47c4-8d93-045694a723a2))
     (pin "7" (uuid d76e9528-379b-4c52-b7f2-ea34b75e5739))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE7") (unit 1)
         )
@@ -26296,7 +26300,7 @@
     )
     (pin "1" (uuid 7acf6070-2319-426a-814f-c184855c5941))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR087") (unit 1)
         )
@@ -26321,7 +26325,7 @@
     )
     (pin "1" (uuid 263b51da-4cd4-45b4-8610-3ee03983d2d1))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR08") (unit 1)
         )
@@ -26346,7 +26350,7 @@
     )
     (pin "1" (uuid 14eafefe-95f0-474e-8f01-6747dfaaf95a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR012") (unit 1)
         )
@@ -26371,7 +26375,7 @@
     )
     (pin "1" (uuid 89a16060-d38b-4cc9-91f8-6271dbb7e8cb))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR072") (unit 1)
         )
@@ -26396,7 +26400,7 @@
     )
     (pin "1" (uuid 125a7cc1-7c54-407d-a36b-161be3d84f68))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0180") (unit 1)
         )
@@ -26421,7 +26425,7 @@
     )
     (pin "1" (uuid ea6bd11f-ba51-454b-b865-948e40b4b414))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR020") (unit 1)
         )
@@ -26446,7 +26450,7 @@
     )
     (pin "1" (uuid a7b09aa9-b5f3-47f3-8480-784a1011d191))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0200") (unit 1)
         )
@@ -26471,7 +26475,7 @@
     )
     (pin "1" (uuid c240fe03-b98c-4f3c-902d-9f39f1da2081))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0128") (unit 1)
         )
@@ -26527,7 +26531,7 @@
     (pin "1" (uuid 0ec217ca-aa45-48b8-8c01-116c69c300d3))
     (pin "2" (uuid 729adebb-2e3a-406a-98e7-9c6c1de65b94))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R16") (unit 1)
         )
@@ -26565,7 +26569,7 @@
     (pin "14" (uuid c85cc591-8a24-4ed4-819c-fa67b95e523d))
     (pin "7" (uuid 3a753230-6175-4844-9832-dd240486fc18))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC2") (unit 3)
         )
@@ -26590,7 +26594,7 @@
     )
     (pin "1" (uuid 52c4198d-7786-4925-bb7a-cfc5d5708acc))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR026") (unit 1)
         )
@@ -26615,7 +26619,7 @@
     )
     (pin "1" (uuid d09ec817-1aae-4a64-9ba7-d88f1b785960))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0103") (unit 1)
         )
@@ -26640,7 +26644,7 @@
     )
     (pin "1" (uuid dad8412d-af28-437d-9e17-f56e142137f6))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0145") (unit 1)
         )
@@ -26678,7 +26682,7 @@
     (pin "14" (uuid d26a7985-682c-40f5-b216-630691283d12))
     (pin "7" (uuid dda6e66e-cf27-45b5-9238-58eb5cdbbc50))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB8") (unit 2)
         )
@@ -26703,7 +26707,7 @@
     )
     (pin "1" (uuid db86e4c0-f09d-4b62-861a-9aee103da361))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0127") (unit 1)
         )
@@ -26741,7 +26745,7 @@
     (pin "14" (uuid 7a395e0e-2015-4f22-89ff-bf86456a7000))
     (pin "7" (uuid e58e0c6c-12c7-4959-b9a4-175bed23c1ec))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF2") (unit 3)
         )
@@ -26766,7 +26770,7 @@
     )
     (pin "1" (uuid 97bd9385-5950-4036-8169-534026378193))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR047") (unit 1)
         )
@@ -26791,7 +26795,7 @@
     )
     (pin "1" (uuid 99065b10-0bcc-4041-9388-1c8fe779fcf3))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR019") (unit 1)
         )
@@ -26829,7 +26833,7 @@
     (pin "12" (uuid ff1d0a24-725d-431e-b376-8843f9cd7f7b))
     (pin "13" (uuid 6c81e977-2228-4094-a24d-d49d15b74e2c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE1") (unit 6)
         )
@@ -26854,7 +26858,7 @@
     )
     (pin "1" (uuid fcfcc35e-0e80-4d10-bdd2-9358b5389b7e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR061") (unit 1)
         )
@@ -26879,7 +26883,7 @@
     )
     (pin "1" (uuid 502bc1a5-2e3c-4c4f-928c-0fefece0794d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0147") (unit 1)
         )
@@ -26904,7 +26908,7 @@
     )
     (pin "1" (uuid 49d1b6d4-3fa0-45fb-8846-e127c46fc30a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR055") (unit 1)
         )
@@ -26929,7 +26933,7 @@
     )
     (pin "1" (uuid 61f88222-e5f0-4d38-934e-5c11ecf59560))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR051") (unit 1)
         )
@@ -26954,7 +26958,7 @@
     )
     (pin "1" (uuid 0eef97ad-7a06-4b56-b743-ff9e3cc5c199))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR07") (unit 1)
         )
@@ -26979,7 +26983,7 @@
     )
     (pin "1" (uuid 4b7b452f-246e-4397-92e3-e6043ba08e13))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR010") (unit 1)
         )
@@ -27004,7 +27008,7 @@
     )
     (pin "1" (uuid db2bfe5d-23db-4ca5-b880-d51ced777d50))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0182") (unit 1)
         )
@@ -27033,7 +27037,7 @@
     (pin "1" (uuid 959cbc72-6b81-4fb2-905d-45f9697f7c94))
     (pin "2" (uuid 3ce6e5d5-3f9a-4f72-acff-1c6bc4eda032))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C16") (unit 1)
         )
@@ -27071,7 +27075,7 @@
     (pin "14" (uuid 1ea4d2be-8edd-4bee-b72d-cd4bf4d063ee))
     (pin "7" (uuid cc6584f3-7ae3-4a92-ab99-3a79ee5decc3))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD8") (unit 5)
         )
@@ -27109,7 +27113,7 @@
     (pin "14" (uuid bd4ba74a-586e-4413-8717-269a731ca46e))
     (pin "7" (uuid f32c75a5-406c-4dae-a068-2973fc034353))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF6") (unit 1)
         )
@@ -27134,7 +27138,7 @@
     )
     (pin "1" (uuid 517fea58-6489-4811-a589-90de4b80a667))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR062") (unit 1)
         )
@@ -27198,7 +27202,7 @@
     (pin "8" (uuid 5b628c19-da29-4fb1-93e0-55f9ff517c0b))
     (pin "9" (uuid bbeb6240-8655-4623-8b7d-72e085cfac6f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD6") (unit 1)
         )
@@ -27236,7 +27240,7 @@
     (pin "14" (uuid 17b92f65-0247-46e6-9750-1abffd92b218))
     (pin "7" (uuid 47ceb0de-93a5-4bb1-9458-290f1a23f223))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE7") (unit 4)
         )
@@ -27274,7 +27278,7 @@
     (pin "14" (uuid db393ae6-3749-4756-8a87-39a5cb15a6f0))
     (pin "7" (uuid 231d3252-a1d4-478b-a95e-d337d0b6b296))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB7") (unit 5)
         )
@@ -27299,7 +27303,7 @@
     )
     (pin "1" (uuid 0df373e4-bb8e-4998-85d4-dec424ae21a1))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR084") (unit 1)
         )
@@ -27324,7 +27328,7 @@
     )
     (pin "1" (uuid 0c735d17-b2f2-4503-9738-463b71cb7e3a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0199") (unit 1)
         )
@@ -27364,7 +27368,7 @@
     (pin "7" (uuid fb59c6c0-1892-4b97-92fd-3ac547021fb5))
     (pin "9" (uuid f05c3033-4e35-4bcb-bd90-923f2acc44c4))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC3") (unit 1)
         )
@@ -27389,7 +27393,7 @@
     )
     (pin "1" (uuid 95d7ab33-e41e-4d6e-9862-a1202893f033))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR027") (unit 1)
         )
@@ -27414,7 +27418,7 @@
     )
     (pin "1" (uuid a8f19cd5-e3a9-4dfe-9e86-0abb22c6d24f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0168") (unit 1)
         )
@@ -27439,7 +27443,7 @@
     )
     (pin "1" (uuid 4c351580-04b9-4346-8423-91e32c6aff3a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0137") (unit 1)
         )
@@ -27477,7 +27481,7 @@
     (pin "14" (uuid f6ad7d8d-d821-465f-ae99-159fea9dd648))
     (pin "7" (uuid 71191666-ac3f-47d2-998c-b4076d7ab7ba))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC2") (unit 5)
         )
@@ -27502,7 +27506,7 @@
     )
     (pin "1" (uuid a13910c1-dbc7-4c35-a786-936c4d5bb56c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR038") (unit 1)
         )
@@ -27542,7 +27546,7 @@
     (pin "13" (uuid b2e9b5aa-8b6a-4862-a5c6-04fa62643575))
     (pin "5" (uuid 14581b30-09a6-46e3-bcdc-11b4a0fb6226))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA5") (unit 3)
         )
@@ -27567,7 +27571,7 @@
     )
     (pin "1" (uuid e35fc7cc-0eae-44f1-bfff-2606340ed027))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR028") (unit 1)
         )
@@ -27605,7 +27609,7 @@
     (pin "12" (uuid 57c66b70-88fa-4c76-9842-88bf0f0d51ea))
     (pin "13" (uuid 766766ae-f7bc-4751-8d99-de484d5397cb))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE2") (unit 5)
         )
@@ -27630,7 +27634,7 @@
     )
     (pin "1" (uuid 86218a1c-2520-4174-9e3a-1191db751d18))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0129") (unit 1)
         )
@@ -27668,7 +27672,7 @@
     (pin "14" (uuid 2c9187a5-6583-47bc-b056-7551da4241ad))
     (pin "7" (uuid 0a801b51-976a-46b3-9b47-d38d27428030))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF2") (unit 2)
         )
@@ -27706,7 +27710,7 @@
     (pin "14" (uuid 1aca4079-5044-4f8a-8028-a8297a5a5f73))
     (pin "7" (uuid 7a24c5a5-7b4b-4809-84e8-ea3c8fd90929))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF5") (unit 3)
         )
@@ -27731,7 +27735,7 @@
     )
     (pin "1" (uuid f3b478b7-5741-435b-a061-77f7e7ccfb84))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR021") (unit 1)
         )
@@ -27756,7 +27760,7 @@
     )
     (pin "1" (uuid f8af39ed-7986-468e-834b-4b953aa97182))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0107") (unit 1)
         )
@@ -27781,7 +27785,7 @@
     )
     (pin "1" (uuid 51ed0797-a278-4e5a-9636-8a5882ff1796))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0152") (unit 1)
         )
@@ -27837,7 +27841,7 @@
     (pin "1" (uuid 6da53d81-baef-4824-830f-9d56278f80a9))
     (pin "2" (uuid 99bc2553-fdcb-4bac-b300-73a60270c5d9))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R3") (unit 1)
         )
@@ -27866,7 +27870,7 @@
     (pin "1" (uuid cb1206b8-cd8f-4366-a4da-9e7e1c315694))
     (pin "2" (uuid 899354d9-cd3c-4e12-be18-0ec4ac46ff9b))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C23") (unit 1)
         )
@@ -27904,7 +27908,7 @@
     (pin "14" (uuid 062ce80b-3d41-4b0a-b7c2-f4e27513d758))
     (pin "7" (uuid cbba1d77-cffc-4583-8a6a-8356a7b2746d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC6") (unit 4)
         )
@@ -27942,7 +27946,7 @@
     (pin "14" (uuid 8ce4316c-a478-46fd-a40f-9cfc56d2f6a8))
     (pin "7" (uuid c89b8ae0-da3f-40f6-a4b4-4b94068bb63a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB7") (unit 4)
         )
@@ -27967,7 +27971,7 @@
     )
     (pin "1" (uuid 865828e1-0c3d-4e42-9644-b10cef168681))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0110") (unit 1)
         )
@@ -27992,7 +27996,7 @@
     )
     (pin "1" (uuid 5324649e-b785-44d4-8510-3cd44a0f30e5))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR042") (unit 1)
         )
@@ -28017,7 +28021,7 @@
     )
     (pin "1" (uuid b1679b6f-fb48-41c3-a007-3d4d69999976))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0106") (unit 1)
         )
@@ -28042,7 +28046,7 @@
     )
     (pin "1" (uuid 1d1b0ede-5185-4915-8c38-541d150214b3))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR037") (unit 1)
         )
@@ -28080,7 +28084,7 @@
     (pin "14" (uuid c897d87f-add4-4184-90f3-3e9d56783768))
     (pin "7" (uuid 3b1d9da9-45b5-4f22-8f0e-28ff9399d6a9))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB6") (unit 1)
         )
@@ -28109,7 +28113,7 @@
     (pin "1" (uuid dfbb37fb-9159-4fe5-9a88-38776a0ebaf9))
     (pin "2" (uuid b7b60c59-4f18-4bd5-bc04-4f3b34e7476d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C24") (unit 1)
         )
@@ -28134,7 +28138,7 @@
     )
     (pin "1" (uuid 0a972409-c8ea-4acf-b034-04e6c973ea91))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0193") (unit 1)
         )
@@ -28159,7 +28163,7 @@
     )
     (pin "1" (uuid 2f186364-5500-48b4-a4db-f5cc2408138a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0130") (unit 1)
         )
@@ -28197,7 +28201,7 @@
     (pin "14" (uuid 4d2abf31-dc8a-4a63-9f8e-99fd08950c52))
     (pin "7" (uuid e5c9216d-95c2-4173-ba3e-30dfd7524b31))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD7") (unit 5)
         )
@@ -28253,7 +28257,7 @@
     (pin "1" (uuid 3b7bb7b4-cd52-4097-9f63-a629bf68ab2c))
     (pin "2" (uuid 4e576ce2-700c-4cfd-a8be-da43a70451d1))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R12") (unit 1)
         )
@@ -28279,7 +28283,7 @@
     (pin "1" (uuid ff63f069-db37-4f8c-a12a-5fb5e23e3cb0))
     (pin "2" (uuid 9de8ff83-3bcf-4874-9697-6acec5151a91))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C18") (unit 1)
         )
@@ -28317,7 +28321,7 @@
     (pin "14" (uuid 7b262caa-6376-4802-a621-2a22db77ce4c))
     (pin "7" (uuid 5025f59e-9ca0-42b7-b3fe-6398b88d8236))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC6") (unit 1)
         )
@@ -28342,7 +28346,7 @@
     )
     (pin "1" (uuid 7ecc2738-ee6b-467f-b977-63d38afae276))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0155") (unit 1)
         )
@@ -28371,7 +28375,7 @@
     (pin "1" (uuid 9f09def9-9b17-46ea-b7bc-3846719dbc21))
     (pin "2" (uuid e9cabf82-725f-4e95-b210-17cfe1b4b3a2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C25") (unit 1)
         )
@@ -28409,7 +28413,7 @@
     (pin "14" (uuid ce0e807a-4c29-4fa1-9820-64e77f6b6597))
     (pin "7" (uuid 3c8ed9ab-ccf0-4159-b060-25de5ac0885d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB4") (unit 2)
         )
@@ -28447,7 +28451,7 @@
     (pin "14" (uuid a12470e1-ff11-4974-b0e3-fbc5ea6e736b))
     (pin "7" (uuid b8c10c3c-ae8d-44db-be7a-77aa77970714))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB6") (unit 2)
         )
@@ -28476,7 +28480,7 @@
     (pin "1" (uuid ae8151d8-d46f-4e9e-806d-5683df155f48))
     (pin "2" (uuid 4369f514-11b6-4df0-9d72-d20e8b11cb80))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C13") (unit 1)
         )
@@ -28501,7 +28505,7 @@
     )
     (pin "1" (uuid c674b428-1f04-47e4-8289-44bc3f1c9cde))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0139") (unit 1)
         )
@@ -28526,7 +28530,7 @@
     )
     (pin "1" (uuid a6154300-2f51-4b27-9fd5-afef39a35261))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR088") (unit 1)
         )
@@ -28582,7 +28586,7 @@
     (pin "1" (uuid 8a30f691-7fe7-4343-b3bf-8be3fd2eeabc))
     (pin "2" (uuid b8552254-a8f0-486e-ac46-e6c9234b64e7))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R9") (unit 1)
         )
@@ -28620,7 +28624,7 @@
     (pin "14" (uuid 8a8a8b04-6903-4ca3-8320-ceba010c01fe))
     (pin "7" (uuid 3695e97b-3329-4931-a618-78d487b1b638))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD7") (unit 1)
         )
@@ -28658,7 +28662,7 @@
     (pin "14" (uuid d47351fb-4f34-4461-bf61-21c31bec951a))
     (pin "7" (uuid 89394a37-d6d0-450e-aef9-6385dd6a2098))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC2") (unit 2)
         )
@@ -28683,7 +28687,7 @@
     )
     (pin "1" (uuid a9f47fe7-e62b-4102-b4e3-0867ea54167c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0138") (unit 1)
         )
@@ -28723,7 +28727,7 @@
     (pin "8" (uuid 735da893-6b18-4288-b9e0-1a1908852957))
     (pin "9" (uuid 031aaa7c-4dce-4725-9296-c6ceecaa2e1e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF8") (unit 1)
         )
@@ -28763,7 +28767,7 @@
     (pin "8" (uuid 5b5e1fa0-b0fe-466e-804d-42a4968e79e7))
     (pin "9" (uuid 98a1c8c5-a6ca-42eb-8854-253578844220))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC1") (unit 1)
         )
@@ -28801,7 +28805,7 @@
     (pin "14" (uuid 4f1bd218-5456-4778-8543-a70729ebdbdc))
     (pin "7" (uuid 8d835320-77e1-4f89-a9ff-dc063812365e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC6") (unit 2)
         )
@@ -28827,7 +28831,7 @@
     (pin "1" (uuid 5e390464-516c-40dc-95d0-6dd408d04e63))
     (pin "2" (uuid b583ebf3-74bf-4977-9550-d8f74e1223e9))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C21") (unit 1)
         )
@@ -28863,7 +28867,7 @@
     (pin "14" (uuid fd58cf3f-193b-4780-a3ec-87e962f584cd))
     (pin "7" (uuid 3a2b34ef-a58a-4f15-bbff-7c2a5c555abb))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF7") (unit 1)
         )
@@ -28892,7 +28896,7 @@
     (pin "1" (uuid 2849247d-e0b0-439f-9fdf-4da723c2890f))
     (pin "2" (uuid 84326dca-7dfe-477e-be50-71d4c99a16e2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C7") (unit 1)
         )
@@ -28917,7 +28921,7 @@
     )
     (pin "1" (uuid 3df258e7-50f7-486e-bd31-fee3b55c7e72))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0198") (unit 1)
         )
@@ -28942,7 +28946,7 @@
     )
     (pin "1" (uuid 470593ac-e196-4b79-be93-c3b396c31bf8))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0157") (unit 1)
         )
@@ -28967,7 +28971,7 @@
     )
     (pin "1" (uuid 73496493-6dcc-43a6-8cd9-3f7b03c2e419))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0151") (unit 1)
         )
@@ -28992,7 +28996,7 @@
     )
     (pin "1" (uuid a0108034-7bdf-4a8b-99c3-51cdbeac17e8))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0162") (unit 1)
         )
@@ -29017,7 +29021,7 @@
     )
     (pin "1" (uuid 8816792c-5fe1-4107-9c8d-abbae678129b))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0192") (unit 1)
         )
@@ -29042,7 +29046,7 @@
     )
     (pin "1" (uuid ae2f5513-e0b0-4ea6-acf8-016d877576e0))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR049") (unit 1)
         )
@@ -29067,7 +29071,7 @@
     )
     (pin "1" (uuid cd43c705-37cd-4e03-9d1b-52de5cee9c37))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0164") (unit 1)
         )
@@ -29092,7 +29096,7 @@
     )
     (pin "1" (uuid 2b323549-fb0d-4c69-9ea7-6fe73d146cdf))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR099") (unit 1)
         )
@@ -29130,7 +29134,7 @@
     (pin "12" (uuid 4abbd74f-4d9a-4bde-952e-1ebc1e961316))
     (pin "13" (uuid e6dbcc78-8225-4270-bbad-8a57e263c2a1))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE2") (unit 6)
         )
@@ -29155,7 +29159,7 @@
     )
     (pin "1" (uuid 2639d7dc-fca2-4a4c-9997-84962763bbc6))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0134") (unit 1)
         )
@@ -29193,7 +29197,7 @@
     (pin "12" (uuid 4b5a9711-dd42-47e6-9f85-7551e291b8d3))
     (pin "13" (uuid ae5daf79-a53d-46c5-adb5-a445b76eae7e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD1") (unit 1)
         )
@@ -29231,7 +29235,7 @@
     (pin "12" (uuid ed10bdc9-0434-4a0e-be24-030f1f6f635d))
     (pin "13" (uuid 183e0bc6-a4c6-4cbd-9e51-60d6deb2c832))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE2") (unit 3)
         )
@@ -29256,7 +29260,7 @@
     )
     (pin "1" (uuid 0991ba11-dcda-4a9c-ab1a-d808b4ee8d59))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0204") (unit 1)
         )
@@ -29281,7 +29285,7 @@
     )
     (pin "1" (uuid 97a9dd07-6150-495c-aad0-dd01b44c69f2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR046") (unit 1)
         )
@@ -29306,7 +29310,7 @@
     )
     (pin "1" (uuid 764b0158-e0e7-4e05-8577-837c71ed0446))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0153") (unit 1)
         )
@@ -29331,7 +29335,7 @@
     )
     (pin "1" (uuid a58435a2-0a05-42b5-82f4-52eb659598e7))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR04") (unit 1)
         )
@@ -29356,7 +29360,7 @@
     )
     (pin "1" (uuid 6cb5090b-470e-45ca-b9bc-945d8fce8464))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR06") (unit 1)
         )
@@ -29381,7 +29385,7 @@
     )
     (pin "1" (uuid ba756dbc-a123-45e2-9c0e-2867df96fa41))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0118") (unit 1)
         )
@@ -29419,7 +29423,7 @@
     (pin "12" (uuid 042a3c87-d28c-45e0-846c-d37fee784c8b))
     (pin "13" (uuid 0b6b4484-5a97-47dd-81ef-a1247139ee51))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD1") (unit 5)
         )
@@ -29444,7 +29448,7 @@
     )
     (pin "1" (uuid 77853d06-33e1-470d-877e-79f343f6dd38))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR067") (unit 1)
         )
@@ -29508,7 +29512,7 @@
     (pin "8" (uuid 6c9f1696-8bd4-4437-8d81-f5a3aa1611c6))
     (pin "9" (uuid 2e76b6bf-06bd-4d3f-86af-a87e876abed7))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD5") (unit 1)
         )
@@ -29533,7 +29537,7 @@
     )
     (pin "1" (uuid b6db1f0c-2b93-408b-8ccb-f006c0b5cdec))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0173") (unit 1)
         )
@@ -29571,7 +29575,7 @@
     (pin "14" (uuid 118e1945-a3b6-442b-a4b4-626d23d8c0d0))
     (pin "7" (uuid 97e4ef86-e8b0-4374-973d-732e6d9c4286))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF4") (unit 2)
         )
@@ -29600,7 +29604,7 @@
     (pin "1" (uuid f7a69f46-8666-4375-bc34-31886ffc1e7d))
     (pin "2" (uuid 0036e03a-3027-4748-966e-072e25cb9450))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C8") (unit 1)
         )
@@ -29625,7 +29629,7 @@
     )
     (pin "1" (uuid dafc5711-0490-4bbc-8374-ebc1e88d704d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR073") (unit 1)
         )
@@ -29663,7 +29667,7 @@
     (pin "12" (uuid 9a6743e0-9c3c-42d2-b105-3fa17c0e7eaa))
     (pin "13" (uuid 48242b4e-1011-44c4-a447-e47e9b26e1c8))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD1") (unit 6)
         )
@@ -29688,7 +29692,7 @@
     )
     (pin "1" (uuid acdfa1c7-4717-42fe-8487-517d30d182bc))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0144") (unit 1)
         )
@@ -29713,7 +29717,7 @@
     )
     (pin "1" (uuid 18758e30-8113-4c16-a200-023c8ab27ce1))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR013") (unit 1)
         )
@@ -29742,7 +29746,7 @@
     (pin "1" (uuid 13b8f8e7-37ee-4a6e-ad8c-be225b691d12))
     (pin "2" (uuid 3ca1170a-45b9-4b89-968a-a66fec9c9ffe))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C6") (unit 1)
         )
@@ -29771,7 +29775,7 @@
     (pin "1" (uuid 84fde296-c4a4-4821-a4c4-07566fb14037))
     (pin "2" (uuid b5fcf51c-32df-406a-9673-30a08f3343b2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C4") (unit 1)
         )
@@ -29796,7 +29800,7 @@
     )
     (pin "1" (uuid 1a70f4d3-febd-4b34-bbc5-1302df45cef7))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR025") (unit 1)
         )
@@ -29834,7 +29838,7 @@
     (pin "14" (uuid 9bbecd60-db6b-42dc-9b96-6254fafaf3c4))
     (pin "7" (uuid 840da08b-d4d3-4593-a3b6-613e7f58ecd4))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB6") (unit 3)
         )
@@ -29859,7 +29863,7 @@
     )
     (pin "1" (uuid fe51c417-50cd-40d2-90f0-2cc8ac3b9971))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0116") (unit 1)
         )
@@ -29884,7 +29888,7 @@
     )
     (pin "1" (uuid 5bd3350c-a2f4-4e14-aebc-1f0673708842))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR039") (unit 1)
         )
@@ -29922,7 +29926,7 @@
     (pin "14" (uuid 8a539fad-e864-41b1-ba7f-0b409fc34b6d))
     (pin "7" (uuid 6abb77ec-0251-4779-9d81-a1ddcc5ab25b))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF3") (unit 2)
         )
@@ -29960,7 +29964,7 @@
     (pin "14" (uuid 410fc3f6-8d58-457c-8ab0-d8a3bad8a4e9))
     (pin "7" (uuid 0f883502-30fc-4de6-9a75-161799f1281f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB6") (unit 4)
         )
@@ -29985,7 +29989,7 @@
     )
     (pin "1" (uuid d9b4f7da-ef62-42f8-9ad3-4c24c2e8bf36))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0185") (unit 1)
         )
@@ -30023,7 +30027,7 @@
     (pin "12" (uuid e60497f1-7879-495a-8e00-f2b8008f4844))
     (pin "13" (uuid 610a7742-0720-440a-a404-db69b8e6d88a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE1") (unit 4)
         )
@@ -30079,7 +30083,7 @@
     (pin "1" (uuid 1edf5b47-bc38-4fe4-bd16-67e4e9bea47e))
     (pin "2" (uuid 8ccd51b8-72fa-4091-ae85-9dbb8a18094a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R13") (unit 1)
         )
@@ -30117,7 +30121,7 @@
     (pin "14" (uuid b9d4bdca-a892-4536-a0f9-bbfe19a9e98b))
     (pin "7" (uuid 43d57643-7b2e-45ca-9ded-8020f484b76b))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA6") (unit 5)
         )
@@ -30155,7 +30159,7 @@
     (pin "14" (uuid 0ffc1518-af01-4bfd-814c-6ba03b79f41a))
     (pin "7" (uuid b4ee0548-6a19-46c1-b41b-bcffe2c3d7b5))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA8") (unit 1)
         )
@@ -30193,7 +30197,7 @@
     (pin "14" (uuid df466be8-f72a-47a6-a0d6-2bf239a5b075))
     (pin "7" (uuid 87d589c4-b0b2-444c-ab21-0f05ec427d2c))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF3") (unit 5)
         )
@@ -30218,7 +30222,7 @@
     )
     (pin "1" (uuid 6e618f55-d568-4cd2-a2ad-6e31121c309f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR044") (unit 1)
         )
@@ -30243,7 +30247,7 @@
     )
     (pin "1" (uuid 5aab7931-0eb1-48e0-972f-fedd4a50d6d2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR043") (unit 1)
         )
@@ -30269,7 +30273,7 @@
     (pin "1" (uuid cfd82dca-95e4-4bab-907d-63969793f5b7))
     (pin "2" (uuid c9beaae9-581e-405a-ad63-6bec74d70315))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C20") (unit 1)
         )
@@ -30307,7 +30311,7 @@
     (pin "14" (uuid cfcbf7cb-4e98-4db2-bfaf-aa2327900750))
     (pin "7" (uuid 1c140fd2-a4a3-4efb-935c-71534e1059e7))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE7") (unit 3)
         )
@@ -30345,7 +30349,7 @@
     (pin "14" (uuid 4302672e-1e18-4970-939d-c085f7dc2daf))
     (pin "7" (uuid 19569534-99da-460c-9ea6-aea0dfc3450f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF5") (unit 5)
         )
@@ -30370,7 +30374,7 @@
     )
     (pin "1" (uuid ba41082d-640e-46a2-8820-01e0e47b3fb9))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR075") (unit 1)
         )
@@ -30397,7 +30401,7 @@
     (pin "2" (uuid 726d53db-a056-40b4-8616-0af6226cb26d))
     (pin "3" (uuid 1a191c16-3cd5-4cf0-a47a-82ad4d42ccf6))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "DPLX_sw_SG2") (unit 1)
         )
@@ -30435,7 +30439,7 @@
     (pin "14" (uuid f37438d8-159d-4ca7-aedf-8f3f9eff1dc6))
     (pin "7" (uuid a00c11da-70d8-4ce8-a650-f596d87f5689))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE7") (unit 2)
         )
@@ -30460,7 +30464,7 @@
     )
     (pin "1" (uuid 87460cbb-3dc8-4334-8e10-b53f356500fe))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0163") (unit 1)
         )
@@ -30498,7 +30502,7 @@
     (pin "14" (uuid 4d481220-6a49-4fb6-80b8-53adb7b100c8))
     (pin "7" (uuid 7f2df0f9-255a-42c4-a61a-9557f70cb56e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC2") (unit 1)
         )
@@ -30523,7 +30527,7 @@
     )
     (pin "1" (uuid 4607ff2b-cfc4-4a9c-9c3e-3bd1d497efae))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0108") (unit 1)
         )
@@ -30548,7 +30552,7 @@
     )
     (pin "1" (uuid 162ea35e-0224-42e0-8312-13bf69f93a68))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0126") (unit 1)
         )
@@ -30586,7 +30590,7 @@
     (pin "14" (uuid 9ab9231d-b018-4c71-8689-f168fb8d4242))
     (pin "7" (uuid 4fcb7a34-050d-4068-a4e8-37c5425483c9))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD8") (unit 3)
         )
@@ -30626,7 +30630,7 @@
     (pin "8" (uuid 856e296d-298f-4a78-adb3-33918fa07c7d))
     (pin "9" (uuid b9b35be5-8a63-4d17-acca-dcfba1514b5a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC4") (unit 1)
         )
@@ -30651,7 +30655,7 @@
     )
     (pin "1" (uuid 36d4352c-da49-481f-ae7c-58c0e8816757))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0160") (unit 1)
         )
@@ -30707,7 +30711,7 @@
     (pin "1" (uuid 3bc1c252-424d-441e-b104-b2b6584afd1b))
     (pin "2" (uuid 26b0b039-2150-438d-a041-ed36174baa90))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R1000") (unit 1)
         )
@@ -30763,7 +30767,7 @@
     (pin "1" (uuid 780fd8d1-2d86-47f7-bdf0-990408aae699))
     (pin "2" (uuid d0f09016-5a42-4877-a32b-1a4caaa87efa))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R0") (unit 1)
         )
@@ -30819,7 +30823,7 @@
     (pin "1" (uuid e83144a8-d5e0-4ac4-9566-4ea79e2f1608))
     (pin "2" (uuid d80316c5-1feb-4ba2-a362-a6c7566d7ea0))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R17") (unit 1)
         )
@@ -30844,7 +30848,7 @@
     )
     (pin "1" (uuid 45be68d9-e835-4a55-b661-4a395c08a892))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0179") (unit 1)
         )
@@ -30869,7 +30873,7 @@
     )
     (pin "1" (uuid ae5c7cdd-a238-42fe-84c9-b307158ae5ec))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR016") (unit 1)
         )
@@ -30894,7 +30898,7 @@
     )
     (pin "1" (uuid 5dbba8df-ae74-436f-b905-785d8d03102b))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR082") (unit 1)
         )
@@ -30919,7 +30923,7 @@
     )
     (pin "1" (uuid eeecd855-3315-4a73-8a99-ff7fa340db68))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0122") (unit 1)
         )
@@ -30957,7 +30961,7 @@
     (pin "14" (uuid 4f6fe63a-e2cb-4eef-a15c-f34bc66818f1))
     (pin "7" (uuid 7d8b23c4-4bf6-44e1-9b6d-0001e448a545))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE3") (unit 3)
         )
@@ -30982,7 +30986,7 @@
     )
     (pin "1" (uuid 93d48ade-ad00-409d-b0c8-86aa8434269f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0120") (unit 1)
         )
@@ -31007,7 +31011,7 @@
     )
     (pin "1" (uuid 9ac8689d-bb16-4dca-bca9-e403333df71b))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR03") (unit 1)
         )
@@ -31045,7 +31049,7 @@
     (pin "14" (uuid a3f487ce-1165-45f6-bbab-e5516692d95d))
     (pin "7" (uuid c3b6e09b-ed77-4641-a206-63414f58e44f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF5") (unit 4)
         )
@@ -31083,7 +31087,7 @@
     (pin "14" (uuid 36825cf4-da99-445d-9cde-c6f9a571ad8c))
     (pin "7" (uuid 217873eb-65c3-4c5e-90ac-42c880dfe668))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC7") (unit 3)
         )
@@ -31108,7 +31112,7 @@
     )
     (pin "1" (uuid 20914d93-6011-4406-87fa-12f49fbc2390))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR069") (unit 1)
         )
@@ -31133,7 +31137,7 @@
     )
     (pin "1" (uuid 671e895e-e277-46d9-b5bb-6fdff1da9b69))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0100") (unit 1)
         )
@@ -31158,7 +31162,7 @@
     )
     (pin "1" (uuid 1d0b7708-7b4f-4709-ad17-12f1b4add49d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR052") (unit 1)
         )
@@ -31196,7 +31200,7 @@
     (pin "14" (uuid 2f58bab2-d68b-47a2-adba-a5cd58aab2cf))
     (pin "7" (uuid 101f581c-7882-42e2-ac0d-74072fb1f2dc))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC2") (unit 7)
         )
@@ -31252,7 +31256,7 @@
     (pin "1" (uuid 15819b24-eaac-4748-b02f-1e0909e627c0))
     (pin "2" (uuid 8f315d2e-f433-44b9-b3ca-1c01f182b584))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R14") (unit 1)
         )
@@ -31277,7 +31281,7 @@
     )
     (pin "1" (uuid 1d44718b-839f-4318-975a-f3408c05ae52))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0158") (unit 1)
         )
@@ -31315,7 +31319,7 @@
     (pin "14" (uuid 3f56fd1e-d02f-499f-b20d-48ff79108236))
     (pin "7" (uuid dc70bb07-dca4-4475-b117-c88ab558a338))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD8") (unit 6)
         )
@@ -31340,7 +31344,7 @@
     )
     (pin "1" (uuid 987ce18f-c60a-4103-9f70-5d572dcbdd65))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0133") (unit 1)
         )
@@ -31365,7 +31369,7 @@
     )
     (pin "1" (uuid dda0d3e9-e164-4861-a8d7-71d7f710017e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0169") (unit 1)
         )
@@ -31401,7 +31405,7 @@
     (pin "13" (uuid c5c9d362-3726-492f-91db-230b6c92d95c))
     (pin "14" (uuid f933ce52-2c42-484e-bb35-af0bdb0069e2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF1") (unit 3)
         )
@@ -31439,7 +31443,7 @@
     (pin "14" (uuid 2c26eb07-2942-4b11-92ca-211c91c789c0))
     (pin "7" (uuid 3166c16a-658e-4716-8fbd-dad0df79f8a5))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF4") (unit 1)
         )
@@ -31464,7 +31468,7 @@
     )
     (pin "1" (uuid 527c983b-fabc-49ec-917e-8cdf01bc9826))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0142") (unit 1)
         )
@@ -31502,7 +31506,7 @@
     (pin "14" (uuid 5c6de029-630c-4a4f-8c85-a6158bf95d66))
     (pin "7" (uuid b321d7c2-1d8e-4027-8751-f204d063dfe9))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF3") (unit 3)
         )
@@ -31527,7 +31531,7 @@
     )
     (pin "1" (uuid 8f12e511-dfc4-4e14-93e2-126537554215))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0214") (unit 1)
         )
@@ -31552,7 +31556,7 @@
     )
     (pin "1" (uuid 22b358d1-b122-42b9-a414-d013507df651))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0161") (unit 1)
         )
@@ -31578,7 +31582,7 @@
     (pin "1" (uuid 10df4980-6151-4bcf-9493-f85779297c50))
     (pin "2" (uuid cc400613-ad4a-4ba9-96f6-2fb49cd16129))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C19") (unit 1)
         )
@@ -31626,7 +31630,7 @@
     (pin "8" (uuid 6f7ac49e-d511-4279-ac1d-cb35adaf3792))
     (pin "9" (uuid 4b1e7098-1bc2-40b5-9803-1e218cbe35c1))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA2") (unit 1)
         )
@@ -31651,7 +31655,7 @@
     )
     (pin "1" (uuid b5d92238-6456-4923-8449-6ff54954489b))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0167") (unit 1)
         )
@@ -31676,7 +31680,7 @@
     )
     (pin "1" (uuid 3e3462a2-6ca1-482a-8984-b31a2613acd8))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0172") (unit 1)
         )
@@ -31714,7 +31718,7 @@
     (pin "12" (uuid 7eb394ac-deb6-4862-8922-bc9d7fe9d24a))
     (pin "13" (uuid 134d00b3-a30b-4dab-be3e-ec8c494b64c0))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE1") (unit 1)
         )
@@ -31739,7 +31743,7 @@
     )
     (pin "1" (uuid d540ef96-cfe4-47ec-adef-b96aea78c8d9))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR068") (unit 1)
         )
@@ -31764,7 +31768,7 @@
     )
     (pin "1" (uuid ad395ec1-fdd2-400c-88ac-e1aed8d40dae))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0154") (unit 1)
         )
@@ -31789,7 +31793,7 @@
     )
     (pin "1" (uuid ee0132dd-efa2-4572-bb57-e099b18f6b17))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR083") (unit 1)
         )
@@ -31827,7 +31831,7 @@
     (pin "14" (uuid 68fe6d31-38dc-49da-93ea-11dbb29168c2))
     (pin "7" (uuid 67fda391-7a22-467f-b813-616f11d94d57))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC6") (unit 3)
         )
@@ -31883,7 +31887,7 @@
     (pin "1" (uuid c23bb16e-cf89-4da3-ab38-35ad8b9aa923))
     (pin "2" (uuid 9774b41b-1c0e-4076-beae-de0b47b38988))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R10") (unit 1)
         )
@@ -31908,7 +31912,7 @@
     )
     (pin "1" (uuid 533a4177-388f-43b9-8d87-f202526afaa5))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0109") (unit 1)
         )
@@ -31933,7 +31937,7 @@
     )
     (pin "1" (uuid 01153a2e-549c-4680-96ef-9ff426eb1f9d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR089") (unit 1)
         )
@@ -31958,7 +31962,7 @@
     )
     (pin "1" (uuid 9b6354e0-12a8-46f1-b093-c5410fd4ee03))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR079") (unit 1)
         )
@@ -31996,7 +32000,7 @@
     (pin "14" (uuid 1e93f1fc-e8cf-4f21-be73-e7a9738808f7))
     (pin "7" (uuid d34120c6-7998-4677-8557-e687009e8341))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF6") (unit 5)
         )
@@ -32021,7 +32025,7 @@
     )
     (pin "1" (uuid 5e7a12fa-0319-44fd-b3d2-7c4e5f294bc6))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0170") (unit 1)
         )
@@ -32046,7 +32050,7 @@
     )
     (pin "1" (uuid 7b03ba5b-e5af-4b1d-93c7-fba9c418adbb))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0189") (unit 1)
         )
@@ -32071,7 +32075,7 @@
     )
     (pin "1" (uuid b19147a1-0732-43ec-9463-28c276544afb))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR022") (unit 1)
         )
@@ -32096,7 +32100,7 @@
     )
     (pin "1" (uuid c9266b65-f348-49d7-8f89-0deae33ce7e5))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR058") (unit 1)
         )
@@ -32121,7 +32125,7 @@
     )
     (pin "1" (uuid f87e7e2e-fbd8-4c37-83ac-db53395318bb))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0146") (unit 1)
         )
@@ -32177,7 +32181,7 @@
     (pin "1" (uuid 935b3525-1750-4c96-9a9b-a07664df1864))
     (pin "2" (uuid 4c97e98a-003e-4345-a27b-87807883dde8))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "R23") (unit 1)
         )
@@ -32215,7 +32219,7 @@
     (pin "14" (uuid 2ed855a7-7b0a-4943-b73b-6370df4453a6))
     (pin "7" (uuid 8df4e9ee-9422-48b1-a0a7-97f0bba0aec1))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UF6") (unit 3)
         )
@@ -32240,7 +32244,7 @@
     )
     (pin "1" (uuid d3477765-e004-4648-a531-c6f38cf6d8d2))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0141") (unit 1)
         )
@@ -32265,7 +32269,7 @@
     )
     (pin "1" (uuid 802a23b8-8909-48eb-9a79-5548435105ad))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0117") (unit 1)
         )
@@ -32290,7 +32294,7 @@
     )
     (pin "1" (uuid 93d71c43-0492-400e-98d6-34b22e435801))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR098") (unit 1)
         )
@@ -32315,7 +32319,7 @@
     )
     (pin "1" (uuid ace8658b-7e85-4f4d-b4dd-bb6232312872))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR074") (unit 1)
         )
@@ -32353,7 +32357,7 @@
     (pin "14" (uuid 2d1d0af6-1335-4dcc-a2b3-0fe35756f46e))
     (pin "7" (uuid 08ee6e5a-6e72-4726-b678-ca9f15914419))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB4") (unit 3)
         )
@@ -32391,7 +32395,7 @@
     (pin "14" (uuid a2b6f527-bd72-40b2-b9db-3438205a17c9))
     (pin "7" (uuid 03e9bfa6-1631-44c3-b8f8-7ce3cb592322))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB8") (unit 1)
         )
@@ -32416,7 +32420,7 @@
     )
     (pin "1" (uuid de1a4011-7e2e-46cc-adbd-5e69087d60f6))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0165") (unit 1)
         )
@@ -32454,7 +32458,7 @@
     (pin "12" (uuid b075ae45-360f-46b5-8ad6-3eefc16206dc))
     (pin "13" (uuid 0b0ac450-6f07-4128-9fe0-a1990fccdd55))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD1") (unit 3)
         )
@@ -32492,7 +32496,7 @@
     (pin "14" (uuid 41a2525a-af77-49a3-a0b9-cd6dae659f07))
     (pin "7" (uuid 94245884-43dc-4924-9d97-f6e940fc4a3f))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA7") (unit 1)
         )
@@ -32517,7 +32521,7 @@
     )
     (pin "1" (uuid 0c9cfedc-37c1-4f5f-a959-98b151ac8aa9))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR081") (unit 1)
         )
@@ -32542,7 +32546,7 @@
     )
     (pin "1" (uuid 40369835-f3a4-4d06-bb3e-9c887bff61fa))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR050") (unit 1)
         )
@@ -32571,7 +32575,7 @@
     (pin "1" (uuid 5047ba48-129a-4c95-bed9-6ad545438a65))
     (pin "2" (uuid 50bcf033-4da0-479a-9913-a02283added5))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C15") (unit 1)
         )
@@ -32596,7 +32600,7 @@
     )
     (pin "1" (uuid ff78d357-e2a7-43de-add4-b5e60babd066))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0209") (unit 1)
         )
@@ -32621,7 +32625,7 @@
     )
     (pin "1" (uuid 18ab84c9-408c-4f01-b490-3136b7a2ec7e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0210") (unit 1)
         )
@@ -32646,7 +32650,7 @@
     )
     (pin "1" (uuid 372b2508-462c-4fb0-bbeb-2e8febb9172e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0101") (unit 1)
         )
@@ -32671,7 +32675,7 @@
     )
     (pin "1" (uuid c984b713-1239-4c79-b998-1c864a82eba8))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR060") (unit 1)
         )
@@ -32696,7 +32700,7 @@
     )
     (pin "1" (uuid 346da947-cfa4-487a-85d9-9d0140e38c4e))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0184") (unit 1)
         )
@@ -32725,7 +32729,7 @@
     (pin "1" (uuid b15eb101-a274-402a-9542-2c5b95dfbae7))
     (pin "2" (uuid 12729865-1684-4227-a034-67e0b2e26d5a))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C101") (unit 1)
         )
@@ -32750,7 +32754,7 @@
     )
     (pin "1" (uuid c9362238-6c30-4382-b48f-d7621fac37b8))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0194") (unit 1)
         )
@@ -32788,7 +32792,7 @@
     (pin "14" (uuid b975fd8b-4f73-42ec-8005-98b4ad332efa))
     (pin "7" (uuid 863bf948-a0f5-40ef-8a22-080fbc0ec44b))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB8") (unit 5)
         )
@@ -32826,7 +32830,7 @@
     (pin "14" (uuid d13f2f47-5022-4edd-90bd-134f08d2c4c1))
     (pin "7" (uuid e9dc3dfd-3238-405f-96af-68903ba9b599))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UA7") (unit 2)
         )
@@ -32866,7 +32870,7 @@
     (pin "8" (uuid 4ee9c8e1-ea05-4ca7-a42d-411812cb457d))
     (pin "9" (uuid e6c42786-0fdd-4472-8031-f6014891a362))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UD3") (unit 1)
         )
@@ -32891,7 +32895,7 @@
     )
     (pin "1" (uuid c9571b81-8667-4dc9-9c7e-7d53b04b3239))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0150") (unit 1)
         )
@@ -32929,7 +32933,7 @@
     (pin "12" (uuid 942169cd-30bf-4685-9bb5-997d1a8a6154))
     (pin "13" (uuid c48bd633-fce2-49f0-8cd9-90881cce8d0d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE1") (unit 3)
         )
@@ -32967,7 +32971,7 @@
     (pin "14" (uuid b011dd53-c77f-4455-8922-b8b3cc44de35))
     (pin "7" (uuid b02434fc-cfc5-4dc9-80e6-13aee92ca757))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UE3") (unit 1)
         )
@@ -32992,7 +32996,7 @@
     )
     (pin "1" (uuid f0aa33c1-eb76-426a-b4ed-430c4c1ff6f4))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0206") (unit 1)
         )
@@ -33030,7 +33034,7 @@
     (pin "14" (uuid 37445ce1-6837-4277-83cb-b9dd2e4658d6))
     (pin "7" (uuid 763a9be7-a7dd-4151-90e3-1f5aedb78c54))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC7") (unit 1)
         )
@@ -33068,7 +33072,7 @@
     (pin "14" (uuid 8dcf7c7b-680d-487f-8405-529b202b3c34))
     (pin "7" (uuid fcf34ba8-fe7e-4538-be3a-6252a7a16783))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UC8") (unit 1)
         )
@@ -33093,7 +33097,7 @@
     )
     (pin "1" (uuid 26b84c92-f5af-4579-8b3a-6eeeebff00d8))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0119") (unit 1)
         )
@@ -33131,7 +33135,7 @@
     (pin "14" (uuid 620b381d-9523-4aeb-8553-6fdfaae3f40f))
     (pin "7" (uuid 8098905c-5643-4bca-8ef7-24e5d36f5e28))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "UB4") (unit 1)
         )
@@ -33156,7 +33160,7 @@
     )
     (pin "1" (uuid 3f136683-a141-4466-b243-dbdce9b0de8d))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR0114") (unit 1)
         )
@@ -33181,7 +33185,7 @@
     )
     (pin "1" (uuid 616a4b04-08b0-4284-92df-324c55835ccd))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR014") (unit 1)
         )
@@ -33206,7 +33210,7 @@
     )
     (pin "1" (uuid 4552627e-c34d-4e50-9152-2481ff7d5dbd))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR011") (unit 1)
         )
@@ -33235,7 +33239,7 @@
     (pin "1" (uuid e4f01785-c9c6-4a85-87e0-07e4c7705cbf))
     (pin "2" (uuid cbe984ee-6e5f-4544-96bf-17796f0493fa))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "C11") (unit 1)
         )
@@ -33260,7 +33264,7 @@
     )
     (pin "1" (uuid 9adf164f-d5c6-489a-9305-5d0948b1fcd3))
     (instances
-      (project "Entrex Trapezoid Interface Board v23"
+      (project "OLD-MESSY-SYNC Entrex Trapezoid Interface Board v23 (all net names STILL in sync with PCB)"
         (path "/2743c6c7-b9b4-4894-8f09-402edf838239"
           (reference "#PWR054") (unit 1)
         )
