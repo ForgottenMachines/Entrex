@@ -1,8 +1,5 @@
 /*
 
-case F works - https://discord.com/channels/700194611091472415/805549399475617833/1120986033346064427
-https://discord.com/channels/700194611091472415/805549399475617833/1120496376174891068
-
 BSYNC:  pin 7
 BDIR:    pin 6
 
@@ -39,12 +36,20 @@ void sync_bitcounter();
 
 
 #define  MOSI_PIN  2
-#define  MISO_PIN  5 
-#define  SCK_PIN  4
+#define  Port_Select_Switch  4
 #define  BDIR_PIN  6
+#define  BDIR_PIN_inverse  5 
 #define  BSYNC_PIN  7
 #define  CLOCK_PIN  4
+
+#define  Data_Transmit 50
+#define  Data_Transmit_inverse 49
+
+
+
 #define  BIT_SPEED  2000
+
+
 
 
 #define MAGIC_CHARACTER  0xA5
@@ -288,11 +293,9 @@ i=197;
 
 
 
-        case 'l': 
-          Serial.println("Case l  - relocates cursor to posotion 21 on the current line, and it stays there!");
-i=189;
-          send_asci_decimal(i);
-          send_asci_decimal(i);
+        case 'l': //LISTEN for the Keyboard (or try to)
+          Serial.println("LISTEN for the Keyboard (or try to)");
+          send_asci_decimal(182);
           break;
 
         case 'e':
@@ -356,7 +359,7 @@ i=189;
           send_asci_decimal(164); //reset
           send_asci_decimal(164);
           send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(169);  // cursor to leftmost cursor position
+          send_asci_decimal(169);  // cursor to leftmost cursor position on the 2nd row
           terminal_print(TERMINAL_ID,  " "
                                        "     I am the Entrex Trapezoid...       ");
           break;
@@ -364,9 +367,9 @@ i=189;
         case 'L':
           send_asci_decimal(164); //reset
           send_asci_decimal(164);
-        Serial.println("     I am the Entrex Trapezoid...       ");
+        Serial.println("  GRID of numbers...       ");
           send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(169);  // cursor to leftmost cursor position
+          send_asci_decimal(129);  // cursor to leftmost cursor position
           terminal_print(TERMINAL_ID,  "01 - 67890123456789012345678901234567890"
                                        "02       1         2         3         4"
                                        "03 - 67890123456789012345678901234567890"
@@ -380,7 +383,7 @@ i=189;
                                        "11 - 67890123456789012345678901234567890"
                                        "12 -   I am the Entrex Trapezoid...     ");
           send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(169);  // cursor to leftmost cursor position
+          send_asci_decimal(129);  // cursor to leftmost cursor position
          break;
 
         case 'P':
@@ -602,7 +605,12 @@ void term_init(){
   SPI.setBitOrder(LSBFIRST);
   SPI.setDataMode(SPI_MODE2);
   pinMode(BSYNC_PIN,OUTPUT);
-  pinMode(BDIR_PIN, INPUT_PULLUP);
+  pinMode(BDIR_PIN_inverse, INPUT_PULLUP);
+  pinMode(BDIR_PIN, INPUT);  //lives "low" so don't pull up.  Adding pull-down resistor
+  pinMode(Port_Select_Switch, INPUT_PULLUP);
+  pinMode(Data_Transmit, INPUT_PULLUP);
+  pinMode(Data_Transmit_inverse, INPUT_PULLUP);
+
 
   sync_bitcounter();
   //term_bsync();
