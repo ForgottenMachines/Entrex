@@ -100,15 +100,14 @@ struct terminal_t TERMINAL_FIFOS[MAX_TERMINALS];
 #define TERMINAL_ID 0x5e
 /////////////SET TERMINAL ADDRESS HERE///////////////////////
 //Address alternatives
-
-//1E = normal
-//9E = respond
-//DE = respond
-//FE = respond
+//1E = normal/same
+//9E = 'winks' all text
+//DE = 'winks' all text
+//FE = 'winks' all text
 //7E = can get "PRINTER NOT READY"
-//BE = response
+//BE = 'winks' all text
 //3E = can get "PRINTER NOT READY"
-//5E = normal?
+//5E = normal/same
 
 #define COMMAND_MODE  0
 #define ECHO_MODE     1
@@ -212,9 +211,18 @@ uint8_t i;
 uint8_t r;
 uint8_t blen;
 
+
   if(Serial.available()){
       switch(Serial.read()){ 
 
+        case 'k' : //keyboard keypress 'clock the data out'
+//terminal_attention(terminal_id, S_CHAR_TO_TERM); vs another flag, its probably going to be 0x80, 0x20 are the other flags
+//i dont remember the schematic enough 
+//then you would need to "send" 0x00 to the terminal to clock the data out
+//https://discord.com/channels/700194611091472415/805549399475617833/1248404236862226604
+          Serial.println("Case k: keyboard keypress 'clock the data out'");
+
+          break;
 
         case 'j': // steps cursor from bottom up to top, and back a few spaces, and cursor stays
           Serial.println("Case j");  //how do we get a final backspace out of this, and keep the cursor like we do?  
@@ -225,8 +233,8 @@ for (i = 206; i > 188; i--) {
 };
           break;
 
-        case 'k':  //steps cursor from top to bottom, but cursor doesn't stay
-          Serial.println("Case k");
+        case 'S':  //steps cursor from top to bottom, but cursor doesn't stay
+          Serial.println("Case S");
           Serial.println();
 for (i = 188; i < 206; i++) {
           send_asci_decimal(i);
