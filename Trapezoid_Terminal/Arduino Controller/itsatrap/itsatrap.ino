@@ -220,6 +220,16 @@ uint8_t blen;
 //i dont remember the schematic enough 
 //then you would need to "send" 0x00 to the terminal to clock the data out
 //https://discord.com/channels/700194611091472415/805549399475617833/1248404236862226604
+
+//probably the easiest way to explain is that you need to implement "terminal_getc()" function that is almost exactly like terminal_putc(), the terminal attention function will need a different flag argument  of the 
+//ones he highlighted, i dont remember which is which (i can look this weekend). then you would change 
+//"term_write_lowlevel(c);" to something like "data-out=term_write_lowlevel(0x00);"  because the protocol is 
+//SPI like, data needs to be clocked and as you "send" the 0x00 over the tx wires, the return value should be 
+//clocked out simultaneously. which is also how the arduinos SPI.transfer() is written
+
+//oh and the the fifo stuff they didnt recognize in the code was a driver to create a unix socket to provide 
+//service to multiple terminals so they can be unix terminals
+
           Serial.println("Case k: keyboard keypress 'clock the data out'");
 
           break;
