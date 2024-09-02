@@ -1,0 +1,34 @@
+10110110 ≠
+00011100 ≠
+182 & 28
+
+10111000 ¢
+00011110 ¢
+184 & 30
+
+
+
+
+160 scrolls! (and makes cursor disappear)
+
+
+
+//Address alternatives
+
+//1E = normal
+//9E = respond
+//DE = respond
+//FE = respond
+//7E = can get "PRINTER NOT READY"
+//BE = response
+//3E = can get "PRINTER NOT READY"
+//5E = normal?
+
+Plastiform Magnetic Viewer, or B-1022 Magnetic Viewer, still available for $150-$175.  The video in question has a FAQ where he claims to have tried it on a floppy, with no results.  He states this, but does not show it in a video.  I am planning on getting one of these viewers when budget allows, and creating a video showing exactly what you say.  
+Very astute comment, thank you!
+
+
+@kromaine13
+@kenromaine2387
+
+
