@@ -193,13 +193,15 @@ static int last_termal_poll_time = 0;
 
 void loop() {
 
+  int TheDelay = 2000;
+
   send_asci_decimal(164); //reset
   send_asci_decimal(164);
   terminal_print(TERMINAL_ID, " "
                               " Entrex 'Trapezoid' Data/Terminal Test  ");
   send_asci_decimal(192);  // cursor to to top row
   send_asci_decimal(169);  // cursor to leftmost cursor position
-delay(1000);
+delay(TheDelay);
             send_asci_decimal(164); //reset
           send_asci_decimal(164);
         Serial.println("  GRID of numbers...       ");
@@ -219,7 +221,7 @@ delay(1000);
                                        "12 -   I am the Entrex Trapezoid...     ");
           send_asci_decimal(192);  // cursor to to top row
           send_asci_decimal(129);  // cursor to leftmost cursor position
-delay(1000);
+delay(TheDelay);
 
 }
 
