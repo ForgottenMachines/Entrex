@@ -1,1 +1,3 @@
 cd "/Desktop/Entrex/Screen Display Scripts/"
+
+pwd
