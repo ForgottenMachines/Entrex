@@ -36,9 +36,9 @@ buf.each do |b|
     fd.print("\r")
     fd.flush
     countLine = countLine + 1
-    if countLine=lines_per_page [then]
+    if countLine=lines_per_page 
         sleep(delay_between_pages)
-    end
+    end if
       
 end
 
