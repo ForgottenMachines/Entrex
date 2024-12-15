@@ -1,4 +1,4 @@
-cd "Desktop/Entrex/Screen Display Scripts/"
+cd "Desktop/GitHub/Entrex/Screen Display Scripts/"
 
 pwd
 
