@@ -1,12 +1,12 @@
-         ##########  ##########
-         ##########  ##########
-       ###      ###  ###      ###
-       ###      ###  ###      ###
-       ###      ###  ###      ###
-         ##########  ##########
-           ########  ########
-           ########  ########
-         ###    ###  ###    ###
-         ###    ###  ###    ###
-       ###      ###  ###      ###
-       ###      ###  ###      ###
+         RRRRRRRRRR  RRRRRRRRRR
+         RRRRRRRRRR  RRRRRRRRRR
+       RRR      RRR  RRR      RRR
+       RRR      RRR  RRR      RRR
+       RRR      RRR  RRR      RRR
+         RRRRRRRRRR  RRRRRRRRRR
+           RRRRRRRR  RRRRRRRR
+           RRRRRRRR  RRRRRRRR
+         RRR    RRR  RRR    RRR
+         RRR    RRR  RRR    RRR
+       RRR      RRR  RRR      RRR
+       RRR      RRR  RRR      RRR
