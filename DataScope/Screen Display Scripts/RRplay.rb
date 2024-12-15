@@ -6,8 +6,8 @@ baud_rate="115200"
 file_path="RR Logos.txt"
 
 # Delay (in seconds) between characters & Lines
-delay_between_chars=0.0001
-delay_between_lines=0.0001
+delay_between_chars=0.05
+delay_between_lines=0.05
 delay_between_pages=8.0
 lines_per_page=12
 countLine=0 
