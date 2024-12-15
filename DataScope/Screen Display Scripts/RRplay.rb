@@ -4,8 +4,8 @@ baud_rate="115200"
 #baud_rate="9600"
 
 file_path  ="RR Logos.txt"
-file_path_2="RR Logos Clear.txt"
-file_path_3="RR Logos2.txt"
+file_path_2="RR Logos2.txt"
+file_path_3="RR Logos3.txt"
 
 # Delay (in seconds) between characters & Lines
 delay_between_chars=0.002
@@ -67,17 +67,6 @@ while true do
   sleep(delay_between_pages)
 
   bufh.each do |b|
-    fd.print("\r")
-    b.each_char do |c|
-      sleep(delay_between_chars)
-      fd.print c
-    end
-    sleep(delay_between_lines)
-    fd.flush
-  end
-  sleep(delay_between_pages)
-
-  bufg.each do |b|
     fd.print("\r")
     b.each_char do |c|
       sleep(delay_between_chars)
