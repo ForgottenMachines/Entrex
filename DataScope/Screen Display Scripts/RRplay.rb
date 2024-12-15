@@ -8,9 +8,9 @@ file_path_2="RR Logos2.txt"
 file_path_3="RR Logos3.txt"
 
 # Delay (in seconds) between characters & Lines
-delay_between_chars=0.002
-delay_between_lines=0.002
-delay_between_pages=4.0
+delay_between_chars=0.001
+delay_between_lines=0.001
+delay_between_pages=3.5
 lines_per_page=12
 countLine=0 
 
@@ -45,6 +45,17 @@ fd = File.open("/dev/ttyUSB0","w")
 while true do
 
   buf.each do |b|
+    fd.print("\r")
+    b.each_char do |c|
+      sleep(delay_between_chars)
+      fd.print c
+    end
+    sleep(delay_between_lines)
+    fd.flush
+  end
+  sleep(delay_between_pages)
+
+  bufh.each do |b|
     fd.print("\r")
     b.each_char do |c|
       sleep(delay_between_chars)
