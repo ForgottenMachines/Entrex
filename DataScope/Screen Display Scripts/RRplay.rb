@@ -1,5 +1,6 @@
 # Define the serial port and baud rate
 serial_port="/dev/ttyUSB0"
+serial_port_2="/dev/ttyUSB1"
 baud_rate="115200"
 #baud_rate="9600"
 
@@ -16,6 +17,7 @@ countLine=0
 
 # Configure the serial port settings
 `stty -F "#{serial_port}" "#{baud_rate}" cs8 -cstopb -parenb`
+`stty -F "#{serial_port_2}" "#{baud_rate}" cs8 -cstopb -parenb`
 
 # Send the same file contents over and over forever
 buf = []
@@ -40,8 +42,8 @@ File.open(file_path_3) do |h|
   end
 end
 
-fd = File.open("/dev/ttyUSB0","w")
-fe = File.open("/dev/ttyUSB1","w")
+fd = File.open(serial_port,"w")
+fe = File.open(serial_port_2,"w")
 
 while true do
 
