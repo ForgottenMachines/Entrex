@@ -3,7 +3,9 @@ serial_port="/dev/ttyUSB0"
 baud_rate="115200"
 #baud_rate="9600"
 
-file_path="RR Logos.txt"
+file_path  ="RR Logos.txt"
+file_path_2="RR Logos2.txt"
+file_path_3="RR Logos3.txt"
 
 # Delay (in seconds) between characters & Lines
 delay_between_chars=0.002
