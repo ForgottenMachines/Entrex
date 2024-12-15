@@ -6,8 +6,8 @@ baud_rate="115200"
 file_path="RR Logos.txt"
 
 # Delay (in seconds) between characters & Lines
-delay_between_chars=0.01
-delay_between_lines=0.0
+delay_between_chars=0.005
+delay_between_lines=0.005
 delay_between_pages=4.0
 lines_per_page=12
 countLine=0 
@@ -45,7 +45,7 @@ buf.each do |b|
 end
 
 #  fd.puts("Yours in Retro...")
-  sleep(10)
+  sleep(4)
 end
 
 # Clean up
