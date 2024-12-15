@@ -8,8 +8,8 @@ file_path_2="RR Logos2.txt"
 file_path_3="RR Logos3.txt"
 
 # Delay (in seconds) between characters & Lines
-delay_between_chars=0.0005
-delay_between_lines=0.0005
+delay_between_chars=0.0008
+delay_between_lines=0.0008
 delay_between_pages=3.5
 lines_per_page=12
 countLine=0 
