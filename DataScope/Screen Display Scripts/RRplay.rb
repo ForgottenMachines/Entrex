@@ -6,8 +6,8 @@ baud_rate="115200"
 file_path="RR Logos.txt"
 
 # Delay (in seconds) between characters & Lines
-delay_between_chars=0.005
-delay_between_lines=0.005
+delay_between_chars=0.002
+delay_between_lines=0.002
 delay_between_pages=4.0
 lines_per_page=12
 countLine=0 
@@ -17,35 +17,41 @@ countLine=0
 
 # Send the same file contents over and over forever
 buf = []
-# read file in
+bufg = []
+bufh = []
+
+
+# read files in
 File.open(file_path) do |f|
   while(!f.eof?) do
     buf << f.gets.chomp
   end
 end
+File.open(file_path_2) do |g|
+  while(!g.eof?) do
+    bufg << g.gets.chomp
+  end
+end
+File.open(file_path_3) do |h|
+  while(!h.eof?) do
+    bufh << h.gets.chomp
+  end
+end
+
 fd = File.open("/dev/ttyUSB0","w")
 
 while true do
 
 buf.each do |b|
-     b.each_char do |c|
-        sleep(delay_between_chars)
-        fd.print c
-  end
-    sleep(delay_between_lines)
     fd.print("\r")
+    b.each_char do |c|
+      sleep(delay_between_chars)
+      fd.print c
+    end
+    sleep(delay_between_lines)
     fd.flush
-    countLine = countLine + 1
-    puts countLine
-    if countLine=lines_per_page 
-    #    sleep(delay_between_pages)
-        countLine = 0
-      end
-      
 end
-
-#  fd.puts("Yours in Retro...")
-  sleep(4)
+  sleep(delay_between_pages)
 end
 
 # Clean up
