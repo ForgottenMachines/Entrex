@@ -42,7 +42,7 @@ buf.each do |b|
       
 end
 
-  fd.puts("Yours in Retro...")
+#  fd.puts("Yours in Retro...")
   sleep(10)
 end
 
