@@ -1,3 +1,5 @@
-cd "/Desktop/Entrex/Screen Display Scripts/"
+cd "Desktop/Entrex/Screen Display Scripts/"
 
 pwd
+
+cd Desktop
