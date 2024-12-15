@@ -38,7 +38,7 @@ buf.each do |b|
     countLine = countLine + 1
     puts countLine
     if countLine=lines_per_page 
-        sleep(delay_between_pages)
+    #    sleep(delay_between_pages)
         countLine = 0
       end
       
