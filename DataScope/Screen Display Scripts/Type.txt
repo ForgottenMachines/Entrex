@@ -3,3 +3,8 @@ cd "Desktop/Entrex/Screen Display Scripts/"
 pwd
 
 cd Desktop
+
+cd Entrex
+
+cd "Screen Display Scripts"
+
