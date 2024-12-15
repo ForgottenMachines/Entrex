@@ -44,7 +44,7 @@ fd = File.open("/dev/ttyUSB0","w")
 
 while true do
 
-buf.each do |b|
+  buf.each do |b|
     fd.print("\r")
     b.each_char do |c|
       sleep(delay_between_chars)
@@ -52,8 +52,32 @@ buf.each do |b|
     end
     sleep(delay_between_lines)
     fd.flush
-end
+  end
   sleep(delay_between_pages)
+
+  bufg.each do |b|
+    fd.print("\r")
+    b.each_char do |c|
+      sleep(delay_between_chars)
+      fd.print c
+    end
+    sleep(delay_between_lines)
+    fd.flush
+  end
+  sleep(delay_between_pages)
+
+  bufh.each do |b|
+    fd.print("\r")
+    b.each_char do |c|
+      sleep(delay_between_chars)
+      fd.print c
+    end
+    sleep(delay_between_lines)
+    fd.flush
+  end
+  sleep(delay_between_pages)
+
+
 end
 
 # Clean up
