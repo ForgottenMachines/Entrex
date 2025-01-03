@@ -17,7 +17,7 @@ countLine=0
 
 # Configure the serial port settings
 `stty -F "#{serial_port}" "#{baud_rate}" cs8 -cstopb -parenb`
-#`stty -F "#{serial_port_2}" "#{baud_rate}" cs8 -cstopb -parenb`
+`stty -F "#{serial_port_2}" "#{baud_rate}" cs8 -cstopb -parenb`
 
 # Send the same file contents over and over forever
 buf = []
