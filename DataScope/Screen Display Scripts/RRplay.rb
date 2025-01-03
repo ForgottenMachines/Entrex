@@ -17,7 +17,7 @@ countLine=0
 
 # Configure the serial port settings
 `stty -F "#{serial_port}" "#{baud_rate}" cs8 -cstopb -parenb`
-`stty -F "#{serial_port_2}" "#{baud_rate}" cs8 -cstopb -parenb`
+#`stty -F "#{serial_port_2}" "#{baud_rate}" cs8 -cstopb -parenb`
 
 # Send the same file contents over and over forever
 buf = []
@@ -43,63 +43,63 @@ File.open(file_path_3) do |h|
 end
 
 fd = File.open(serial_port,"w")
-fe = File.open(serial_port_2,"w")
+#fe = File.open(serial_port_2,"w")
 
 while true do
 
   buf.each do |b|
     fd.print("\r")
-    fe.print("\r")
+ #   fe.print("\r")
     b.each_char do |c|
       sleep(delay_between_chars)
       fd.print c
-      fe.print c
+  #    fe.print c
     end
     sleep(delay_between_lines)
     fd.flush
-    fe.flush
+#    fe.flush
   end
   sleep(delay_between_pages)
 
   bufh.each do |b|
     fd.print("\r")
-    fe.print("\r")
+ #   fe.print("\r")
     b.each_char do |c|
       sleep(delay_between_chars)
       fd.print c
-      fe.print c
+  #    fe.print c
     end
     sleep(delay_between_lines)
     fd.flush
-    fe.flush
+  #  fe.flush
   end
   sleep(delay_between_pages)
 
   bufg.each do |b|
     fd.print("\r")
-    fe.print("\r")
+#    fe.print("\r")
     b.each_char do |c|
       sleep(delay_between_chars)
       fd.print c
-      fe.print c
+#      fe.print c
     end
     sleep(delay_between_lines)
     fd.flush
-    fe.flush
+#    fe.flush
   end
   sleep(delay_between_pages)
 
   bufh.each do |b|
     fd.print("\r")
-    fe.print("\r")
+#    fe.print("\r")
     b.each_char do |c|
       sleep(delay_between_chars)
       fd.print c
-      fe.print c
+#      fe.print c
     end
     sleep(delay_between_lines)
     fd.flush
-    fe.flush
+#    fe.flush
   end
   sleep(delay_between_pages)
 
