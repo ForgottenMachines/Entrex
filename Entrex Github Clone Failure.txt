@@ -9,3 +9,8 @@ fatal: early EOF
 fatal: fetch-pack: invalid index-pack output
 
 Would you like to retry cloning ?
+
+
+
+https://github.com/orgs/community/discussions/148448
+
