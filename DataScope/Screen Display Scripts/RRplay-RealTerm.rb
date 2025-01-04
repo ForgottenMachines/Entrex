@@ -1,15 +1,15 @@
 # Define the serial port and baud rate
-serial_port="/dev/tty13"
-serial_port_2="/dev/tty12"
+serial_port="/dev/ttyUSB0"
+serial_port_2="/dev/ttyUSB2"
 baud_rate="9600"
 
-file_path  ="RR Logos.txt"
-file_path_2="RR Logos2.txt"
-file_path_3="RR Logos3.txt"
+file_path  ="RR-Logos-BIG.txt"
+file_path_2="RR-Logos-BIG-R.txt"
+file_path_3="StarWarsRetroRecipes.txt"
 
 # Delay (in seconds) between characters & Lines
-delay_between_chars=0.05
-delay_between_lines=0.05
+delay_between_chars=0.0009
+delay_between_lines=0.0009
 delay_between_pages=3.5
 lines_per_page=12
 countLine=0 
@@ -47,8 +47,8 @@ fe = File.open(serial_port_2,"w")
 while true do
 
   buf.each do |b|
-    fd.print("\r")
-    fe.print("\r")
+    fd.print("\r\n")
+    fe.print("\r\n")
     b.each_char do |c|
       sleep(delay_between_chars)
       fd.print c
@@ -61,8 +61,8 @@ while true do
   sleep(delay_between_pages)
 
   bufh.each do |b|
-    fd.print("\r")
-    fe.print("\r")
+    fd.print("\r\n")
+    fe.print("\r\n")
     b.each_char do |c|
       sleep(delay_between_chars)
       fd.print c
@@ -75,8 +75,8 @@ while true do
   sleep(delay_between_pages)
 
   bufg.each do |b|
-    fd.print("\r")
-    fe.print("\r")
+    fd.print("\r\n")
+    fe.print("\r\n")
     b.each_char do |c|
       sleep(delay_between_chars)
       fd.print c
@@ -89,8 +89,8 @@ while true do
   sleep(delay_between_pages)
 
   bufh.each do |b|
-    fd.print("\r")
-    fe.print("\r")
+    fd.print("\r\n")
+    fe.print("\r\n")
     b.each_char do |c|
       sleep(delay_between_chars)
       fd.print c
