@@ -1,5 +1,8 @@
 /*
 
+case F works - https://discord.com/channels/700194611091472415/805549399475617833/1120986033346064427
+https://discord.com/channels/700194611091472415/805549399475617833/1120496376174891068
+
 BSYNC:  pin 7
 BDIR:    pin 6
 
@@ -36,20 +39,12 @@ void sync_bitcounter();
 
 
 #define  MOSI_PIN  2
-#define  Port_Select_Switch  4
+#define  MISO_PIN  5 
+#define  SCK_PIN  4
 #define  BDIR_PIN  6
-#define  BDIR_PIN_inverse  5 
 #define  BSYNC_PIN  7
 #define  CLOCK_PIN  4
-
-#define  Data_Transmit 50
-#define  Data_Transmit_inverse 49
-
-
-
 #define  BIT_SPEED  2000
-
-
 
 
 #define MAGIC_CHARACTER  0xA5
@@ -87,28 +82,14 @@ typedef struct terminal_t{
 
 long randNumber;
 
-char numberArray[20];
-
 struct terminal_t TERMINAL_FIFOS[MAX_TERMINALS];
 
 #define STATE_FLAG_0 0x80
 #define S_CHAR_TO_TERM 0x40 
 #define STATE_FLAG_2 0x20   //targets UF7A
 
-/////////////SET TERMINAL ADDRESS HERE///////////////////////
-//#define TERMINAL_ID 0x1a
-#define TERMINAL_ID 0x5e
-/////////////SET TERMINAL ADDRESS HERE///////////////////////
-//Address alternatives
-//1E = normal/same
-//9E = 'winks' all text
-//DE = 'winks' all text
-//FE = 'winks' all text
-//7E = can get "PRINTER NOT READY"
-//BE = 'winks' all text
-//3E = can get "PRINTER NOT READY"
-//5E = normal/same
 
+#define TERMINAL_ID 0x1a
 #define COMMAND_MODE  0
 #define ECHO_MODE     1
 
@@ -161,7 +142,8 @@ void setup() {
 
   Serial.println("boot");
 
-  
+  terminal_print(TERMINAL_ID, " "
+                              "Entrex 'Trapezoid' Data/Terminal Test   ");
 }
 
 
@@ -192,22 +174,221 @@ static int last_termal_poll_time = 0;
 }
 
 void loop() {
+int t;
+unsigned long s;
+int f = 0;
+uint8_t word_0 = 0;
+uint8_t word_1 = 0;
+char readbuff[FIFO_SIZE];
+uint8_t c;
+uint8_t id;
+uint8_t i;
+uint8_t blen;
 
-  int TheDelay = 2000;
+  if(Serial.available()){
+      switch(Serial.read()){ 
+          case 'X':
+            Serial.write("Case x\n");
+            Serial.write(0x41);
+            delay(5);
+            Serial.write("   Was that an 'A'? \n");
+            Serial.write(0x1b);
+          break;
 
-  send_asci_decimal(164); //reset
-  send_asci_decimal(164);
-  terminal_print(TERMINAL_ID, " "
-                              " Entrex 'Trapezoid' Data/Terminal Test  ");
-  send_asci_decimal(192);  // cursor to to top row
-  send_asci_decimal(169);  // cursor to leftmost cursor position
-delay(TheDelay);
-            send_asci_decimal(164); //reset
+          case 'T': //define termid
+            while (!Serial.available());
+            id = Serial.read();
+            c = new_terminal(id);
+            if(c == -1){
+              Serial.write(0);  //fail
+            }else{
+              Serial.write(1);  //success
+            }
+            break;
+
+          case 's': //send (pc send to terminal)
+            while (!Serial.available());
+            id = get_idx_from_termid(Serial.read());
+              while (!Serial.available());
+              blen = Serial.read();
+              if (blen <= sizeof(readbuff)){
+                if (id != -1 && blen <= (FIFO_SIZE - TERMINAL_FIFOS[id].fifo_o.fifohead + TERMINAL_FIFOS[id].fifo_o.fifotail) % FIFO_SIZE){ 
+                  Serial.write(0x01); //continue
+                  Serial.readBytes(readbuff, blen);                
+                  Serial.write(appendBufferToFifo((fifo_t *)&TERMINAL_FIFOS[id].fifo_o,(char *) readbuff, blen));
+                }else{
+                  Serial.write(0); //error
+                }
+              }
+            break;
+
+          case 'R': //recv (pc recv from terminal)
+            while (!Serial.available());
+            id = get_idx_from_termid(Serial.read());
+            readBufferFromFifo((fifo_t *)&TERMINAL_FIFOS[id].fifo_i,(char *) readbuff, (TERMINAL_FIFOS[i].fifo_i.fifotail - TERMINAL_FIFOS[i].fifo_i.fifohead + FIFO_SIZE) % FIFO_SIZE);
+            Serial.write(readbuff, (TERMINAL_FIFOS[i].fifo_i.fifotail - TERMINAL_FIFOS[i].fifo_i.fifohead + FIFO_SIZE) % FIFO_SIZE); //length
+            break;
+
+          case 'p': //poll
+            Serial.write(MAX_TERMINALS);
+            for(i=0;i<MAX_TERMINALS;i++){
+              Serial.write(TERMINAL_FIFOS[i].inuse);
+              Serial.write(TERMINAL_FIFOS[i].termid);
+              Serial.write((FIFO_SIZE - TERMINAL_FIFOS[i].fifo_o.fifohead + TERMINAL_FIFOS[i].fifo_o.fifotail) % FIFO_SIZE); //remaining
+              Serial.write((TERMINAL_FIFOS[i].fifo_i.fifotail - TERMINAL_FIFOS[i].fifo_i.fifohead + FIFO_SIZE) % FIFO_SIZE); //available
+            }
+            break;
+//----------------------------------------------------
+
+          case 'F':
+            Serial.write("Case F");
+            Serial.println();
+            terminal_print(TERMINAL_ID, "hello world!\n");
+
+              delay(100);
+              for(int i=0;i<0xff;i++){ 
+                if(isprint(i)){
+                  terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
+                    delay(2);
+                    term_write_lowlevel(i);
+                    term_bsync();
+                    delay(4); 
+                }
+              }  
+              terminal_print(TERMINAL_ID,"\n");            
+              delay(100);
+              for(int i=0;i<0xff;i++){ 
+                if(isprint(i)){
+                    terminal_attention(TERMINAL_ID, S_CHAR_TO_TERM);
+                    delay(1);
+                    term_write_lowlevel(i);
+                    term_bsync();
+                    delay(5); 
+                }
+            }  
+            break;
+            
+        case 'G':
+          terminal_print(TERMINAL_ID, "hello world!\r\n\0");
+          terminal_print(TERMINAL_ID, "hello world!\n\0");
+          // for(int i=0;i<10;i++){
+          //   terminal_print(TERMINAL_ID, "\xa7");
+          //   delay(500);
+          // }
+          break;
+          
+        case 'H':
+          terminal_print(TERMINAL_ID, "hello world!\r\n");
+          terminal_print(TERMINAL_ID, "hello world!\xA8");
+          terminal_print(TERMINAL_ID, "hello world!\n");
+          
+          for(int i=0;i<10;i++){
+            terminal_print(TERMINAL_ID, "\xa9");
+            delay(500);
+          }
+          break;        
+        
+
+        case 'j': // steps cursor from bottom up to top, and back a few spaces, and cursor stays
+          Serial.println("Case j");  //how do we get a final backspace out of this, and keep the cursor like we do?  
+          Serial.println();
+//for (i = 206; i > 188; i--) {
+for (i = 206; i > 201; i--) {
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+};
+          break;
+
+        case 'k':  //steps cursor from top to bottom, but cursor doesn't stay
+          Serial.println("Case k");
+          Serial.println();
+//for (i = 188; i < 206; i++) {
+for (i = 192; i < 193; i++) {
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+};
+          break;
+
+
+        case 't':
+          Serial.println("Case t for Cursor on Top Line position 24, but it doesn't stay");
+i=192;
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          break;
+
+        case 'b':
+          Serial.println("Case b for Cursor on Bottom Line position 34, but it doesn't stay");
+i=202;
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          break;
+
+
+        case 'l': 
+          Serial.println("Casel l  - relocates cursor to posotion 21 on the current line, and it stays there!");
+i=189;
+          send_asci_decimal(i);
+          send_asci_decimal(i);
+          break;
+
+        case 'e':
+          Serial.println("Casel e for ≠");
+          send_asci_decimal(182);
+          break;
+
+        case 'c':
+          Serial.println("Casel c for ¢");
+          send_asci_decimal(184);
+          break;
+
+
+        case 'r':  //once works, unless the terminal is locked and then we have to do it twice, so might as well do it twice all the time
+          Serial.println("RESET!");
           send_asci_decimal(164);
-        Serial.println("  GRID of numbers...       ");
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(129);  // cursor to leftmost cursor position
-          terminal_print(TERMINAL_ID,  "01 - 67890123456789012345678901234567890"
+          send_asci_decimal(164);
+//          terminal_print(TERMINAL_ID,  "Screen cleared/reset with 164 twice ");
+          break;
+
+        case 'x':
+          Serial.println("XMISSION ERROR");
+          send_asci_decimal(163);
+          send_asci_decimal(163);
+          break;
+
+          case 'm':
+          for (i = 0; i < 255; i++) {
+            Serial.println(i);
+            delay(6);
+          };
+          break;
+
+        case 'K':
+          terminal_print(TERMINAL_ID, "     Annual 'Last' CHICAGO CoCoFEST!     "
+                                       "         May 4th and 5th 2024           "
+                                       "      MAY THE FOURTH BE WITH YOU!       ");
+          break;
+        case 'J':
+        Serial.println("     I am the Entrex Trapezoid...       ");
+          terminal_print(TERMINAL_ID,  " "
+                                       "     I am the Entrex Trapezoid...       ");
+          break;
+
+        case 'L':
+          send_asci_decimal(164);
+          send_asci_decimal(164);
+        Serial.println("     I am the Entrex Trapezoid...       ");
+          terminal_print(TERMINAL_ID,  ""
                                        "02       1         2         3         4"
                                        "03 - 67890123456789012345678901234567890"
                                        "04       1         2         3         4"
@@ -219,10 +400,20 @@ delay(TheDelay);
                                        "10       1         2         3         4"
                                        "11 - 67890123456789012345678901234567890"
                                        "12 -   I am the Entrex Trapezoid...     ");
-          send_asci_decimal(192);  // cursor to to top row
-          send_asci_decimal(129);  // cursor to leftmost cursor position
-delay(TheDelay);
+          send_asci_decimal(163);
+          send_asci_decimal(163);
+         break;
 
+        case 'n':
+        randNumber = random(10, 20);
+          Serial.println(randNumber);
+          delay(50);
+        break;
+
+        }
+      }
+
+  service_update(); 
 }
 
 
@@ -337,12 +528,7 @@ void term_init(){
   SPI.setBitOrder(LSBFIRST);
   SPI.setDataMode(SPI_MODE2);
   pinMode(BSYNC_PIN,OUTPUT);
-  pinMode(BDIR_PIN_inverse, INPUT_PULLUP);
-  pinMode(BDIR_PIN, INPUT);  //lives "low" so don't pull up.  Adding pull-down resistor
-  pinMode(Port_Select_Switch, INPUT_PULLUP);
-  pinMode(Data_Transmit, INPUT_PULLUP);
-  pinMode(Data_Transmit_inverse, INPUT_PULLUP);
-
+  pinMode(BDIR_PIN, INPUT_PULLUP);
 
   sync_bitcounter();
   //term_bsync();

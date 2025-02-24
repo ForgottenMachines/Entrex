@@ -1,0 +1,2 @@
+cd "D:\Data\MightyFrame\GitHub\Entrex\DataScope\Screen Display Scripts"
+mode COM22 BAUD=38400 PARITY=n DATA=8

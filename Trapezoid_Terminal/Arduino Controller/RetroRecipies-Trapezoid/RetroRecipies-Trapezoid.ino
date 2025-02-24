@@ -193,35 +193,83 @@ static int last_termal_poll_time = 0;
 
 void loop() {
 
-  int TheDelay = 2000;
+  int TheDelay = 1500;
 
-  send_asci_decimal(164); //reset
-  send_asci_decimal(164);
-  terminal_print(TERMINAL_ID, " "
-                              " Entrex 'Trapezoid' Data/Terminal Test  ");
-  send_asci_decimal(192);  // cursor to to top row
-  send_asci_decimal(169);  // cursor to leftmost cursor position
-delay(TheDelay);
-            send_asci_decimal(164); //reset
+          send_asci_decimal(164); //reset
           send_asci_decimal(164);
-        Serial.println("  GRID of numbers...       ");
           send_asci_decimal(192);  // cursor to to top row
           send_asci_decimal(129);  // cursor to leftmost cursor position
-          terminal_print(TERMINAL_ID,  "01 - 67890123456789012345678901234567890"
-                                       "02       1         2         3         4"
-                                       "03 - 67890123456789012345678901234567890"
-                                       "04       1         2         3         4"
-                                       "05 - 67890123456789012345678901234567890"
-                                       "06       1         2         3         4"
-                                       "07 - 67890123456789012345678901234567890"
-                                       "08       1         2         3         4"
-                                       "09 - 67890123456789012345678901234567890"
-                                       "10       1         2         3         4"
-                                       "11 - 67890123456789012345678901234567890"
-                                       "12 -   I am the Entrex Trapezoid...     ");
+          terminal_print(TERMINAL_ID,  "         ##########  ##########         "
+                                       "         ##########  ##########         "
+                                       "       ###      ###  ###      ###       "
+                                       "       ###      ###  ###      ###       "
+                                       "       ###      ###  ###      ###       "
+                                       "         ##########  ##########         "
+                                       "           ########  ########           "
+                                       "           ########  ########           "
+                                       "         ###    ###  ###    ###         "
+                                       "         ###    ###  ###    ###         "
+                                       "       ###      ###  ###      ###       "
+                                       "       ###      ###  ###      ###");
           send_asci_decimal(192);  // cursor to to top row
           send_asci_decimal(129);  // cursor to leftmost cursor position
 delay(TheDelay);
+          send_asci_decimal(164); //reset
+          send_asci_decimal(164);
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+          terminal_print(TERMINAL_ID,  "    ______     _                        "
+                                       "   | |__) )___| |_ _ __ ___             "   
+                                       "   |  _  // _ ) __| '__/ _ )            "
+                                       "   | | ) )  __/ |_| | | (_) |           "
+                                       "   |_|  )_)___|)__|_|  )___/            "
+                                       "    ______                              "
+                                       "   | |__) )___  ___ O _ __   ___  ___   "
+                                       "   |  _  // _ )/ __| | '_ ) / _ )/ __|  "
+                                       "   | | ) )  __/ (__| | |_) |  __/)__ )  "
+                                       "   |_|  )_)___|)___|_| .__/ )___||___/  "
+                                       "                     |_|");
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+delay(TheDelay);
+          send_asci_decimal(164); //reset
+          send_asci_decimal(164);
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+          terminal_print(TERMINAL_ID,  "         RRRRRRRRRR  RRRRRRRRRR         "
+                                       "         RRRRRRRRRR  RRRRRRRRRR         "
+                                       "       RRR      RRR  RRR      RRR       "
+                                       "       RRR      RRR  RRR      RRR       "
+                                       "       RRR      RRR  RRR      RRR       "
+                                       "         RRRRRRRRRR  RRRRRRRRRR         "
+                                       "           RRRRRRRR  RRRRRRRR           "
+                                       "           RRRRRRRR  RRRRRRRR           "
+                                       "         RRR    RRR  RRR    RRR         "
+                                       "         RRR    RRR  RRR    RRR         "
+                                       "       RRR      RRR  RRR      RRR       "
+                                       "       RRR      RRR  RRR      RRR");
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+delay(TheDelay);
+          send_asci_decimal(164); //reset
+          send_asci_decimal(164);
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+          terminal_print(TERMINAL_ID,  "    ______     _                        "
+                                       "   | |__) )___| |_ _ __ ___             "   
+                                       "   |  _  // _ ) __| '__/ _ )            "
+                                       "   | | ) )  __/ |_| | | (_) |           "
+                                       "   |_|  )_)___|)__|_|  )___/            "
+                                       "    ______                              "
+                                       "   | |__) )___  ___ O _ __   ___  ___   "
+                                       "   |  _  // _ )/ __| | '_ ) / _ )/ __|  "
+                                       "   | | ) )  __/ (__| | |_) |  __/)__ )  "
+                                       "   |_|  )_)___|)___|_| .__/ )___||___/  "
+                                       "                     |_|");
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+delay(TheDelay);
+
 
 }
 

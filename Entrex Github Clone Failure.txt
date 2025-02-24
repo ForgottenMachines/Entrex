@@ -1,0 +1,16 @@
+Cloning into '/home/forgotten/Desktop/Entrex'...
+remote: Enumerating objects: 3816, done.        
+remote: Counting objects: 100% (43/43), done.        
+remote: Compressing objects: 100% (31/31), done.        
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 5324 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+Would you like to retry cloning ?
+
+
+
+https://github.com/orgs/community/discussions/148448
+
