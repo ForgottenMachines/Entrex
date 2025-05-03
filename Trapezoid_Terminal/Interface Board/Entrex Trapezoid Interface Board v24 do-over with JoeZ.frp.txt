@@ -1,0 +1,1198 @@
+.HEA
+.TIM 5/2/2025 8:58:14 PM
+.APP "Eeschema 7.0.9"
+.TYP FULL
+
+.ADD_COM     UA3     "8274N"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     SW1     "SW_DIP_x08"     "Package_DIP:DIP-16_W7.62mm_Socket"
+.ADD_COM     UC4     "9324N"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     R11     "1K"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R9     "1K"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R12     "1K"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R10     "1K"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     UB3     "74173"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     UA4     "8274N"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     UE1     "SN7406N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UF3     "SN74LS00N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     C2     "0.1UF-0603-25V-5%"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C9     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C28     "0.1UF-0603-25V-5%"     "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+.ADD_COM     C15     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C17     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C14     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C7     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C21     "C_Polarized"     "Capacitor_THT:CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal"
+.ADD_COM     C11     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C8     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C3     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C6     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C5     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C10     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C27     "0.1UF-0603-25V-5%"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C13     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C18     "C_Polarized"     "Capacitor_THT:CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal"
+.ADD_COM     C4     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C12     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     UA8     "SN74LS74AN"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UC8     "SN74LS74AN"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UB5     "SN74LS74AN"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UE7     "SN74LS10N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UA5     "74LS76"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     UD7     "SN74LS08N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UD8     "SN74LS04N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UB8     "SN74LS00N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UC7     "SN74LS74AN"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UB7     "SN74LS04N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UA7     "SN74LS10N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UE3     "SN74LS74AN"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UA6     "SN74LS00N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UB4     "SN74LS51N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UC2     "SN74LS04N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UF4     "SN74LS74AN"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UF6     "SN74LS00N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UC6     "SN74LS00N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UB6     "SN74LS08N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UD1     "SN7406N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UE2     "SN7406N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UA2     "P8212"     "Package_DIP:DIP-24_W15.24mm"
+.ADD_COM     UA1     "P8212"     "Package_DIP:DIP-24_W15.24mm"
+.ADD_COM     C16     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C19     "C_Polarized"     "Capacitor_THT:CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal"
+.ADD_COM     C20     "C_Polarized"     "Capacitor_THT:CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal"
+.ADD_COM     UF2     "SN74LS74AN"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UF5     "SN74LS08N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UF7     "SN74LS20N"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UD5     "SN75115N"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     R23     "330R"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R22     "330R"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     UC5     "SN75113N"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     UD6     "SN75115N"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     C24     "221J03"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C23     "221J03"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C22     "221J03"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     UE6     "SN75115N"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     UE5     "SN75113N"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     R13     "1K"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R14     "1K"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     DPLX_sw_SG1     "SW_SPDT"     "$noname"
+.ADD_COM     DPLX_sw_SG2     "SW_SPDT"     "$noname"
+.ADD_COM     UC3     "74173"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     UD3     "N8273N"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     R18     "1k"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     UF1     "Q2T2222"     "Package_DIP:DIP-14_W7.62mm"
+.ADD_COM     UE8     "74LS160"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     UF8     "74LS175"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     R19     "10K"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     C29     "Y5F"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C1     "221J03"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     R16     "1k"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     C26     "221J03"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     C25     "221J03"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     R0     "330R"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R1000     "330R"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R15     "YR1B24K9CC"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R8     "1K"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R21     "330R"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R20     "YR1B24K9CC"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     C101     "0.1UF-0603-25V-5%"     "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+.ADD_COM     R101     "150R"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R17     "1K"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R3     "220R"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R4     "220R"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R2     "220R"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R5     "220R"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R6     "220R"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     R7     "220R"     "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+.ADD_COM     UC1     "N8T98N"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     UE4     "N8T97N"     "Package_DIP:DIP-16_W7.62mm"
+.ADD_COM     P15     "Conn_02x40_Odd_Even_Shielded"     "Edge Connectors:80 pin Edge Finger Connector"
+
+
+.ADD_TER   UB3   13     "u33_12"
+.TER       UD3   12
+            UF7   10
+            UF7   12
+            UF7   13
+            UF7   9
+
+.ADD_TER   P15   19     "P15_19"
+.TER       UA1   3
+            UA2   3
+            UB4   13
+            UB4   2
+            UC2   9
+            UF3   5
+
+.ADD_TER   UB3   14     "u20_2"
+.TER       UB5   2
+            UD3   11
+            UF8   5
+
+.ADD_TER   UA6   2     "u28_14"
+.TER       UE3   9
+            UE4   14
+
+.ADD_TER   UB5   11     "u20_3"
+.TER       UB5   3
+            UB8   8
+            UF2   3
+            UF8   9
+
+.ADD_TER   C1   1     "P15_12"
+.TER       P15   12
+            UA8   11
+            UB3   1
+            UB3   2
+            UB6   12
+            UC2   5
+            UC3   1
+            UC3   2
+
+.ADD_TER   UA1   14     "u34_13"
+.TER       UA2   14
+            UA5   3
+            UA5   8
+            UA8   10
+            UB5   1
+            UB5   13
+            UB6   13
+            UB6   8
+            UE3   1
+            UE3   13
+            UF2   1
+            UF4   13
+            UF5   10
+            UF5   12
+            UF5   13
+
+.ADD_TER   C29   1     "u44_14"
+.TER       R19   1
+            UB6   10
+            UF1   14
+
+.ADD_TER   P15   18     "P15_18"
+.TER       R4   2
+            UC1   12
+
+.ADD_TER   P15   64     "P15_64"
+.TER       UC2   13
+            UE7   12
+
+.ADD_TER   UA3   9     "u30_9"
+.TER       UA6   8
+
+.ADD_TER   UF2   2     "u6_13"
+.TER       UF5   6
+            UF8   13
+
+.ADD_TER   UC4   14     "u27_14"
+.TER       UF5   4
+            UF5   5
+
+.ADD_TER   UB8   2     "u2_2"
+.TER       UB8   4
+            UC2   4
+
+.ADD_TER   UC2   6     "D1P1"
+.TER       UC6   4
+
+.ADD_TER   UA8   8     "u1_8"
+.TER       UC6   5
+
+.ADD_TER   P15   66     "P15_66"
+.TER       UC2   11
+            UF6   3
+
+.ADD_TER   UB8   5     "u2_5"
+.TER       UC8   5
+
+.ADD_TER   P15   13     "P15_13"
+.TER       UA1   9
+            UA2   9
+            UA3   14
+            UA4   14
+            UE7   4
+            UF3   1
+
+.ADD_TER   P15   17     "P15_17"
+.TER       UA1   5
+            UA2   5
+            UA3   12
+            UA4   12
+            UF6   9
+
+.ADD_TER   R101   1     "u35_3"
+.TER       UF3   3
+-------------------------------------------------
+.ADD_TER   P15   15     "P15_15"
+.TER       UA1   7
+            UA2   7
+            UA3   13
+            UA4   13
+            UF6   12
+
+.ADD_TER   P15   5     "P15_5"
+.TER       UA1   22
+            UA2   22
+            UA3   3
+            UA4   3
+            UA5   9
+.ADD_TER   P15   7     "P15_7"
+.TER       UA1   20
+            UA2   20
+            UA3   2
+            UA4   2
+            UA5   12
+
+.ADD_TER   P15   9     "P15_9"
+.TER       UA1   18
+            UA2   18
+            UA3   1
+            UA4   1
+            UA5   4
+
+.ADD_TER   P15   11     "P15_11"
+.TER       UA1   16
+            UA2   16
+            UA3   15
+            UA4   15
+            UA5   16
+
+.ADD_TER   C1   2     "GND"
+.TER       C10   2
+            C101   2
+            C11   2
+            C12   2
+            C13   2
+            C14   2
+            C15   2
+            C16   2
+            C17   2
+            C18   2
+            C19   2
+            C2   2
+            C20   2
+            C21   2
+            C22   1
+            C23   1
+            C24   1
+            C25   2
+            C26   1
+            C27   2
+            C28   2
+            C29   2
+            C3   2
+            C4   2
+            C5   2
+            C6   2
+            C7   2
+            C8   2
+            C9   2
+            DPLX_sw_SG1   2
+            DPLX_sw_SG2   2
+            P15   1
+            P15   2
+            R21   2
+            SW1   1
+            SW1   2
+            SW1   3
+            SW1   4
+            SW1   5
+            UA1   12
+            UA2   12
+            UA3   4
+            UA3   8
+            UA4   8
+            UA5   13
+            UA6   7
+            UA7   7
+            UA8   2
+            UA8   7
+            UB3   15
+            UB3   8
+            UB4   7
+            UB5   7
+            UB6   7
+            UB7   7
+            UB8   7
+            UC1   8
+            UC2   7
+            UC3   8
+            UC4   8
+            UC5   8
+            UC6   7
+            UC7   11
+            UC7   2
+            UC7   7
+            UC8   7
+            UD1   7
+            UD3   8
+            UD5   8
+            UD6   8
+            UD7   7
+            UD8   7
+            UE1   7
+            UE2   7
+            UE3   7
+            UE4   8
+            UE5   8
+            UE6   8
+            UE7   7
+            UE8   4
+            UE8   5
+            UE8   6
+            UE8   8
+            UF1   10
+            UF1   12
+            UF1   3
+            UF1   5
+            UF2   7
+            UF3   7
+            UF4   12
+            UF4   2
+            UF4   7
+            UF5   7
+            UF6   7
+            UF7   7
+            UF8   8
+-------------------------------------------------
+
+.ADD_TER   P15   78     "P15_78"
+.TER       UE2   2
+
+.ADD_TER   C10   1     "VCC"
+.TER       C11   1
+            C12   1
+            C13   1
+            C14   1
+            C15   1
+            C16   1
+            C17   1
+            C18   1
+            C19   1
+            C2   1
+            C20   1
+            C21   1
+            C27   1
+            C28   1
+            C3   1
+            C4   1
+            C5   1
+            C6   1
+            C7   1
+            C8   1
+            C9   1
+            P15   3
+            P15   4
+            R10   2
+            R11   2
+            R12   2
+            R13   1
+            R14   1
+            R15   2
+            R16   2
+            R17   2
+            R18   2
+            R19   2
+            R2   1
+            R20   2
+            R22   2
+            R3   1
+            R4   1
+            R5   1
+            R6   2
+            R7   2
+            R8   2
+            R9   2
+            UA1   13
+            UA1   2
+            UA1   24
+            UA2   13
+            UA2   2
+            UA2   24
+            UA3   10
+            UA3   16
+            UA3   5
+            UA4   10
+            UA4   16
+            UA4   5
+            UA5   2
+            UA5   5
+            UA5   7
+            UA6   14
+            UA7   14
+            UA8   1
+            UA8   12
+            UA8   14
+            UB3   16
+            UB4   14
+            UB4   9
+            UB5   10
+            UB5   14
+            UB5   4
+            UB6   14
+            UB7   14
+            UB8   14
+            UC1   16
+            UC2   14
+            UC3   16
+            UC4   16
+            UC5   16
+            UC6   14
+            UC7   14
+            UC8   14
+            UD1   14
+            UD3   16
+            UD5   16
+            UD6   16
+            UD7   14
+            UD8   14
+            UE1   14
+            UE2   14
+            UE3   10
+            UE3   14
+            UE3   4
+            UE4   16
+            UE5   16
+            UE6   16
+            UE7   14
+            UE8   16
+            UE8   3
+            UF2   10
+            UF2   12
+            UF2   14
+            UF2   4
+            UF3   14
+            UF4   14
+            UF5   14
+            UF6   14
+            UF7   14
+            UF8   16
+
+.ADD_TER   UE7   13     "u11_13"
+.TER       UF5   3
+
+.ADD_TER   UA3   11     "u30_11"
+.TER       UB7   8
+
+.ADD_TER   UA3   6     "u30_6"
+.TER       UC5   11
+            UE5   5
+            UE5   6
+-------------------------------------------------
+
+.ADD_TER   UA3   7     "u8_11"
+.TER       UA4   7
+            UA7   11
+            UB4   10
+            UB4   4
+            UB7   11
+            UC7   4
+            UF3   11
+
+.ADD_TER   UC8   2     "u3_2"
+.TER       UC8   4
+-------------------------------------------------
+
+.ADD_TER   UB8   1     "u2_1"
+.TER       UC8   6
+
+.ADD_TER   UC5   7     "u12_5"
+.TER       UE5   10
+            UF2   5
+            UF6   2
+            UF6   5
+            UF7   5
+
+.ADD_TER   UB6   1     "U44P12"
+.TER       UC6   6
+
+.ADD_TER   UA1   4     "u40_4"
+.TER       UD1   5
+
+.ADD_TER   UB6   2     "u2_3"
+.TER       UB8   3
+
+.ADD_TER   UC6   12     "u15_12"
+.TER       UF2   6
+
+.ADD_TER   UB3   7     "u14_3"
+.TER       UB6   3
+            UC3   7
+            UF2   11
+
+.ADD_TER   P15   45     "P15_45"
+.TER       UD5   5
+-------------------------------------------------
+
+.ADD_TER   UB3   12     "u31_12"
+.TER       UB5   12
+            UD3   13
+            UF8   4
+
+.ADD_TER   DPLX_sw_SG1   1     "P15_47"
+.TER       P15   47
+            R14   2
+            UD8   13
+-------------------------------------------------
+
+.ADD_TER   UA5   1     "u11_5"
+.TER       UA5   6
+            UC2   2
+            UE7   5
+            UF3   2
+            UF3   4
+            UF6   10
+            UF6   13
+
+.ADD_TER   UB4   6     "u8_9"
+.TER       UB7   9
+
+.ADD_TER   UC7   10     "u35_6"
+.TER       UF3   6
+-------------------------------------------------
+
+.ADD_TER   UF5   9     "u18_8"
+.TER       UF6   8
+
+.ADD_TER   UA7   2     "u7-2"
+.TER       UB7   4
+
+.ADD_TER   UA5   11     "u34_2"
+.TER       UE3   2
+
+.ADD_TER   UF6   11     "u18_11"
+.TER       UF8   1
+
+.ADD_TER   C22   2     "u16_4"
+.TER       UD6   4
+
+.ADD_TER   UF6   4     "u6_7"
+.TER       UF8   7
+
+.ADD_TER   C24   2     "u17_12"
+.TER       UE6   12
+-------------------------------------------------
+
+.ADD_TER   UC3   11     "u27_9"
+.TER       UC4   9
+            UD3   3
+-------------------------------------------------
+
+.ADD_TER   UB5   6     "u14_5"
+.TER       UB6   5
+
+.ADD_TER   R0   2     "u44_6"
+.TER       UF1   6
+
+.ADD_TER   UA4   4     "u9_9"
+.TER       UC7   9
+-------------------------------------------------
+
+.ADD_TER   UA6   5     "u7_8"
+.TER       UA6   9
+            UA7   8
+
+.ADD_TER   UA4   9     "u25_9"
+.TER       UA6   6
+
+.ADD_TER   UB8   11     "u3_3"
+.TER       UC2   3
+            UC8   3
+
+.ADD_TER   UB8   13     "u2_13"
+.TER       UC6   13
+            UC7   3
+            UD8   6
+            UF7   1
+
+.ADD_TER   UF6   1     "u6-2"
+.TER       UF8   2
+
+.ADD_TER   UE7   1     "u11_1"
+.TER       UF8   15
+
+.ADD_TER   UF5   2     "u6_3"
+.TER       UF8   3
+
+.ADD_TER   UB6   11     "u3_1"
+.TER       UC8   1
+-------------------------------------------------
+
+.ADD_TER   UA8   13     "u2_6"
+.TER       UB8   6
+
+.ADD_TER   UA8   6     "u1_6"
+.TER       UD7   10
+
+.ADD_TER   UA8   4     "UA8_4"
+.TER       UA8   9
+
+.ADD_TER   UF7   8     "u6_12"
+.TER       UF8   12
+
+.ADD_TER   UE7   2     "u11_2"
+.TER       UF8   11
+
+.ADD_TER   R20   1     "u44_9"
+.TER       R21   1
+            UF1   9
+-------------------------------------------------
+
+.ADD_TER   UF7   4     "u6-10"
+.TER       UF8   10
+
+.ADD_TER   UF5   1     "u6_6"
+.TER       UF8   6
+
+.ADD_TER   R10   1     "u27_5"
+.TER       SW1   14
+            UC4   5
+
+.ADD_TER   R12   1     "u27_7" ************* R8
+.TER       SW1   16
+            UC4   7
+-------------------------------------------------
+
+.ADD_TER   P15   55     "P15_55"
+.TER       UE5   12
+            UE5   13
+-------------------------------------------------
+
+.ADD_TER   R11   1     "u27_6" ****** R9
+.TER       SW1   15
+            UC4   6
+-------------------------------------------------
+
+.ADD_TER   R8   1     "u27_3" ******** R12
+.TER       SW1   12
+            UC4   3
+-------------------------------------------------
+
+.ADD_TER   R9   1     "u27_4" ********* R11
+.TER       SW1   13
+            UC4   4
+
+.ADD_TER   UC3   12     "u27_10"
+.TER       UC4   10
+            UD3   2
+-------------------------------------------------
+
+.ADD_TER   P15   53     "P15_53"
+.TER       UE6   11
+-------------------------------------------------
+
+.ADD_TER   P15   79     "P15_79"
+.TER       UB6   9
+-------------------------------------------------
+
+.ADD_TER   UE4   2     "u28_2"
+.TER       UF2   9
+
+.ADD_TER   UA6   1     "u13_1"
+.TER       UB6   6
+
+.ADD_TER   UA7   10     "u7_10"
+.TER       UB7   12
+            UC6   2
+            UE4   6
+
+.ADD_TER   UA4   6     "u25_6"
+.TER       UB4   5
+
+.ADD_TER   UC3   13     "u27_11"
+.TER       UC4   11
+            UD3   1
+
+.ADD_TER   UC3   14     "u27_12"
+.TER       UC4   12
+            UD3   15
+-------------------------------------------------
+
+.ADD_TER   UB3   11     "u27_13"
+.TER       UC4   13
+            UD3   14
+-------------------------------------------------
+
+.ADD_TER   UD7   1     "u4_2"
+.TER       UD8   2
+            UE5   9
+            UE6   13
+            UE6   3
+            UF1   7
+-------------------------------------------------
+
+.ADD_TER   UD6   3     "u10_3"
+.TER       UD7   3
+
+.ADD_TER   P15   33     "P15_33"
+.TER       UC1   13
+            UC3   5
+            UE4   5
+-------------------------------------------------
+
+.ADD_TER   UD7   6     "u10_9"
+.TER       UD7   9
+            UE7   11
+-------------------------------------------------
+
+.ADD_TER   UB8   10     "u2_10"
+.TER       UB8   12
+            UD8   9
+            UE8   15
+
+.ADD_TER   P15   67     "P15_67"
+.TER       UE2   8
+-------------------------------------------------
+
+.ADD_TER   UC8   11     "u4_4"
+.TER       UD8   4
+            UE8   2
+
+.ADD_TER   UC8   8     "u3_8"
+.TER       UE7   9
+            UE8   9
+
+.ADD_TER   R18   1     "U44P5"
+.TER       UE8   1
+
+.ADD_TER   UA2   6     "u36_6"
+.TER       UE2   3
+
+.ADD_TER   UC7   6     "u12_2"
+.TER       UF7   2
+
+.ADD_TER   UA7   13     "u7-13"
+.TER       UA7   3
+            UB7   13
+            UD7   5
+            UF3   13
+            UF4   11
+            UF7   6
+-------------------------------------------------
+
+.ADD_TER   P15   63     "P15_63"
+.TER       UD1   6
+-------------------------------------------------
+
+.ADD_TER   R15   1     "u3_12"
+.TER       UC8   12
+            UD3   10
+            UD5   15
+            UD6   1
+
+.ADD_TER   UA2   8     "u36_8"
+.TER       UE2   1
+
+.ADD_TER   R0   1     "u44_8"
+.TER       R1000   1
+            R22   1
+            R23   1
+            UF1   8
+
+.ADD_TER   P15   23     "P15_23"
+.TER       UB3   4
+            UE4   11
+-------------------------------------------------
+
+.ADD_TER   P15   21     "P15_21"
+.TER       UB3   3
+            UE4   13
+-------------------------------------------------
+
+.ADD_TER   P15   25     "P15_25"
+.TER       UB3   5
+-------------------------------------------------
+
+.ADD_TER   P15   27     "P15_27"
+.TER       UB3   6
+            UC1   7
+-------------------------------------------------
+
+.ADD_TER   P15   29     "P15_29"
+.TER       UC1   11
+            UC3   3
+-------------------------------------------------
+
+.ADD_TER   P15   31     "P15_31"
+.TER       UC1   5
+            UC3   4
+            UE4   7
+-------------------------------------------------
+
+.ADD_TER   P15   35     "P15_35"
+.TER       UC1   3
+            UC3   6
+            UE4   3
+-------------------------------------------------
+
+.ADD_TER   UD3   7     "u11_8"
+.TER       UE7   8
+
+.ADD_TER   R17   1     "u4_3"
+.TER       UA7   9
+            UD6   15
+            UD8   3
+            UE6   15
+            UE7   10
+
+.ADD_TER   UA7   1     "u7_1"
+.TER       UA7   4
+            UB4   1
+            UB4   3
+            UB7   10
+-------------------------------------------------
+
+.ADD_TER   UC7   1     "u9_1"
+.TER       UF4   1
+            UF5   11
+
+.ADD_TER   UA4   11     "u8_6"
+.TER       UB7   6
+-------------------------------------------------
+
+.ADD_TER   UC2   8     "u37_8"
+.TER       UE7   3
+
+.ADD_TER   R23   2     "u44_13"
+.TER       UF1   13
+
+.ADD_TER   P15   38     "P15_38"
+.TER       UC5   12
+            UC5   13
+
+.ADD_TER   UA1   17     "UA1_17"
+.TER       UD1   11
+-------------------------------------------------
+
+.ADD_TER   UC6   1     "u28_4"
+.TER       UE4   4
+            UF4   9
+
+.ADD_TER   UA1   19     "u40_19"
+.TER       UD1   13
+-------------------------------------------------
+
+.ADD_TER   UA1   6     "u40_6"
+.TER       UD1   3
+
+.ADD_TER   UA1   8     "UA1_8"
+.TER       UD1   1
+
+.ADD_TER   UA1   15     "u40_15"
+.TER       UD1   9
+-------------------------------------------------
+
+.ADD_TER   UA1   10     "u40_10"
+.TER       UE1   5
+
+.ADD_TER   UA1   21     "u40_21"
+.TER       UE1   11
+
+.ADD_TER   UA2   4     "u36_4"
+.TER       UE2   5
+
+.ADD_TER   P15   72     "P15_72"
+.TER       UE1   10
+-------------------------------------------------
+
+.ADD_TER   P15   62     "P15_62"
+.TER       UD1   10
+-------------------------------------------------
+
+.ADD_TER   P15   59     "P15_59"
+.TER       UD1   12
+
+.ADD_TER   P15   76     "P15_76"
+.TER       UE2   12
+-------------------------------------------------
+
+.ADD_TER   P15   36     "P15_36"
+.TER       UA2   1
+-------------------------------------------------
+
+.ADD_TER   UA2   10     "u36_10"
+.TER       UE2   13
+
+.ADD_TER   P15   71     "P15_71"
+.TER       UE2   10
+-------------------------------------------------
+
+.ADD_TER   UA2   17     "u36_17"
+.TER       UE2   11
+-------------------------------------------------
+
+.ADD_TER   UA2   21     "u36_21"
+.TER       UE1   3
+
+.ADD_TER   UA2   19     "u36_19"
+.TER       UE1   1
+
+.ADD_TER   P15   77     "P15_77"
+.TER       UE1   2
+
+.ADD_TER   P15   75     "P15_75"
+.TER       UE1   4
+
+.ADD_TER   UA2   15     "u36_15"
+.TER       UE2   9
+
+.ADD_TER   P15   30     "P15_30"
+.TER       UB7   1
+-------------------------------------------------
+
+.ADD_TER   P15   65     "P15_65"
+.TER       UD1   8
+-------------------------------------------------
+
+.ADD_TER   P15   34     "P15_34"
+.TER       UA1   1
+-------------------------------------------------
+
+.ADD_TER   P15   61     "P15_61"
+.TER       UD1   4
+-------------------------------------------------
+
+.ADD_TER   P15   60     "P15_60"
+.TER       UD1   2
+-------------------------------------------------
+
+.ADD_TER   P15   70     "P15_70"
+.TER       UE1   6
+-------------------------------------------------
+
+.ADD_TER   P15   26     "P15_26"
+.TER       UE2   4
+-------------------------------------------------
+
+.ADD_TER   P15   69     "P15_69"
+.TER       UE2   6
+-------------------------------------------------
+
+.ADD_TER   P15   42     "P15_42"
+.TER       UD6   9
+-------------------------------------------------
+
+.ADD_TER   P15   43     "P15_43"
+.TER       UD5   7
+-------------------------------------------------
+
+.ADD_TER   UC5   10     "u4_10"
+.TER       UD8   10
+            UE5   7
+-------------------------------------------------
+
+.ADD_TER   UA6   13     "u20_10"
+.TER       UB5   9
+-------------------------------------------------
+
+.ADD_TER   UD5   13     "u10_11"
+.TER       UD7   11
+-------------------------------------------------
+
+.ADD_TER   P15   46     "P15_46"
+.TER       UD5   11
+-------------------------------------------------
+
+.ADD_TER   P15   37     "P15_37"
+.TER       UC5   3
+            UC5   4
+-------------------------------------------------
+
+.ADD_TER   P15   44     "P15_44"
+.TER       UD5   9
+-------------------------------------------------
+
+.ADD_TER   UC5   9     "u4_12"
+.TER       UD5   3
+            UD6   13
+            UD7   12
+            UD8   12
+            UF1   1
+-------------------------------------------------
+
+.ADD_TER   R16   1     "u1_3"
+.TER       UA8   3
+            UB8   9
+            UD5   1
+            UD8   5
+            UE6   1
+-------------------------------------------------
+
+.ADD_TER   P15   28     "P15_28"
+.TER       UC2   1
+-------------------------------------------------
+
+.ADD_TER   C26   2     "u22_4"
+.TER       UD5   4
+
+.ADD_TER   P15   52     "P15_52"
+.TER       UE6   9
+-------------------------------------------------
+
+.ADD_TER   C25   1     "u16_12"
+.TER       UD6   12
+-------------------------------------------------
+
+.ADD_TER   P15   49     "P15_49"
+.TER       UD6   7
+
+.ADD_TER   P15   50     "P15_50"
+.TER       UD6   5
+-------------------------------------------------
+
+.ADD_TER   UC8   10     "u3_10"
+.TER       UD8   8
+-------------------------------------------------
+
+.ADD_TER   UA6   4     "u7_12"
+.TER       UA7   12
+
+.ADD_TER   UC8   13     "u3_9"
+.TER       UC8   9
+
+.ADD_TER   UD7   13     "u10_8"
+.TER       UD7   2
+            UD7   8
+-------------------------------------------------
+
+.ADD_TER   UB5   8     "u14_4"
+.TER       UB6   4
+-------------------------------------------------
+
+.ADD_TER   UC5   5     "u15_8"
+.TER       UC5   6
+            UC6   8
+            UE5   11
+
+.ADD_TER   UC6   11     "u10_4"
+.TER       UD7   4
+
+.ADD_TER   P15   41     "P15_41"
+.TER       UD6   11
+-------------------------------------------------
+
+.ADD_TER   P15   40     "P15_40"
+.TER       UC5   14
+            UC5   15
+-------------------------------------------------
+
+.ADD_TER   P15   39     "P15_39"
+.TER       UC5   1
+            UC5   2
+-------------------------------------------------
+
+.ADD_TER   DPLX_sw_SG1   3     "P15_48"
+.TER       P15   48
+            R13   2
+            UD8   1
+-------------------------------------------------
+
+.ADD_TER   C23   2     "u17_4"
+.TER       UE6   4
+-------------------------------------------------
+
+.ADD_TER   UF2   13     "u24_8"
+.TER       UF5   8
+
+.ADD_TER   P15   51     "P15_51"
+.TER       UE6   7
+-------------------------------------------------
+
+.ADD_TER   R1000   2     "u44_2"
+.TER       UF1   2
+-------------------------------------------------
+
+.ADD_TER   P15   54     "P15_54"
+.TER       UE6   5
+-------------------------------------------------
+
+.ADD_TER   P15   58     "P15_58"
+.TER       UE5   1
+            UE5   2
+
+.ADD_TER   P15   57     "P15_57"
+.TER       UE5   14
+            UE5   15
+
+.ADD_TER   P15   56     "P15_56"
+.TER       UE5   3
+            UE5   4
+
+.ADD_TER   P15   68     "P15_68"
+.TER       UF6   6
+
+.ADD_TER   UC7   13     "u9_13"
+.TER       UE7   6
+
+.ADD_TER   UB4   8     "u8_5"
+.TER       UB7   5
+
+.ADD_TER   P15   16     "P15_16"
+.TER       R2   2
+            UC1   10
+
+.ADD_TER   UA6   12     "u13_12"
+.TER       UE3   5
+            UE4   12
+
+.ADD_TER   UA6   11     "u15_9"
+.TER       UC6   9
+
+.ADD_TER   UC2   12     "u34_11"
+.TER       UE3   11
+
+.ADD_TER   UA5   15     "u34_12"
+.TER       UE3   12
+
+.ADD_TER   UA6   10     "u7_6"
+.TER       UA7   6
+            UF4   10
+
+.ADD_TER   UF3   12     "u29_5"
+.TER       UF4   5
+
+.ADD_TER   P15   32     "P15_32"
+.TER       UB7   3
+            UF4   3
+
+.ADD_TER   UA6   3     "u15_10"
+.TER       UC6   10
+
+.ADD_TER   C101   1     "u29_4"
+.TER       R101   2
+            UF4   4
+
+.ADD_TER   UA7   5     "u7_5"
+.TER       UB7   2
+
+.ADD_TER   P15   14     "P15_14"
+.TER       R3   2
+            UC1   6
+
+.ADD_TER   P15   20     "P15_20"
+.TER       R5   2
+            UC1   4
+
+.ADD_TER   P15   22     "P15_22"
+.TER       R6   1
+            UC1   14
+
+.ADD_TER   P15   24     "P15_24"
+.TER       R7   1
+            UC1   2
+
+.ADD_TER   UC6   3     "u4_11"
+.TER       UD8   11
+
+.ADD_TER   P15   10     "P15_10"
+.TER       UC1   15
+
+.ADD_TER   P15   8     "P15_8"
+.TER       UE4   1
+            UE4   15
+
+.ADD_TER   UC2   10     "u34_3"
+.TER       UE3   3
+
+.END
