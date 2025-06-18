@@ -1,0 +1,6 @@
+cd "/home/forgottenlinux/Desktop/GitHub/Entrex/DataScope/Screen Display Scripts/Experiments"
+
+sudo PlayEntrex.sh
+
+
+
