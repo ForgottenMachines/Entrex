@@ -7,7 +7,7 @@ file_path="DataScopeVCFMW_unix.txt"
 
 # Delay (in seconds) between characters & Lines
 delay_between_chars=0.001
-delay_between_lines=0.4
+delay_between_lines=1.0
 
 # Configure the serial port settings
 `stty -F "#{serial_port}" "#{baud_rate}" cs8 -cstopb -parenb`
