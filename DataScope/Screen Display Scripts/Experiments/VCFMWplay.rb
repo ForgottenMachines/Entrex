@@ -46,8 +46,8 @@ files.each do |file|
       fd.flush
     end
 
-    fd.puts("RESTARTING IN 10..")
-    sleep(10)
+    fd.puts("")
+    sleep(3)
   end
 end
 

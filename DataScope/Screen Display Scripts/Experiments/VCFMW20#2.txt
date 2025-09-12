@@ -1,0 +1,12 @@
+  V     V   CCC  FFFF  M   M  W     W
+  V     V  C     F     MM MM  W     W
+   V   V   C     FFF   M M M  W  W  W
+    V V    C     F     M   M   W W W
+     V      CCC  F     M   M    W W
+
+
+                 22   000
+                2  2 0  00
+                  2  0 0 0
+                 2   00  0
+                2222  000
