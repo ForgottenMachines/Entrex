@@ -17,6 +17,8 @@ end
 
 files=[
     FileData.new("DataScopeVCFMW_unix.txt", 0.001, 1.0),
+    FileData.new("VCFMW20#1.txt", 0.001, 0.001),
+    FileData.new("VCFMW20#2.txt", 0.001, 0.001),
 ]
 
 # Configure the serial port settings
@@ -46,7 +48,7 @@ files.each do |file|
       fd.flush
     end
 
-    fd.puts("")
+#    fd.puts("RESTARTING IN X")
     sleep(3)
   end
 end

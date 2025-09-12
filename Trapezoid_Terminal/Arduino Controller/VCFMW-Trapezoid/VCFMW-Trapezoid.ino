@@ -202,9 +202,9 @@ void loop() {
   send_asci_decimal(192);  // cursor to to top row
   send_asci_decimal(169);  // cursor to leftmost cursor position
 delay(TheDelay);
-            send_asci_decimal(164); //reset
+          send_asci_decimal(164); //reset
           send_asci_decimal(164);
-        Serial.println("  GRID of numbers...       ");
+          Serial.println("  GRID of numbers...       ");
           send_asci_decimal(192);  // cursor to to top row
           send_asci_decimal(129);  // cursor to leftmost cursor position
           terminal_print(TERMINAL_ID,  "01 - 67890123456789012345678901234567890"
@@ -219,6 +219,46 @@ delay(TheDelay);
                                        "10       1         2         3         4"
                                        "11 - 67890123456789012345678901234567890"
                                        "12 -   I am the Entrex Trapezoid...     ");
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+delay(TheDelay);
+          send_asci_decimal(164); //reset
+          send_asci_decimal(164);
+          Serial.println("  VCFMW 20   #1    ");
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+          terminal_print(TERMINAL_ID,  " #     #  #####  ####### #     # #     #" 
+                                       " #     # #     # #       ##   ## #  #  #" 
+                                       " #     # #       #####   # # # # #  #  #" 
+                                       "  #   #  #       #       #  #  # #  #  #" 
+                                       "   # #   #     # #       #     # #  #  #" 
+                                       "    #     #####  #       #     #  ## ##"  
+                                       " "
+                                       "              #####    ###"               
+                                       "                   #  #   #"              
+                                       "              #####  #     #"             
+                                       "             #        #   #"             
+                                       "             #######   ###");
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+delay(TheDelay);
+          send_asci_decimal(164); //reset
+          send_asci_decimal(164);
+          Serial.println("  VCFMW 20  #2     ");
+          send_asci_decimal(192);  // cursor to to top row
+          send_asci_decimal(129);  // cursor to leftmost cursor position
+          terminal_print(TERMINAL_ID,  "  V     V   CCC  FFFF  M   M  W     W"
+                                       "  V     V  C     F     MM MM  W     W"
+                                       "   V   V   C     FFF   M M M  W  W  W"
+                                       "    V V    C     F     M   M   W W W"
+                                       "     V      CCC  F     M   M    W W"
+                                       " "
+                                       " "
+                                       "                 22   000"
+                                       "                2  2 0  00"
+                                       "                  2  0 0 0"
+                                       "                 2   00  0"
+                                       "                2222  000");
           send_asci_decimal(192);  // cursor to to top row
           send_asci_decimal(129);  // cursor to leftmost cursor position
 delay(TheDelay);
