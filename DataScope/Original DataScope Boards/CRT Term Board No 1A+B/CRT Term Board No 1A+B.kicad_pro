@@ -250,7 +250,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CRT Term Board No 1A+1B.kicad_pro",
+    "filename": "CRT Term Board No 1A+B.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -412,6 +412,14 @@
     [
       "43ac2d86-b50c-42eb-adc0-fb631688dab1",
       "Root"
+    ],
+    [
+      "aeaf3a3d-4d16-4433-915f-bb39f21a7f68",
+      "Command Buffer Part 2"
+    ],
+    [
+      "02c193a8-cca7-43ec-99b2-f1e95182acd3",
+      "Control Flops"
     ]
   ],
   "text_variables": {}
